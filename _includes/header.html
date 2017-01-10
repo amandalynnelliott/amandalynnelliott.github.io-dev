@@ -1,3 +1,19 @@
+<style>
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+</style>
+
 <header class="site-header" role="banner" onclick = "void(0)">
     <div class="wrapper">
         <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
@@ -10,15 +26,32 @@
                 </svg>
             </span>
             <div class="trigger">
-				<a class="page-link" {% if page.url=="/" %} style="color: #2a7ae2" {% endif %} href="{{ "/" | relative_url}}">Blog</a>
+				<div class="dropdown">
+					<a class="page-link" {% if page.url=="/" %} style="color: #2a7ae2" {% endif %} href="{{ "/" | relative_url}}">Blog</a>
+					<div class="dropdown-content">
+						{% for category in site.categories %}
+							<a class="page-link" href="/">{{ category | first }}</a>
+						{% endfor %}
+					</div>
+				</div>
 				{% assign pages = site.pages | sort: "weight" %}
                 {% for my_page in pages %}
 					{% if my_page.title %}
 						<a class="page-link" {% if page.url==my_page.url %} style="color: #2a7ae2" {% endif %} href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
 					{% endif %}
                 {% endfor %}
+				<div class="dropdown">
+					<a class="page-link" href="{{ "search.html" | relative_url}}">Search</a>
+					<div class="dropdown-content">
+						<form action="/search.html" method="get">
+							<label for="search_box"></label>
+							<input type="text" id="search_box" name="query">
+							<input type="submit" value="Search">
+						</form>
+					</div>
+				</div>
                 <!--
-                   <form action="/search.html" method="get">
+                <form action="/search.html" method="get">
                     <label for="search_box"></label>
                     <input type="text" id="search_box" name="query">
                     <input type="submit" value="Search">
