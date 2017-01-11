@@ -5,6 +5,31 @@ permalink: /about/
 weight: 1
 ---
 
+<style>
+.w3-animate-fading{
+-webkit-animation:fading 10s infinite;
+animation:fading 10s infinite
+}
+@-webkit-keyframes fading{
+0%{opacity:0}
+50%{opacity:1}
+100%{opacity:0}
+}
+@keyframes fading{
+0%{opacity:0}
+50%{opacity:1}
+100%{opacity:0}
+}
+</style>
+
+<img class="mySlides w3-animate-fading" src="../assets/img/me/desk.jpg">
+<img class="mySlides w3-animate-fading" src="../assets/img/me/flowers.jpg">
+<img class="mySlides w3-animate-fading" src="../assets/img/me/glasses.jpg">
+<img class="mySlides w3-animate-fading" src="../assets/img/me/hat.jpg">
+<img class="mySlides w3-animate-fading" src="../assets/img/me/laugh.jpg">
+
+<script src="../assets/js/slideshow.js"></script>
+
 I'm a writer and illustrator living in Brevard County, Florida.
 I read a lot, do a lot, think a lot, and get a lot of ideas. Some of these ideas get polished enough to become the gems I put on display in this blog.
 
