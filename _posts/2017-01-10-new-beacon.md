@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Beacon"
-categories: blog
+categories: announcements
 tags: writing
 author: "Amanda Lynn Elliott"
 permalink: /blog/2017/01/new-beacon/
