@@ -4,8 +4,7 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300i,400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Signika:300,400,600,700');
 
 // Our variables
 $base-font-family: 'Merriweather Sans', sans-serif;
@@ -16,19 +15,20 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #424242;
+$text-color:       #505050;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      rgb(113, 120, 175);
+;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    800px; //800
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        800px; //800
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -42,30 +42,99 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import "minima";
 
+
+// --- Layout
+
+.post-content, ul.post-list {
+	max-width: calc(650px - (30px * 2));
+}
+
+
+// --- Fonts and readability
+
+body {
+	overflow-y: scroll;
+	font-size: 1em;
+}
+
 h1 {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Signika', sans-serif;
 }
 
 h2 {
-	font-family: 'Merriweather', sans-serif;
-	font-weight: 400;
-	font-style: italic;
+	font-family: 'Signika', sans-serif;
 }
 
 h3 {
-	font-family: 'Merriweather', sans-serif;
-	font-weight: 400;
+	font-family: 'Signika', sans-serif;
+	font-weight: 500;
 }
 
 h4 {
-	font-family: 'Merriweather', sans-serif;
-	font-weight: 700;
-	font-style: bold;
+	font-family: 'Signika', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: $grey-color;
 }
 
-p {
-	//font-family: 'Open Sans', sans-serif;
+.post-title {
+	font-size: 2.3em;
 }
+
+
+h2, h3, h4 {
+	margin-top: 1em;
+}
+
+blockquote {
+	margin: 1.5em 0;
+	font-size: 1.5em;
+	font-style: italic;
+	padding-left: 2em;
+	border-left: 10px solid #e8e8e8;
+}
+
+blockquote footer {
+	font-size: 0.8em;
+	margin: 0.5em 0;
+}
+
+caption {
+	color: $grey-color-light;
+}
+
+li {
+	margin-bottom: 0.25em;
+}
+
+.sidenote {
+	margin: 2em 0 2em 4em;
+	padding: 1em 1.5em;
+	background-color: $grey-color-light;
+	border-bottom: 10px solid $grey-color;
+	font-style: italic;
+}
+
+.related-posts h3 { //not sure why this isn't applying naturally
+	font-size: 26px
+}
+
+.related-post-items {
+	line-height: 1em;
+}
+
+.related-posts {
+	padding-bottom: 2em;
+	border-bottom: 1px solid $grey-color-light;
+	margin-bottom: 1.5em;
+}
+
+.post-nav-next {
+	float: right;
+}
+
+
+// --- Header and navigation 
 
 .site-header {
 	background-color: #292929;
@@ -87,6 +156,9 @@ a, a:visited {
 	color: rgb(113, 120, 175);
 }
 
-body {
-	overflow-y: scroll;
+
+// --- About page
+
+.myslides {
+	// max-height: 400px;
 }

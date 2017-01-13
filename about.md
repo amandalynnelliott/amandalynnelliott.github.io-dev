@@ -30,6 +30,8 @@ animation:fading 10s infinite
 
 <script src="../assets/js/slideshow.js"></script>
 
+Flowers and hat photo credits: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a><!-- make this caption -->
+
 I'm a writer and illustrator living in Brevard County, Florida.
 I read a lot, do a lot, think a lot, and get a lot of ideas. Some of these ideas get polished enough to become the gems I put on display in this blog.
 
@@ -49,7 +51,3 @@ Post topics range from skill development, creativity, philosophy, life lessons, 
 
 I make the work I want to see exist in the world.
 It makes me happy to create this work, and so, I share it with you. 
-
-![Amanda Lynn Elliott picture]({{ site.url }}/assets/img/me/flowers.jpg)
-
-Photo credit: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a>
