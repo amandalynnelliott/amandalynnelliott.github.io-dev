@@ -14,12 +14,11 @@ Recently I've been applying my drawing skill to study human anatomy: to capture 
 
 Here's some recent work:
 
-<!-- <img src="{{ site.url }}/assets/img/2017/01/pplsketch3.jpg"> -->
-![sketch of people in public]({{ site.url }}/pplsketch.jpg)
+![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch3.jpg)
 
-And here's some work from just over six months ago: 
+And here's some from right before I started regular practice: 
 
-<!-- <img src="../assets/img/2017/01/.jpg"> -->
+![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch-before.jpg)
 
 
 So much of the challenge with skill acquisition is overcoming the fear of failure enough to let yourself make the mistakes required to learn anything.  <!--more-->
@@ -59,14 +58,14 @@ It's like flying a plane from point A to B, and making many micro-adjustments al
 
 Soon the ratio of making mistakes to producing results shifts, and people start noticing your work.
 
-[/g chart]
+![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/graph.jpg)
 
 A master's work looks like magic to those with a less skilled eye, in any field, but a master always sees what he needs to improve on. 
 
-Leonardo Da Vinci invested so much more time into studying and depicting life than his Renaissance artisans. Main of them thought the was a joke because he spent way too long on any single piece, and rarely completed anything.
+Leonardo Da Vinci invested so much more time into studying and depicting life than his Renaissance artisans. Many of them thought the was a joke because he spent way too long on any single piece and rarely completed anything.
 
 He studies plants, dissected human bodies, and learned how life works, from the inside out.
-In his work he depicted life so well, in such extreme detail, that they have always induced viceral* reactions in people. Owners of his paintings would be caught kissing the women in his paintings, and security guards to museums that display his work would be fired when they would start developing unhealthy relationships with his paintings. His work remain the most vandalized of any __ painter.
+In his work he depicted life so well, in such extreme detail, that they have always induced visceral reactions in people. Owners of his paintings would be caught kissing the women in his paintings, and security guards to museums that display his work would be fired when they would start developing unhealthy relationships with his paintings. His work remain the most vandalized of any other painter of the time period.
 
 But he still said this:
 
@@ -103,11 +102,12 @@ For the sake of saving time and preventing unnecessary suffering, it's important
 One of the reasons I love drawing so much is that it so concretely shows me my state of mind in the given moment; it's an instant feedback loop on my mood. When I feel good, am confident, interested in what I am drawing and in the flow, making good drawings is effortless. The second a negative thought slips in, a fear, a doubt, my hand will slip. What used to be a woman's gorgeous face now has a Hitler stash. Whoops, how did that get there? Usually I can redirect my thoughts and get back into the flow. If not, the act of creating feels less like fun, and more like a sacrifice, and the entire thing derails.
 
 Here's a list of mindset shifts I've applied that have virtually eliminated that kind of negative downward spiral and have kept me in consistent and longer flow states: 
-- Seeing mistakes as learning instead of something to feel embarrassed or ashamed about.
-- Developing a strong sense of self-worth that isn't dependent on the quality of my work that day.
-- Emphasizing quantity over quality so I can output more mistakes and learn from them faster.
-- Having an intention, a specific thing to learn, for each piece. Focusing less on how it looks and more on what I learned while making it.
-
+<ul>
+<li>Seeing mistakes as learning instead of something to feel embarrassed or ashamed about.</li>
+<li>Developing a strong sense of self-worth that isn't dependent on the quality of my work that day.</li>
+<li>Emphasizing quantity over quality so I can output more mistakes and learn from them faster.</li>
+<li>Having an intention, a specific thing to learn, for each piece. Focusing less on how it looks and more on what I learned while making it.</li>
+</ul>
 
 
 ### Using pen, or "Diving in ink-first"
@@ -118,7 +118,7 @@ Drawing in pen gives permanence to the mistakes I make, meaning that they will a
 
 It's not always pretty, but that's the point.
 
-<!--<img src="../assets/img/2017/01/pplsketch.jpg">-->
+![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch.jpg)
 
 Making a successful drawing in pen requires trust. It only happens when I trust myself to be okay with any mistakes that come up, only when I trust myself to accomplish the goal of the sketch. 
 
