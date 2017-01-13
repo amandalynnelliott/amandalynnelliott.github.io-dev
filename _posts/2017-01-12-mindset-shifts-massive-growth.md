@@ -8,7 +8,7 @@ permalink: /blog/2017/01/mindset-shifts/
 excerpt_separator: <!--more-->
 ---
 
-This post dives into how mindset shifts can lead to massive gains in skill development. The example I've applied in my life is drawing people, but the insights can be applied to any skill.
+This post dives into how mindset shifts can lead to massive gains in skill development. The example I've applied in my life is drawing people, but the insights I've gained as a result can be applied to any skill.
 
 Recently I've been applying my drawing skill to study human anatomy: to capture a person's personality and expression while they are going about their business in the public. For over 7 months, I've been attending weekly three-hour nude figure drawing classes, and have been people sketching at places like the mall and Walmart. 
 
@@ -62,12 +62,12 @@ Soon the ratio of making mistakes to producing results shifts, and people start 
 
 A master's work looks like magic to those with a less skilled eye, in any field, but a master always sees what he needs to improve on. 
 
-Leonardo Da Vinci invested so much more time into studying and depicting life than his Renaissance artisans. Many of them thought the was a joke because he spent way too long on any single piece and rarely completed anything.
+Leonardo Da Vinci invested so much more time into studying and depicting life than his fellow Renaissance artists. Many of them thought the was a joke because he took so long to finish any single piece, if he finished it at all.
 
-He studies plants, dissected human bodies, and learned how life works, from the inside out.
-In his work he depicted life so well, in such extreme detail, that they have always induced visceral reactions in people. Owners of his paintings would be caught kissing the women in his paintings, and security guards to museums that display his work would be fired when they would start developing unhealthy relationships with his paintings. His work remain the most vandalized of any other painter of the time period.
+He studied plants, dissected human bodies, and learned how life works, from the inside out.
+In his work he depicted life so well, in such extreme detail, that his work has always induced visceral reactions in people. Owners of his paintings would be caught kissing the women he so vividly depicted on canvas, and museum security guards have often been fired when they would start developing unhealthy relationships with his paintings. His work remain the most vandalized of any other painter of the time period.
 
-But he still said this:
+All of that, but he still said this:
 
 <blockquote>
 I have offended God and mankind because my work didn't reach the quality it should have. 
@@ -90,7 +90,7 @@ If you can release your fear of failure and let yourself learn from mistake afte
 
 
 I've been drawing consistently, though rarely daily, for as long as I can remember. 
-Still, I would often fall into emotional traps, that would stifle my growth, like comparing myself to others with more experience, feeling inadequate, feeling pressured to make a living with drawing, etc. 
+Still, I would often fall into emotional traps that would stifle my growth, like comparing myself to others with more experience, feeling inadequate, feeling pressured to make a living with drawing, etc. 
 
 You learn best in a flow state, when you are so totally immersed in the task at hand that hours pass by unnoticed. But this state is delicate and requires peace of mind. Negative thoughts easily override it. Ignoring any of these feelings, and trying to learn in spite of it, will only bring frustration. 
 It's like putting a dark blanket on a beautiful stainglass window. Some colored light might get through, but it's only when you take the blanket off that the light can flow through unhindered and you can admire its beauty. 
@@ -99,7 +99,7 @@ For the sake of saving time and preventing unnecessary suffering, it's important
 
 ### Drawing is a mental game.
 
-One of the reasons I love drawing so much is that it so concretely shows me my state of mind in the given moment; it's an instant feedback loop on my mood. When I feel good, am confident, interested in what I am drawing and in the flow, making good drawings is effortless. The second a negative thought slips in, a fear, a doubt, my hand will slip. What used to be a woman's gorgeous face now has a Hitler stash. Whoops, how did that get there? Usually I can redirect my thoughts and get back into the flow. If not, the act of creating feels less like fun, and more like a sacrifice, and the entire thing derails.
+One of the reasons I love drawing so much is that it concretely shows me my state of mind in the given moment; it's an instant feedback loop on my mood. When I feel good, am confident, interested in what I am drawing and in the flow, making good drawings is effortless. The second a negative thought slips in, a fear, a doubt, my hand will slip. What used to be a woman's gorgeous face now has a Hitler stash. Whoops, how did that get there? Usually I can redirect my thoughts and get back into the flow. If not, the act of creating feels less like fun, and more like a sacrifice, and the entire thing derails.
 
 Here's a list of mindset shifts I've applied that have virtually eliminated that kind of negative downward spiral and have kept me in consistent and longer flow states: 
 <ul>
@@ -144,7 +144,9 @@ In this mindset, I don't even need to worry about whether or not people will lik
 
 Along the way, it can be easy to become impatient, to desire an output that we aren't capable of producing yet. We become frustrated with our mistakes, and so stop experimenting. We unconciously  do what feels safe, which is repeating what we know. We make the same kind of work, saying the same thing, the same way, over and over again.
 
-Unchecked, this can lead to stagnation, unhappiness, and a lot of wasted potential. The creative process requires continual intensity and rigor. 
+Unchecked, this can lead to stagnation, unhappiness, and a lot of wasted potential. The creative process that fuels our learning and happiness requires continual intensity and rigor. 
 
 Leonardo Da Vinci understood the dangers of impatience. He even had a motto to combat it: ostinato rigore, which translates to "stubborn rigor" or "tenacious application."
 It means to cultivate pleasure in pain, like an athlete. To learn to enjoy the rigorous practice where you push past your limits and go further than you ever have before.
+
+Tenanciously apply yourself, and don't hold back.
