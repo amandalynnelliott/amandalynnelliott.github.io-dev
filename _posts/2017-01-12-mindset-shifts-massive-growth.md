@@ -58,14 +58,14 @@ It's like flying a plane from point A to B, and making many micro-adjustments al
 
 Soon the ratio of making mistakes to producing results shifts, and people start noticing your work.
 
-![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/graph.jpg)
+![mistakes and output over time chart]({{ site.baseurl }}/assets/img/2017/01/chart.png)
 
 A master's work looks like magic to those with a less skilled eye, in any field, but a master always sees what he needs to improve on. 
 
 Leonardo Da Vinci invested so much more time into studying and depicting life than his fellow Renaissance artists. Many of them thought the was a joke because he took so long to finish any single piece, if he finished it at all.
 
 He studied plants, dissected human bodies, and learned how life works, from the inside out.
-In his work he depicted life so well, in such extreme detail, that his work has always induced visceral reactions in people. Owners of his paintings would be caught kissing the women he so vividly depicted on canvas, and museum security guards have often been fired when they would start developing unhealthy relationships with his paintings. His work remain the most vandalized of any other painter of the time period.
+In his work he depicted life so well, in such extreme detail, that his work has always induced visceral reactions in people. Owners of his paintings would be caught kissing the women he so vividly depicted on canvas, and museum security guards have often been fired when they would start developing unhealthy relationships with his paintings. His work remains the most vandalized of any other painter of the time period.
 
 All of that, but he still said this:
 
@@ -99,7 +99,7 @@ For the sake of saving time and preventing unnecessary suffering, it's important
 
 ### Drawing is a mental game.
 
-One of the reasons I love drawing so much is that it concretely shows me my state of mind in the given moment; it's an instant feedback loop on my mood. When I feel good, am confident, interested in what I am drawing and in the flow, making good drawings is effortless. The second a negative thought slips in, a fear, a doubt, my hand will slip. What used to be a woman's gorgeous face now has a Hitler stash. Whoops, how did that get there? Usually I can redirect my thoughts and get back into the flow. If not, the act of creating feels less like fun, and more like a sacrifice, and the entire thing derails.
+One of the reasons I love drawing so much is that it concretely shows me my state of mind in the given moment; it's an instant feedback loop on my mood. When I feel good, am confident, interested in what I am drawing and in the flow, making good drawings is effortless. The second a negative thought slips in, a fear, a doubt, my hand will slip. What used to be a woman's gorgeous face now has a Hitler-stache. Whoops, how did that get there? Usually I can redirect my thoughts and get back into the flow. If not, the act of creating feels less like fun, and more like a sacrifice, and the entire thing derails.
 
 Here's a list of mindset shifts I've applied that have virtually eliminated that kind of negative downward spiral and have kept me in consistent and longer flow states: 
 <ul>
