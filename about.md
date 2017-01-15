@@ -48,7 +48,6 @@ It makes me happy to create this work, and so, I share it with you.
 <img class="mySlides w3-animate-fading" src="../assets/img/me/glasses.jpg">
 <img class="mySlides w3-animate-fading" src="../assets/img/me/hat.jpg">
 <img class="mySlides w3-animate-fading" src="../assets/img/me/laugh.jpg">
+*Flowers and hat photo credits: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a>*
 
 <script src="../assets/js/slideshow.js"></script>
-
-Flowers and hat photo credits: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a><!-- make this caption -->

@@ -54,7 +54,6 @@ $on-laptop:        800px; //800
 
 body {
 	overflow-y: scroll;
-	font-size: 1em;
 }
 
 h1 {
@@ -107,32 +106,72 @@ li {
 	margin-bottom: 0.25em;
 }
 
-.sidenote {
-	margin: 2em 0 2em 4em;
+p.sidenote {
+	max-width: 80%;
+	margin: 2em;
 	padding: 1em 1.5em;
 	background-color: $grey-color-light;
 	border-bottom: 10px solid $grey-color;
 	font-style: italic;
 }
 
-.related-posts h3 { //not sure why this isn't applying naturally
-	font-size: 26px
-}
+/* img + em { // for image captions
+	display: block;
+	text-align: center;
+	font-size: $small-font-size;
+	padding: 0.4em;
+	border-bottom: 1px solid $grey-color;
+	background-color: $grey-color-light;
+} */
 
-.related-post-items {
-	line-height: 1em;
+
+// --- Post footer content
+
+.related-posts h3 { 
+    font-size: 26px;
 }
 
 .related-posts {
 	padding-bottom: 2em;
 	border-bottom: 1px solid $grey-color-light;
-	margin-bottom: 1.5em;
+	font-size: 0.9em;
+}
+
+.related-posts p {
+	margin-bottom: 0.5em;
+}
+
+.post-nav {
+	font-size: 0.875em;
+	padding-top: 30px;
 }
 
 .post-nav-next {
 	float: right;
+	text-align: right;
 }
 
+
+@include media-query($on-laptop){
+	.related-posts h3 {
+		font-size: 22px;
+	}
+}
+
+
+@include media-query($on-palm){
+	.related-post-items {
+		font-size: 14px;
+	}
+	 
+	.post-nav {
+		font-size: 12px;
+	}
+	
+	.post-nav-next {
+		//margin-top: 1em;
+	}
+}
 
 .post-easter-egg {
 	max-width: calc(650px - (30px *2));
@@ -165,6 +204,6 @@ a, a:visited {
 
 // --- About page
 
-.myslides {
-	// max-height: 400px;
+.mySlides {
+	max-height: 400px;
 }
