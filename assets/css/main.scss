@@ -46,7 +46,7 @@ $on-laptop:        800px; //800
 // --- Layout
 
 .post-content, ul.post-list {
-	max-width: calc(650px - (30px * 2));
+	max-width: calc(580px - (30px * 2));
 }
 
 
@@ -85,6 +85,10 @@ h2, h3, h4 {
 	margin-top: 1em;
 }
 
+p {
+	margin-bottom: 1em;
+}
+
 blockquote {
 	margin: 1.5em 0;
 	font-size: 1.5em;
@@ -107,8 +111,8 @@ li {
 }
 
 p.sidenote {
-	max-width: 80%;
-	margin: 2em;
+	//max-width: 80%;
+	//margin: 2em;
 	padding: 1em 1.5em;
 	background-color: $grey-color-light;
 	border-bottom: 10px solid $grey-color;
