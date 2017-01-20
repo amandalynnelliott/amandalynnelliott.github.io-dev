@@ -1,31 +1,169 @@
+<style>
+	nav {
+		display: block;
+		text-align: center;
+	}
+
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+	.nav a {
+		display: block;
+		background: #111;
+		color: #fff;
+		text-decoration: none;
+		padding: 0.8em 1.8em;
+		text-transform: uppercase;
+		font-size: 80%;
+		letter-spacing: 2px;
+		text-shadow: 0 -1px 0 #000;
+		position: relative;
+	}
+
+	.nav {
+		vertical-align: top;
+		display: inline-block;
+		box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
+		border-radius: 6px;
+	}
+
+		.nav li {
+			position: relative;
+		}
+
+		.nav > li {
+			float: left;
+			border-bottom: 4px #aaa solid;
+			margin-right: 1px;
+		}
+
+			.nav > li > a {
+				margin-bottom: 1px;
+				box-shadow: inset 0 2em .33em -0.5em #555;
+			}
+
+			.nav > li:hover,
+			.nav > li:hover > a {
+				border-bottom-color: orange;
+			}
+
+		.nav li:hover > a {
+			color: orange;
+		}
+
+		.nav > li:first-child {
+			border-radius: 4px 0 0 4px;
+		}
+
+			.nav > li:first-child > a {
+				border-radius: 4px 0 0 0;
+			}
+
+		.nav > li:last-child {
+			border-radius: 0 0 4px 0;
+			margin-right: 0;
+		}
+
+			.nav > li:last-child > a {
+				border-radius: 0 4px 0 0;
+			}
+
+		.nav li li a {
+			margin-top: 1px;
+		}
+
+		.nav li a:first-child:nth-last-child(2):before {
+			content: "";
+			position: absolute;
+			height: 0;
+			width: 0;
+			border: 5px solid transparent;
+			top: 50%;
+			right: 5px;
+		}
+
+		/* submenu positioning*/
+		.nav ul {
+			position: absolute;
+			white-space: nowrap;
+			border-bottom: 5px solid orange;
+			z-index: 1;
+			left: -99999em;
+		}
+
+		.nav > li:hover > ul {
+			left: auto;
+			margin-top: 5px;
+			min-width: 100%;
+		}
+
+		.nav > li li:hover > ul {
+			left: 100%;
+			margin-left: 1px;
+			top: -1px;
+		}
+		/* arrow hover styling */
+		.nav > li > a:first-child:nth-last-child(2):before {
+			border-top-color: #aaa;
+		}
+
+		.nav > li:hover > a:first-child:nth-last-child(2):before {
+			border: 5px solid transparent;
+			border-bottom-color: orange;
+			margin-top: -5px;
+		}
+
+		.nav li li > a:first-child:nth-last-child(2):before {
+			border-left-color: #aaa;
+			margin-top: -5px;
+		}
+
+		.nav li li:hover > a:first-child:nth-last-child(2):before {
+			border: 5px solid transparent;
+			border-right-color: orange;
+			right: 10px;
+		}
+</style>
+
 <header class="site-header" role="banner" onclick="void(0)">
 	<div class="wrapper">
 		<a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
-		<nav class="site-nav">
-			<span class="menu-icon" onclick="void(0)">
-				<svg viewBox="0 0 18 15" width="18px" height="15px">
-					<path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
-					<path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
-					<path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
-				</svg>
-			</span>
-			<div class="trigger">
-				<a class="page-link" {% if page.url=="/" %} style="color: #2a7ae2" {% endif %} href="{{ "/" | relative_url}}">Blog</a>
+		<nav>
+			<ul class="nav">
+				<li>
+					<a {% if page.url=="/" %} style="color: #2a7ae2" {% endif %} href="{{ "/" | relative_url}}">Blog</a>
+					<ul>
+						{% for category in site.categories %}
+						<li>
+							<a href="">{{ category | first }}</a>
+							<ul>
+								{% for posts in category %}
+									{% for post in posts %}
+										<li>
+											<a href="{{ post.url }}">{{ post.title }}</a>
+										</li>
+									{% endfor %}
+								{% endfor %}
+							</ul>
+						</li>
+						{% endfor %}
+					</ul>	
+				</li>
 				{% assign pages = site.pages | sort: "weight" %}
-				{% for my_page in pages %}
-					{% if my_page.title %}
-						<a class="page-link" {% if page.url==my_page.url %} style="color: #2a7ae2" {% endif %} href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+				{% for p in pages %}
+					{% if p.title %}
+						<li>
+							<a {% if page.url==p.url %} style="color: #2a7ae2" {% endif %} href="{{ p.url | relative_url }}">{{ p.title | escape }}</a>
+						</li>
 					{% endif %}
 				{% endfor %}
-				<a class="page-link" {% if page.url=="/search.html" %} style="color: #2a7ae2" {% endif %} href="{{ "search.html" | relative_url}}">Search</a>
-			</div>
-			<!--
-			<form action="/search.html" method="get">
-				<label for="search-box"></label>
-				<input type="text" id="search-box" name="query">
-				<input type="submit" value="Search">
-			</form>
-			-->
+				<li>
+					<a {% if page.url=="/search.html" %} style="color: #2a7ae2" {% endif %} href="{{ "search.html" | relative_url}}">Search</a>
+				</li>
+			</ul>
 		</nav>
 	</div>
 </header>
