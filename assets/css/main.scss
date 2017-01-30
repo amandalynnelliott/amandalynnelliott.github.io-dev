@@ -106,7 +106,7 @@ caption {
 	color: $grey-color-light;
 }
 
-li {
+.post li, .related-posts li, .post-nav li {
 	margin-bottom: 0.25em;
 }
 
