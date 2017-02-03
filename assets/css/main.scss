@@ -183,7 +183,7 @@ p.sidenote {
 }
 
 
-// --- Header and navigation 
+// --- Header
 
 .site-header {
 	background-color: #292929;
@@ -191,6 +191,11 @@ p.sidenote {
 
 .site-title, .site-title:visited {
 	color:#e4e4e4; 
+}
+
+.site-title:hover {
+	text-decoration: none;
+	color: #fff;
 }
 
 .site-nav {
@@ -204,6 +209,92 @@ p.sidenote {
 a, a:visited {
 	color: rgb(113, 120, 175);
 }
+
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+.nav a {
+	display: block;
+	background: #292929;
+	color: #e4e4e4;
+	text-decoration: none;
+	padding: 1.3em 1.5em;
+	position: relative;
+	font-size: 14px;
+}
+
+.nav {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.nav li {
+	position: relative;
+	/*border-bottom: 1px solid #7178af;*/
+}
+
+	.nav > li {
+		float: left;
+	}
+
+		.nav > li > a {
+		}
+
+		.nav > li:hover,
+		.nav > li:hover > a {
+		}
+
+	.nav li:hover > a {
+		color: #fff;
+		background-color: #424242;
+		/* make this apply to active pages */
+	}
+
+	.nav > li:first-child {
+	}
+
+		.nav > li:first-child > a {
+		}
+
+	.nav > li:last-child {
+		margin-right: 0;
+	}
+
+		.nav > li:last-child > a {
+		}
+
+	.nav li li a {
+	}
+
+		/* submenu positioning*/
+		.nav ul {
+			position: absolute;
+			white-space: nowrap;
+			z-index: 1;
+			left: -99999em;
+		}
+
+		.nav > li:hover > ul {
+			left: auto;
+			min-width: 100%;
+		}
+
+		.nav > li li:hover > ul {
+			left: 100%;
+			margin-left: 1px;
+			top: -1px;
+		}
+
 
 
 // --- About page

@@ -31,7 +31,7 @@ The journey has led to me to leverage my drawing passion that I've exercised sin
 
 I'm currently focused on teaching myself animation of the two kinds of flavors: Disney-style frame-by-frame animation, and web animation made with CSS and JavaScript.
 
-To test these different methods of content-delivery, I tackle the most abstract and complex problems that excite me. I research and study the selected problem until I get hit with an insight, usually in the form of a clear and simple solution. For example, see this College Gamble Flowchart [link].
+To test these different methods of content-delivery, I tackle the most abstract and complex problems that excite me. I research and study the selected problem until I get hit with an insight, usually in the form of a clear and simple solution. For example, see this <a href="../assets/img/CC/college-flowchart.png">College Gamble Flowchart</a>.
 
 To find problems to dissect for these high-level projects, I study, experiment, and explore the questions that stem from this question: How we can live better, both as individuals and as a society?
 
