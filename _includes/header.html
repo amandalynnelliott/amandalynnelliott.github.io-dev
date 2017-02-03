@@ -25,13 +25,12 @@
 					{% endif %}
 				{% endfor %}
 				<li>
-					<a href="/search.html">Search</a>
-					<ul>
+					<a href="/search.html"><span class="fa fa-search"></span></a>
+					<ul class="search">
 						<li>
 							<form action="/search.html" method="get">
 								<label for="search-box"></label>
-								<input type="text" id="search-box" name="query">
-								<input type="submit" value="Search">
+								<input type="text" id="search-box" name="query" placeholder="Search">
 							</form>
 						</li>
 					</ul>

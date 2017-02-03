@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Signika:300,400,600,700');
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 // Our variables
 $base-font-family: 'Merriweather Sans', sans-serif;
@@ -287,6 +288,7 @@ nav {
 		.nav > li:hover > ul {
 			left: auto;
 			min-width: 100%;
+			border-top: 5px solid $text-color;
 		}
 
 		.nav > li li:hover > ul {
@@ -295,7 +297,46 @@ nav {
 			top: -1px;
 		}
 
+	.nav li:hover > ul a {
+		padding: 0.5em 1.5em;
+		background-color: $grey-color-dark;
+	}
 
+	.nav li:hover > ul li:first-child a {
+		padding-top: 1.5em;
+	}
+
+	.nav li:hover > ul li:last-child a {
+		padding-bottom: 1.5em;
+	}
+
+	// Search navbar link
+
+ul.search {
+	background-color: $grey-color-dark;
+	padding: 1em 0.5em;
+}
+
+.nav li:hover > ul.search {
+	left:-210px;
+}
+
+ul.search input#search-box {
+	padding: 5px 10px;
+	background-color: $grey-color-dark;
+	border: 1px solid $grey-color;
+	border-radius: 5px;
+	width: 200px;
+	height: 1.5em;
+	margin: 0 1em;
+	font-size: 14px;
+	color: $grey-color-light;
+}
+
+ul.search input#search-box:focus {
+	outline: none;
+	border-color: #fff;
+}
 
 // --- About page
 
