@@ -19,11 +19,11 @@ $spacing-unit:     30px;
 $text-color:       #505050;
 $background-color: #fdfdfd;
 $brand-color:      rgb(113, 120, 175);
-;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$top-dark:         #292929;
 
 // Width of the content area
 $content-width:    800px; //800
@@ -200,7 +200,7 @@ p.sidenote {
 }
 
 .site-nav {
-	background-color: #292929;
+	background-color: $top-dark;
 }
 
 .site-nav .page-link {
@@ -208,7 +208,7 @@ p.sidenote {
 }
 
 a, a:visited {
-	color: rgb(113, 120, 175);
+	color: $brand-color;
 }
 
 
@@ -322,7 +322,7 @@ ul.search {
 }
 
 ul.search input#search-box {
-	padding: 5px 10px;
+	padding: 0.5em;
 	background-color: $grey-color-dark;
 	border: 1px solid $grey-color;
 	border-radius: 5px;
@@ -337,6 +337,86 @@ ul.search input#search-box:focus {
 	outline: none;
 	border-color: #fff;
 }
+
+// --- sign up
+
+p.sign-up {
+	margin-top: 1.5em;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+// ------- Navbar mobile
+
+@media screen and (min-width: 480px) {
+	
+	.menu-button {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+	.wrapper {
+		//padding: 0;
+	}
+	
+	.site-title {
+		padding: 0 15px;
+		display: block;
+
+	}
+	
+	.menu-button {
+		display: inline-block;
+		color: #f1f1f1;
+		background-color: $grey-color-dark;
+		padding: 0.5em 1em;
+	}
+	
+	nav {
+		display: block;
+		width: 100%;	
+		display: block;
+		height: 40px;
+	}
+	
+	header nav ul {
+		overflow: hidden;
+		background-color: $grey-color-dark;
+		height: 0; //this is what menu.js and jQuery should change
+	}
+	
+	header nav ul.open {
+		height: auto; //... to this
+	}
+	
+	header nav ul li {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	
+	.nav a {
+		// click-state or submenu only background-color: $grey-color-dark;
+	}
+	
+	header nav ul li a {
+		border-bottom: 1px solid $grey-color;
+		display: block;
+	}
+	
+	header nav ul li:first-child a {
+		border-top: 5px solid $grey-color-dark;
+	}
+	
+	.nav a {
+		padding: 1em 1.5em;
+	}
+	
+}
+
 
 // --- Contact form
 
