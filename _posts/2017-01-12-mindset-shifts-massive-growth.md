@@ -14,14 +14,14 @@ Recently I've been applying my drawing skill to study human anatomy: to capture 
 
 Here's some recent work:
 
-![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch3.jpg)
+![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch3.jpg)  <!--more-->
 
 And here's some from right before I started regular practice: 
 
 ![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch-before.jpg)
 
 
-So much of the challenge with skill acquisition is overcoming the fear of failure enough to let yourself make the mistakes required to learn anything.  <!--more-->
+So much of the challenge with skill acquisition is overcoming the fear of failure enough to let yourself make the mistakes required to learn anything.
 
 I've noticed this my whole life when people would approach me while I was drawing, explaining how they "can't draw." I'd point to their perfectly functioning hands, and ask, "Why not?"
 

@@ -338,6 +338,52 @@ ul.search input#search-box:focus {
 	border-color: #fff;
 }
 
+// --- Contact form
+
+.row {
+	margin-bottom: 1.5em;
+}
+
+label {
+	line-height: 2em;
+}
+
+input[type='text'], textarea {
+	font-family: inherit;
+	color: $brand-color;
+	padding: 0.5em;
+}
+
+
+input#name, input#email, textarea {
+	width: 100%;
+	background-color: #fff;
+	font-size: 1em;
+	line-height: 1.5em;
+	border: 1px solid $grey-color-light;
+	border-radius: 5px;
+}
+
+input#name:focus, input#email:focus, textarea:focus {
+	outline: none;
+	border-color: $grey-color;
+}
+
+input#submit_button {
+	background-color: $grey-color-dark;
+	color: #f1f1f1;
+	outline: none;
+	border: 1px solid $grey-color-light;
+	border-radius: 5px;
+	padding: 0.5em 1em;
+}
+
+input#submit_button:focus {
+	background-color: $background-color;
+	color: $grey-color;
+	border-color: $grey-color;
+}
+
 // --- About page
 
 .mySlides {
