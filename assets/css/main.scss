@@ -53,12 +53,18 @@ $on-laptop:        800px; //800
 
 // --- Fonts and readability
 
+a:hover {
+	//text-decoration: none;
+	color: $grey-color;
+}
+
 body {
 	overflow-y: scroll;
 }
 
 h1 {
 	font-family: 'Signika', sans-serif;
+	font-size: 36px;
 }
 
 h2 {
@@ -75,10 +81,6 @@ h4 {
 	font-weight: 300;
 	text-transform: uppercase;
 	color: $grey-color;
-}
-
-.post-title {
-	font-size: 2.3em;
 }
 
 
@@ -112,23 +114,11 @@ caption {
 }
 
 p.sidenote {
-	//max-width: 80%;
-	//margin: 2em;
 	padding: 1em 1.5em;
 	background-color: $grey-color-light;
 	border-bottom: 10px solid $grey-color;
 	font-style: italic;
 }
-
-/* img + em { // for image captions
-	display: block;
-	text-align: center;
-	font-size: $small-font-size;
-	padding: 0.4em;
-	border-bottom: 1px solid $grey-color;
-	background-color: $grey-color-light;
-} */
-
 
 // --- Post footer content
 
@@ -241,7 +231,6 @@ nav {
 
 .nav li {
 	position: relative;
-	/*border-bottom: 1px solid #7178af;*/
 }
 
 	.nav > li {
@@ -258,7 +247,6 @@ nav {
 	.nav li:hover > a {
 		color: #fff;
 		background-color: #424242;
-		/* make this apply to active pages */
 	}
 
 	.nav > li:first-child {
@@ -318,7 +306,7 @@ ul.search {
 }
 
 .nav li:hover > ul.search {
-	left:-210px;
+	left:-205px;
 }
 
 ul.search input#search-box {
@@ -444,12 +432,19 @@ input#name, input#email, textarea {
 	border-radius: 5px;
 }
 
+@include media-query($on-palm){
+	input#name, input#email, textarea {
+		width: 94%;
+	}
+}
+
 input#name:focus, input#email:focus, textarea:focus {
 	outline: none;
 	border-color: $grey-color;
 }
 
 input#submit_button {
+	font-size: 1em;
 	background-color: $grey-color-dark;
 	color: #f1f1f1;
 	outline: none;
@@ -463,6 +458,22 @@ input#submit_button:focus {
 	color: $grey-color;
 	border-color: $grey-color;
 }
+
+// --- Home page
+
+.post-list > li {
+	border-top: 1px solid $grey-color-light;
+}
+
+h2 a.post-link {
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+h2.home-post-title {
+	margin-bottom: 0;
+}
+
 
 // --- About page
 

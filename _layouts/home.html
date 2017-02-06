@@ -8,6 +8,7 @@ layout: default
 {% endif %}
 <div class="home">
 	{{ content }}
+	<h1>Amanda's Blog</h1>
 	<ul class="post-list">
 		{% if page.category %}
 			{% assign posts = site.categories[page.category] %}
@@ -16,13 +17,12 @@ layout: default
 		{% endif %}
 		{% for post in posts %}
 			<li>
-				<h2>
+				<h2 class="home-post-title">
 					<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
 				</h2>
 				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				<p>
-					{{ post.excerpt }}
-					<a href="{{ post.url }}">Read More</a>
+					{{ post.excerpt }} <em><a href="{{ post.url }}">Read more</a></em>
 				</p>
 			</li>
 		{% endfor %}
