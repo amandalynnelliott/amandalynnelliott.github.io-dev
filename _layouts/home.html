@@ -7,8 +7,8 @@ layout: default
 </header>
 {% endif %}
 <div class="home">
+	<h1 class="home-title">Amanda's Blog</h1>
 	{{ content }}
-	<h1>Amanda's Blog</h1>
 	<ul class="post-list">
 		{% if page.category %}
 			{% assign posts = site.categories[page.category] %}
