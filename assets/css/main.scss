@@ -163,9 +163,6 @@ p.sidenote {
 		font-size: 12px;
 	}
 	
-	.post-nav-next {
-		//margin-top: 1em;
-	}
 }
 
 .post-easter-egg {
@@ -406,11 +403,7 @@ p.sign-up {
 }
 
 
-// --- Contact form
-
-.row {
-	margin-bottom: 1.5em;
-}
+// --- Contact form and general inputs, like search
 
 label {
 	line-height: 2em;
@@ -422,9 +415,7 @@ input[type='text'], textarea {
 	padding: 0.5em;
 }
 
-
-input#name, input#email, textarea {
-	width: 100%;
+input, textarea {
 	background-color: #fff;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -432,18 +423,12 @@ input#name, input#email, textarea {
 	border-radius: 5px;
 }
 
-@include media-query($on-palm){
-	input#name, input#email, textarea {
-		width: 94%;
-	}
-}
-
-input#name:focus, input#email:focus, textarea:focus {
+input:focus, input:focus, textarea:focus {
 	outline: none;
 	border-color: $grey-color;
 }
 
-input#submit_button {
+input[type="submit"] {
 	font-size: 1em;
 	background-color: $grey-color-dark;
 	color: #f1f1f1;
@@ -453,11 +438,26 @@ input#submit_button {
 	padding: 0.5em 1em;
 }
 
-input#submit_button:focus {
+input[type="submit"]:focus {
 	background-color: $background-color;
 	color: $grey-color;
 	border-color: $grey-color;
 }
+
+.row {
+	margin-bottom: 1.5em;
+}
+
+input#name, input#email, textarea {
+	width: 100%;
+}
+
+@include media-query($on-palm){
+	input#name, input#email, textarea {
+		width: 94%;
+	}
+}
+
 
 // --- Home page
 
@@ -470,13 +470,32 @@ h2 a.post-link {
 	margin-bottom: 0;
 }
 
-h2.home-post-title {
+h2.home-post-title, h3.search-result-title {
 	margin-bottom: 0;
+}
+
+// -- Archives page
+
+ul.archive-list {
+	list-style-type: none;
+}
+
+// -- Search page
+
+ul#search-results {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul#search-results li {
+	border-bottom: 1px solid $grey-color-light;
 }
 
 
 // --- About page
 
 .mySlides {
-	max-height: 400px;
+	height: 300px;
 }
+
+// --- Template: right-sidebar
