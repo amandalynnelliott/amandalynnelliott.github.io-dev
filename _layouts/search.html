@@ -16,7 +16,8 @@ layout: page
 				"category": "{{ post.category | xml_escape }}",
 				"content": {{ post.content | strip_html | strip_newlines | jsonify }},
 			    "url": "{{ post.url | xml_escape }}",
-				"date": "{{ post.date | date: "%b %-d, %Y" }}"
+				"date": "{{ post.date | date: "%b %-d, %Y" }}",
+				"excerpt": {{ post.excerpt | jsonify }}
 			}
 			{% unless forloop.last %}
 				,

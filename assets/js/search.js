@@ -5,14 +5,11 @@
             var appendString = '';
             for (var i = 0; i < results.length; i++) {  // Iterate over the results
                 var item = store[results[i].ref];
-                appendString += '<li>'
-                appendString += '<a class="post-link" href="' + item.url + '">' + item.title + '</a>';
+                appendString += '<li>';
+                appendString += '<h2><a class="post-link" href="' + item.url + '">' + item.title + '</a></h2>';
                 appendString += '<span class="post-meta">' + item.date + '</span>';
                 appendString += '<p>' + item.excerpt + '<em><a href="' + item.url + '">Read more</a></em></p>';
                 appendString += '</li>';
-                appendString += '<li><a href="' + item.url + '"><h3 class="search-result-title">' + item.title + '</h3></a>';
-				appendString += '<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>';
-                appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
             }
             searchResults.innerHTML = appendString;
         } else {
