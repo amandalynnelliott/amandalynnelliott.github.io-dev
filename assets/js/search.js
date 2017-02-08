@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
     function displaySearchResults(results, store) {
         var searchResults = document.getElementById('search-results');
         if (results.length) { // Are there any results?
@@ -10,6 +10,9 @@
                 appendString += '<span class="post-meta">' + item.date + '</span>';
                 appendString += '<p>' + item.excerpt + '<em><a href="' + item.url + '">Read more</a></em></p>';
                 appendString += '</li>';
+                appendString += '<li><a href="' + item.url + '"><h3 class="search-result-title">' + item.title + '</h3></a>';
+				appendString += '<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>';
+                appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
             }
             searchResults.innerHTML = appendString;
         } else {
