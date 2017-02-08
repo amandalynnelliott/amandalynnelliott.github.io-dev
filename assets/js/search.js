@@ -5,8 +5,11 @@
             var appendString = '';
             for (var i = 0; i < results.length; i++) {  // Iterate over the results
                 var item = store[results[i].ref];
-                appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-                appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+                appendString += '<li>'
+                appendString += '<a class="post-link" href="' + item.url + '">' + item.title + '</a>';
+                appendString += '<span class="post-meta">' + item.date + '</span>';
+                appendString += '<p>' + item.excerpt + '<em><a href="' + item.url + '">Read more</a></em></p>';
+                appendString += '</li>';
             }
             searchResults.innerHTML = appendString;
         } else {

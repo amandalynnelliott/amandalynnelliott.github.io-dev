@@ -20,7 +20,9 @@ layout: default
 				<h2 class="home-post-title">
 					<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
 				</h2>
-				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<span class="post-meta">
+					{{ post.date | date: "%b %-d, %Y" }}
+				</span>
 				<p>
 					{{ post.excerpt }} <em><a href="{{ post.url }}">Read more</a></em>
 				</p>
