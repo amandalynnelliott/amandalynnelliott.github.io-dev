@@ -21,7 +21,12 @@
 				{% for page in pages %}
 					{% if page.weight %}
 						<li>
-							<a href={{ page.url }}>{{ page.title }}</a>
+							{% if page.linkTitle %}
+								{% assign title = page.linkTitle %}
+							{% else %}
+								{% assign title = page.title %}
+							{% endif %}
+							<a href={{ page.url }}>{{ title }}</a>
 						</li>
 					{% endif %}
 				{% endfor %}
