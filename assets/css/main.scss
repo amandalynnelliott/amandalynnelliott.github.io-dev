@@ -409,13 +409,10 @@ label {
 	line-height: 2em;
 }
 
-input[type='text'], textarea {
+input, textarea {
 	font-family: inherit;
 	color: $brand-color;
 	padding: 0.5em;
-}
-
-input, textarea {
 	background-color: #fff;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -448,7 +445,7 @@ input[type="submit"]:focus {
 	margin-bottom: 1.5em;
 }
 
-input#name, input#email, textarea {
+input[type='name'], input[type='email'], textarea {
 	width: 100%;
 }
 
@@ -494,3 +491,13 @@ ul#search-results {
 }
 
 // --- Template: right-sidebar
+
+// --- Mailchimp signup
+
+#error-response {
+	color: red;
+}
+
+#success-response {
+	color: green;
+}
