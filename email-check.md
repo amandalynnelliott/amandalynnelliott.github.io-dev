@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Blog Posts by Email: Success!"
+title: Blog Posts by Email
 permalink: /email-check/
 ---
 
