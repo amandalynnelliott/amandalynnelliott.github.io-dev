@@ -6,4 +6,4 @@ permalink: /blog-posts-by-email/
 
 Enter your email address to subscribe to Amanda's blog and receive her new articles by email.
 
-{% include feedburner.html %}
+{% include mailchimp.html %}

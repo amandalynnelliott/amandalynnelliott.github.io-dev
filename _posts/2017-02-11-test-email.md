@@ -9,7 +9,7 @@ This post dives into how mindset shifts can lead to massive gains in skill devel
 Recently I've been applying my drawing skill to study human anatomy: to capture a person's personality and expression while they are going about their business in the public. For over 7 months, I've been attending weekly three-hour nude figure drawing classes, and have been people sketching at places like the mall and Walmart. 
 
 Here's some recent work:
-
+  
 ![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch3.jpg)  <!--more-->
 
 And here's some from right before I started regular practice: 
@@ -48,3 +48,8 @@ You are not defined by your embarrassing moments and if you embark on embarrassm
 Similarly, you actually ARE defined my your mistakes, but not in the bad way you would expect. You are the lessons you have learned when your actions didn't yield the results you wants. That's all a mistake is, isn't it? See, it not so scary. 
 
 You can't have learning without mistakes. 
+
+<blockquote>
+I have offended God and mankind because my work didn't reach the quality it should have. 
+<footer>- Leonardo Da Vinci</footer>
+</blockquote>
