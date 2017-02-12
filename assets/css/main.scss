@@ -53,6 +53,11 @@ $on-laptop:        800px; //800
 
 // --- Fonts and readability
 
+.post p:first-child {
+	font-size: 24px;
+	line-height: 1.4;
+}
+
 a:hover {
 	//text-decoration: none;
 	color: $grey-color;
@@ -122,8 +127,8 @@ caption {
 	margin-left: 20px;
 }
 
-.post li {
-	list-style-type: circle;
+.post ul li {
+	/*list-style-type: circle;*/
 }
 
 p.sidenote {

@@ -8,15 +8,16 @@ permalink: /draft1/
 excerpt_separator: <!--more-->
 ---
 
-I decided to tackle the untertaking of making a new website for me to share content, in addition to the reasons I described in <a href="{{site.baseurl}}/blog/2017/01/new-beacon/">New Becon</a>, because of these as well:
+I decided to tackle the untertaking of making a new website for me to share content, in addition to the reasons I described in <a href="{{site.baseurl}}/blog/2017/01/new-beacon/">New Beacon</a>, because of these as well:
 <ul>
-<li>I'm bursting at the seams with content that needs to be shared.I compulsively write blog posts that average 2,000 words in length, and come up with supporting illustrations and graphic concepts. I have a backlog of 35 new and partially fleshed out posts… I wish I was exaggerating!</li>
+<li>I'm bursting at the seams with content that needs to be shared. I compulsively write blog posts that average 2,000 words in length, and come up with supporting illustrations and graphic concepts. I have a backlog of 35 new and partially fleshed out posts… I wish I was exaggerating!</li>
 <li>I want to focus on completing the biggest project I've undertaken to date, the Lion Poem Animation, but I have no place to chronical my works-in-progress and learning, let alone a place to share the finished project (except the brevity of YouTube).</li>
 <li>Accountability: I want to finish what I start. Sharing goals publically adds some needed social pressure.</li>
 <li>Experiments: I don't want to <em>only</em> leave a string of finished projects in my wake, but <em>also</em> behind-the-scenes and lessons learned from making them. I change things up frequently, lately oscillating between researching, writing, drawing, web development, and playing the ukulele, and I've been letting this playful and experimental nature lead my work. The results are rarely uninteresting.</li>
 </ul>
 
 Now, let's get into the logistics, the What and How of making the site.
+<!--more-->
 
 
 ### Why build my own, and why not something simplier, like Squarespace? Tumblr? Weebly? Wix?
@@ -34,13 +35,13 @@ Part of this website is redemption. I've called myself, and even made money as, 
 
 Months before I decided on the website project, I became inspired by the form on online content called MICROSITES. Microsites are just what the name implies, smaller websites created for a single laser-focused goal. 
 
-As an example, take a second to view the beautiful experience that is has rocked my world, <a href="http://www.sbs.com.au/theboat/">The Boat</a>. It details the story of a mother and son, refuges on a dangerous journey.
+<em>As an example, take a second to view the beautiful experience that is has rocked my world, <a href="http://www.sbs.com.au/theboat/">The Boat</a>. It details the story of a mother and son, refuges on a dangerous journey.</em>
 
 The story is based on a book, and if the project was led by more tranditional minds, then the only other format it likely would have been told in a graphic novel. 
 
 But what happens when you take those illustrations, put them on a web page, and make them dynamically respond to user input? On the website, the story progresses as you scroll, images fade in or out, the music gets more dramtic or calm, you trigger sound effects The effect is that the story is expontentially more engaging. 
 
-The possibilities that arise when I consider adding <b>user interactivity</b> to my content, tickles me pink. 
+The possibilities that arise when I consider adding <em>user interactivity</em> to my content, tickles me pink. 
 
 Now the blog becomes more than a place to store written text, but a dynamic homebase from which to branch off with microsites I create. it becomes a place to share experiments from the world of web development and animation.
 
@@ -145,11 +146,4 @@ I also will likely add additional opt-ins for specific project updates.
 
 There are lots of things to consider for future updates, but for now, let's get cozy with what we have. :)
 
-
-### Closing Thoughts
-
-This was a challenge
-
-I'm excited to pause website development and focus on the reason I did all that work: So I can start getting all of my content from my head and to you! 
-
-Thanks for reading.
+<em>I'm excited to pause website development and focus on the reason I did all that work: So I can start getting all of my content from my head and to you!</em>
