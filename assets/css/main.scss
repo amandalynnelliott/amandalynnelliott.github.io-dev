@@ -47,11 +47,37 @@ $on-laptop:        800px; //800
 // --- Layout
 
 .post-content, ul.post-list {
-	max-width: calc(600px - (30px * 2));
+	max-width: calc(625px - (30px * 2));
 }
 
 
 // --- Fonts and readability
+
+/* mobile, to be organized */
+
+@media only screen and (min-width:400px) and (max-width: 800px) {
+	.wrapper {
+		padding-right: 60px;
+	}
+}
+
+
+@include media-query($on-palm){	
+	body{
+		font-size: 16px;
+		line-height: 1.4;
+	}
+	
+	.post .post-content p:first-child {
+		font-size: 20px;
+		line-height: 1.4;
+	}
+	
+	.post .post-content li {
+		margin-left: 0;
+	}
+}
+
 
 .post p:first-child {
 	font-size: 24px;
@@ -127,14 +153,11 @@ caption {
 	margin-left: 20px;
 }
 
-.post ul li {
-	/*list-style-type: circle;*/
-}
-
 p.sidenote {
 	padding: 2em 3em;
 	background-color: $grey-color-light;
-	border-bottom: 10px solid $grey-color;
+	border-left: 10px solid $grey-color;
+	border-radius: 5px;
 	font-style: italic;
 }
 
@@ -357,7 +380,7 @@ p.sign-up {
 
 // ------- Navbar mobile
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: $on-palm) {
 	
 	.menu-button {
 		display: none;
@@ -365,7 +388,7 @@ p.sign-up {
 	
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $on-palm) {
 	
 	.wrapper {
 		//padding: 0;
@@ -469,12 +492,12 @@ input[type="submit"]:focus {
 	margin-bottom: 1.5em;
 }
 
-input[type="text"], textarea {
+input.name, input.email, textarea {
 	width: 100%;
 }
 
 @include media-query($on-palm){
-	input#name, input#email, textarea {
+	input.name, input.email, textarea {
 		width: 94%;
 	}
 }
