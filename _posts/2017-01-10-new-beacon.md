@@ -8,7 +8,7 @@ permalink: /blog/2017/01/new-beacon/
 excerpt_separator: <!--more-->
 ---
 
-For seventeen months outstretched over 2014 and 2015, I wrote for my blog that I called Cheating College, which I gave this slogan: <em>lifelong learning without lifelong debt.</em>
+For seventeen months outstretched over 2014 and 2015, I wrote for my blog that I called <b>Cheating College</b>. I gave this slogan: <em>lifelong learning without lifelong debt.</em>
 
 Cheating College was a way for me to chronical my alternative education pursuits and to dispel advice I learned while on my journey. It was also a great way for me to build the habit of writing regularly and creating content with the intent to be read by a specific audience. 
 
@@ -59,11 +59,11 @@ If I never hit the brakes on that production pipeline, I never would've realized
 
 <em>If a picture is worth a thousand words, what about MOVING pictures? What about 24 pictures per second? ;)</em>
 
-Now free from the "must post weekly mindset," I'm building on my foundation of visual communication. I have a pipeline of personal projects and animations that will each take months, years even, to see to completion. (I've been working on the first one on and off for year now--wow!) And here is where I'll share them.
+Now free from the "must post weekly mindset," I'm building on my foundation of visual communication. I have a pipeline of personal projects and animations that will each take months, years even, to see to completion. And here is where I'll share them.
 
 ### 5. Laser-focus
 
-A lot of my old posts were actually more like exercises in "let's find out ALL the things I can say about x." Most of the articles actually ended up being three=posts-in-one.
+A lot of my old posts were actually more like exercises in "let's find out ALL the things I can say about x." Most of the articles actually ended up being three-posts-in-one.
 
 This happens to me a lot, even in other mediums, like speech-writing: I embark on one idea, yet the content for three spurt out like the birth of the mythical multi-headed Hydra.
 

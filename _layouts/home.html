@@ -16,16 +16,16 @@ layout: default
 			{% assign posts = site.posts %}
 		{% endif %}
 		{% for post in posts %}
-			<li>
+			<li class="post-list-item">
+				<header class="post-header">
 				<h2 class="home-post-title">
 					<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
 				</h2>
 				<span class="post-meta">
 					{{ post.date | date: "%b %-d, %Y" }}
 				</span>
-				<p>
-					{{ post.excerpt }} <em><a href="{{ post.url }}">Read more</a></em>
-				</p>
+				</header>
+				{{ post.excerpt }} <em><a href="{{ post.url }}">Read more</a></em>
 			</li>
 		{% endfor %}
 	</ul>
