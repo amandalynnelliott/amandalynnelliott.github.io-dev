@@ -5,11 +5,11 @@
             var appendString = '';
             for (var i = 0; i < results.length; i++) {  // Iterate over the results
                 var item = store[results[i].ref];
-                appendString += '<li>';
+				appendString += '<header class="post-header">';
                 appendString += '<h2 class="home-post-title"><a class="post-link" href="' + item.url + '">' + item.title + '</a></h2>';
                 appendString += '<span class="post-meta">' + item.date + '</span>';
                 appendString += '<p>' + item.excerpt + '<em><a href="' + item.url + '">Read more</a></em></p>';
-                appendString += '</li>';
+				appendString += '</header>';
             }
             searchResults.innerHTML = appendString;
         } else {
@@ -30,7 +30,10 @@
 
     var searchTerm = getQueryVariable('query');
     if (searchTerm) {
-        document.getElementById('search-box').setAttribute("value", searchTerm);
+		var elements = document.getElementsByClassName('search-box');
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].setAttribute("value", searchTerm);
+		}
         // Initalize lunr with the fields it will be searching on. I've given title
         // a boost of 10 to indicate matches on this field are more important.
         var idx = lunr(function () {

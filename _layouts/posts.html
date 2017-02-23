@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<div class="home">
-	<h1 class="home-title">
-		Amanda's Blog
-		{% if page.category %}
-			: {{ page.title }}
-		{% endif %}
-	</h1>
+<article class="home">
+	<header class="post-header">
+		<h1 class="post-title">
+			Amanda's Blog
+			{% if page.category %}
+				: {{ page.title }}
+			{% endif %}
+		</h1>
+	</header>
 	{{ content }}
 	<ul class="post-list">
 		{% if page.category %}
@@ -30,4 +32,4 @@ layout: default
 		{% endfor %}
 	</ul>
 	<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-</div>
+</article>

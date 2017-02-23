@@ -355,7 +355,7 @@ ul.search {
 	left:-205px;
 }
 
-ul.search input#search-box {
+ul.search input.search-box {
 	padding: 0.5em;
 	background-color: $grey-color-dark;
 	border: 1px solid $grey-color;
@@ -367,7 +367,7 @@ ul.search input#search-box {
 	color: $grey-color-light;
 }
 
-ul.search input#search-box:focus {
+ul.search input.search-box:focus {
 	outline: none;
 	border-color: #fff;
 }
@@ -399,7 +399,6 @@ p.sign-up {
 	.site-title {
 		padding: 0 15px;
 		display: block;
-
 	}
 	
 	.menu-button {
@@ -412,7 +411,6 @@ p.sign-up {
 	nav {
 		display: block;
 		width: 100%;	
-		display: block;
 		height: 40px;
 	}
 	

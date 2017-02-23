@@ -34,12 +34,12 @@
 					{% endif %}
 				{% endfor %}
 				<li>
-					<a href="/search.html"><span class="fa fa-search"></span></a>
+					<a href="/search/"><span class="fa fa-search"></span></a>
 					<ul class="search">
 						<li>
-							<form action="/search.html" method="get">
+							<form action="/search/" method="get">
 								<label for="search-box"></label>
-								<input type="text" id="search-box" name="query" placeholder="Search">
+								<input type="text" class="search-box" name="query" placeholder="Search">
 							</form>
 						</li>
 					</ul>
@@ -52,6 +52,3 @@
 <div class="wrapper">
 	<p class="sign-up">Sign up to receive Amanda's <a href="/email-signup/">blog posts by email</a>.</p>
 </div>
-
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="{{site.url}}/assets/js/menu.js"></script>

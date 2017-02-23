@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Contact
+permalink: /contact/
+weight: 2
 ---
 <form id="contact_form" action="https://formspree.io/leshrec2@gmail.com" method="POST" enctype="multipart/form-data">
     <div class="row">
