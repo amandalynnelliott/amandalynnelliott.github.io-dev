@@ -1,12 +1,12 @@
 <header class="site-header" role="banner">
 	<div class="wrapper">
 		<a class="site-title" href="/">{{ site.title }}</a>
-		<button type="button" class="menu-button" onclick="$('header nav ul').toggleClass('open');">
+		<button type="button" class="menu-button" onclick="$('.nav').toggleClass('open'); $('.menu-button').toggleClass('open');">
 			<span>Menu</span>
 		</button>
 		<nav>
 			<ul class="nav">
-				<li>
+				<li class="submenu-header" onclick="$('ul.submenu').toggleClass('open');">
 					<a>Blog</a> <!-- add href="/" back -->
 					<ul class="submenu">
 						{% for category in site.categories %}
@@ -36,7 +36,7 @@
 					{% endif %}
 				{% endfor %}
 				<li>
-					<a href="/search/"><span class="fa fa-search"></span></a>
+					<a><span class="fa fa-search"></span></a> <!-- add href="/search/" back-->
 					<ul class="search">
 						<li>
 							<form action="/search/" method="get">

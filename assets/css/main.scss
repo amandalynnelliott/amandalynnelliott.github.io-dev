@@ -319,6 +319,13 @@ nav {
 			white-space: nowrap;
 			z-index: 1;
 			left: -99999em;
+			/* visibility: hidden;
+			display: none;*/
+		}
+
+		.nav ul:hover {
+			visibility: visible;
+			display: block;
 		}
 
 		.nav > li:hover > ul {
@@ -329,8 +336,6 @@ nav {
 
 		.nav > li li:hover > ul {
 			left: 100%;
-			margin-left: 1px;
-			top: -1px;
 		}
 
 	.nav li:hover > ul a {
@@ -411,14 +416,25 @@ p.sign-up {
 }
 
 @media screen and (max-width: 400px) {	
+	
 	.menu-button {
 		display: block;
-		color: #d8d8d8;
+		color: $grey-color-light;
 		background-color: $grey-color-dark;
+		border: 1px solid $grey-color-dark;
 		padding: 10px 0px;
 		border: none;
 		font-size: 16px;
 		width: 100%;
+		border-radius: 5px;
+		outline: none;
+	}
+	
+	.menu-button.open {
+		border: 1px solid $grey-color;
+		color: $grey-color;
+		background-color: transparent;
+		outline: none;
 	}
 	
 	span {
@@ -445,6 +461,33 @@ p.sign-up {
 		overflow-y: visible;
 	}
 	
+	ul.submenu {
+		overflow: hidden;
+		visibility: hidden;
+		display: none;
+	}
+	
+	ul.submenu.open {
+		visibility: visible; /* redundant? */
+		display: block;
+		overflow-y: visible;
+		position: relative;
+		text-indent: 1em;
+		
+	} 
+	
+	/*.nav ul.submenu > li:first-child {
+		border-top: 5px solid $text-color;
+	}
+	
+	.nav ul.submenu > li:last-child {
+		border-bottom: 5px solid $text-color;
+	} 
+	
+	.submenu-header > a {
+		color: white;
+	} */
+	
 	header nav ul li {
 		float: none;
 		width: 100%;
@@ -462,6 +505,26 @@ p.sign-up {
 	
 	.nav a {
 		padding: 1em 1.5em;
+	}
+	
+	.nav li > ul li a {
+		line-height: 16px;
+	}
+	
+	.nav li:hover > a {
+		background-color: transparent;
+	}
+	
+	.nav > li:hover > ul {
+		border-top: 0px;
+	}
+	
+	.nav li:hover > ul li:first-child a {
+		padding-top: 0.5em;
+	}
+
+	.nav li:hover > ul li:last-child a {
+		padding-bottom: 0.5em;
 	}
 	
 }
