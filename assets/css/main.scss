@@ -382,8 +382,7 @@ ul.search input.search-box:focus {
 // --- sign up
 
 p.sign-up {
-	margin-top: 1.5em;
-	margin-bottom: 0;
+	margin-bottom: 2em;
 	font-size: 14px;
 }
 
@@ -392,6 +391,10 @@ p.sign-up {
 @media screen and (min-width: 400px) {
 	
 	.menu-button {
+		display: none;
+	}
+
+	.caret {
 		display: none;
 	}
 	
@@ -472,7 +475,7 @@ p.sign-up {
 		display: block;
 		overflow-y: visible;
 		position: relative;
-		text-indent: 1em;
+		text-indent: 0;
 		
 	} 
 	

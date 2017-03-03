@@ -11,14 +11,14 @@
 					<ul class="submenu">
 						{% for category in site.categories %}
 						<li>
-							<a href="/{{ category | first }}/">{{ category | first | capitalize }}</a>
+							<a href="/{{ category | first }}/"><span class="fa fa-angle-right caret">&emsp;</span>{{ category | first | capitalize }}</a>
 						</li>
 						{% endfor %}
 						<li>
-							<a href="/archives/">Full Archive</a>
+							<a href="/archives/"><span class="fa fa-angle-right caret">&emsp;</span>Full Archive</a>
 						</li>
 						<li>
-							<a href="/email-signup/">Blog Posts by Email</a>
+							<a href="/email-signup/"><span class="fa fa-angle-right caret">&emsp;</span>Blog Posts by Email</a>
 						</li>
 					</ul>	
 				</li>
@@ -35,9 +35,9 @@
 						</li>
 					{% endif %}
 				{% endfor %}
-				<li>
+				<li onclick="$('ul.search').toggleClass('open');">
 					<a><span class="fa fa-search"></span></a> <!-- add href="/search/" back-->
-					<ul class="search">
+					<ul class="search submenu">
 						<li>
 							<form action="/search/" method="get">
 								<label for="search-box"></label>
@@ -51,20 +51,15 @@
 	</div>
 </header>
 
-<div class="wrapper">
-	<p class="sign-up">Sign up to receive Amanda's <a href="/email-signup/">blog posts by email</a>.</p>
-</div>
-
-
 <script>
 // Navbar mobile submenus
-	$('ul.nav > li > a').click(function() {
+	$('ul.nav > li > a').click(function () {
         
-        $('ul.sub-menu').slideUp('normal');
+        $('ul.submenu').slideUp('normal');
    
-        if($(this).next('ul.sub-menu').is(':hidden') == true) {    
-            $(this).next('ul.sub-menu').slideDown('normal');
-            } 
+        if ($(this).next('ul.submenu').is(':hidden') == true) {    
+            $(this).next('ul.submenu').slideDown('normal');
+        } 
             
     });
 </script>

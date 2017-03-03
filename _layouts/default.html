@@ -5,6 +5,12 @@
 <body>
 	{% include header.html %}
 	<main class="page-content" aria-label="Content">
+		<!-- FINISH ME -->
+		{% if page.url != "/email-signup/" %}
+		<div class="wrapper">
+			<p class="sign-up">Sign up to receive Amanda's <a href="/email-signup/">blog posts by email</a>.</p>
+		</div>
+		{% endif %}
 		<div class="wrapper">
 			{{ content }}
 		</div>
