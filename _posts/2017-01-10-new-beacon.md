@@ -8,7 +8,7 @@ permalink: /blog/2017/01/new-beacon/
 excerpt_separator: <!--more-->
 ---
 
-For seventeen months outstretched over 2014 and 2015, I wrote for my blog that I called <b>Cheating College</b>. I gave this slogan: <em>lifelong learning without lifelong debt.</em>
+For seventeen months outstretched over 2014 and 2015, I wrote for my blog that I called <b>Cheating College</b>. I gave it this slogan: <em>lifelong learning without lifelong debt.</em>
 
 Cheating College was a way for me to chronical my alternative education pursuits and to dispel advice I learned while on my journey. It was also a great way for me to build the habit of writing regularly and creating content with the intent to be read by a specific audience. 
 

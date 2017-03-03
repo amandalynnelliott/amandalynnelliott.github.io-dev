@@ -144,7 +144,7 @@ Why reinvent the wheel? Here are some other tools used to get this bad boy up an
 <ul>
 <li><a href="https://jekyllrb.com/">Jekyll</a> - static site generator</li>
 <li><a href="http://brackets.io/">Brackets</a> - my beautiful and minimal code editor of choice. Open source, and ideal for web dev.</li>
-<li><a href="https://www.visualstudio.com/vs/">Microsoft Visual Studio</a> - Davis' code editor of choice.</li>
+<li><a href="https://www.visualstudio.com/vs/">Microsoft Visual Studio Code</a> - Davis' code editor of choice.</li>
 <li><a href="https://trello.com/">Trello</a> - project management</li>
 <li><a href="https://mailchimp.com/">MailChimp</a> - newsletter signup. Free up to 2,000 subscribers.</li>
 <li><a href="http://lunrjs.com/">Lunr.js</a> - search functionality</li>

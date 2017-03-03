@@ -1,12 +1,14 @@
 <header class="site-header" role="banner">
 	<div class="wrapper">
 		<a class="site-title" href="/">{{ site.title }}</a>
-		<a class="menu-button" onclick="$('header nav ul').toggleClass('open');">Menu</a>
+		<button type="button" class="menu-button" onclick="$('header nav ul').toggleClass('open');">
+			<span>Menu</span>
+		</button>
 		<nav>
 			<ul class="nav">
 				<li>
-					<a href="/">Blog</a>
-					<ul>
+					<a>Blog</a> <!-- add href="/" back -->
+					<ul class="submenu">
 						{% for category in site.categories %}
 						<li>
 							<a href="/{{ category | first }}/">{{ category | first | capitalize }}</a>
@@ -52,3 +54,17 @@
 <div class="wrapper">
 	<p class="sign-up">Sign up to receive Amanda's <a href="/email-signup/">blog posts by email</a>.</p>
 </div>
+
+
+<script>
+// Navbar mobile submenus
+	$('ul.nav > li > a').click(function() {
+        
+        $('ul.sub-menu').slideUp('normal');
+   
+        if($(this).next('ul.sub-menu').is(':hidden') == true) {    
+            $(this).next('ul.sub-menu').slideDown('normal');
+            } 
+            
+    });
+</script>
