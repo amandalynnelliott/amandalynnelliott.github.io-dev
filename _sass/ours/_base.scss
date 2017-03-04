@@ -1,0 +1,87 @@
+/**
+ * Basic styling
+ */
+body {
+	overflow-y: scroll;
+	@include media-query($on-palm) {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}
+
+
+/**
+ * Headings
+ */
+h1, h2, h3 {
+	font-weight: 600;
+	font-family: 'Signika', sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+	letter-spacing: normal;
+}
+
+h4 {
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: $grey-color;
+}
+
+p ~ h2, p ~ h3, p ~ h4 {
+	margin-top: 60px;
+}
+
+
+/**
+ * Paragraphs
+ */
+
+p {
+	margin-bottom: 20px;
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+	margin: 1.5em 0;
+	font-size: 1.5em;
+	font-style: italic;
+	padding-left: 2em;
+	border-left: 10px solid #e8e8e8;
+}
+
+blockquote footer {
+	font-size: 0.8em;
+	margin: 0.5em 0;
+}
+
+
+
+/**
+ * Images
+ */
+caption, figcaption {
+	color: $grey-color-light;
+}
+
+
+/**
+ * Links
+ */
+
+a {
+	color: $brand-color;
+
+	&:visited {
+		color: $brand-color;
+	}
+
+	&:hover {
+		color: $brand-color;
+	}
+}

@@ -8,13 +8,10 @@ layout: default
     </header>
     <div class="post-content" itemprop="articleBody">
         {{ content }}
+		<div class="post-easter-egg">
+			<p>RABBIT</p>
+		</div>
     </div>
-    {% if site.disqus.shortname %}
-		{% include disqus_comments.html %}
-    {% endif %}
-    <div class="post-easter-egg">
-		<p style="color: red"><strong>RABBIT</strong></p>
-	</div>
 	
 </article>
 
