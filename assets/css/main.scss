@@ -318,24 +318,20 @@ nav {
 			position: absolute;
 			white-space: nowrap;
 			z-index: 1;
-			left: -99999em;
-			/* visibility: hidden;
-			display: none;*/
+			display: none;
 		}
 
 		.nav ul:hover {
-			visibility: visible;
-			display: block;
+
 		}
 
 		.nav > li:hover > ul {
-			left: auto;
+			display: block;
 			min-width: 100%;
 			border-top: 5px solid $text-color;
 		}
 
 		.nav > li li:hover > ul {
-			left: 100%;
 		}
 
 	.nav li:hover > ul a {
