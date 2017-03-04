@@ -1,12 +1,12 @@
 <header class="site-header" role="banner">
 	<div class="wrapper">
 		<a class="site-title" href="/">{{ site.title }}</a>
-		<button type="button" class="menu-button" onclick="$('.nav').toggleClass('open'); $('.menu-button').toggleClass('open');">
+		<button type="button" class="menu-button">
 			<span>Menu</span>
 		</button>
 		<nav>
 			<ul class="nav">
-				<li class="submenu-header" onclick="$('ul.submenu').toggleClass('open');">
+				<li class="submenu-header">
 					<a>Blog</a> <!-- add href="/" back -->
 					<ul class="submenu">
 						{% for category in site.categories %}
@@ -22,20 +22,21 @@
 						</li>
 					</ul>	
 				</li>
-				{% assign pages = site.pages | sort: "weight" %}
-				{% for page in pages %}
-					{% if page.weight %}
-						<li>
-							{% if page.linkTitle %}
-								{% assign title = page.linkTitle %}
-							{% else %}
-								{% assign title = page.title %}
-							{% endif %}
-							<a href="{{ page.url }}">{{ title }}</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-				<li onclick="$('ul.search').toggleClass('open');">
+				<li>
+					<a href="/about/">About</a>
+				</li>
+				<li>
+					<a href="/contact/">Contact</a>
+				</li>
+				<li class="submenu-header">
+					<a>Test</a>
+					<ul class="submenu">
+						<li>Test 1</li>
+						<li>Test 2</li>
+						<li>Test 3</li>
+					</ul>
+				</li>
+				<li class="submenu-header">
 					<a><span class="fa fa-search"></span></a> <!-- add href="/search/" back-->
 					<ul class="search submenu">
 						<li>
@@ -52,14 +53,24 @@
 </header>
 
 <script>
-// Navbar mobile submenus
-	$('ul.nav > li > a').click(function () {
-        
-        $('ul.submenu').slideUp('normal');
-   
-        if ($(this).next('ul.submenu').is(':hidden') == true) {    
-            $(this).next('ul.submenu').slideDown('normal');
-        } 
-            
-    });
+$('.menu-button').click(function () {
+	if ($('.menu-button').hasClass('open')) {
+		$('nav').removeClass('open');
+		$('.menu-button').removeClass('open');
+		$('ul.nav').removeClass('open');
+		$('.submenu').removeClass('open');
+	} else {
+		$('nav').addClass('open');
+		$('.menu-button').addClass('open');
+		$('ul.nav').addClass('open');
+	}
+});
+
+$('.submenu-header').click(function () {
+	if ($(this).next('ul.submenu').hasClass('open')) {
+		window.location.href = "/";
+	} else {
+		$(this).next('ul.submenu').addClass('open');
+	}
+});
 </script>

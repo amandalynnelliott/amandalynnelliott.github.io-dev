@@ -439,15 +439,22 @@ p.sign-up {
 		background-color: transparent;
 		outline: none;
 	}
+
+	.wrapper {
+		padding-bottom: 15px;
+	}
 	
 	span {
 		font-family: $base-font-family;
 	}
 	
 	nav {
-		display: block;
+		display: none;
 		width: 100%;	
-		height: 15px;
+	}
+
+	nav.open {
+		display: flex;
 	}
 	
 	header nav ul {

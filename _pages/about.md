@@ -1,9 +1,7 @@
 ---
 layout: right-sidebar
-linkTitle: About
 title: About Amanda
 permalink: /about/
-weight: 1
 ---
 
 <style>
