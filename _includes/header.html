@@ -31,9 +31,9 @@
 				<li class="submenu-header">
 					<a>Test</a>
 					<ul class="submenu">
-						<li>Test 1</li>
-						<li>Test 2</li>
-						<li>Test 3</li>
+						<li><a>Test 1</a></li>
+						<li><a>Test 2</a></li>
+						<li><a>Test 3</a></li>
 					</ul>
 				</li>
 				<li class="submenu-header">
@@ -66,7 +66,7 @@ $('.menu-button').click(function () {
 	}
 });
 
-$('.submenu-header').click(function () {
+$('ul.nav > li > a').click(function () {
 	if ($(this).next('ul.submenu').hasClass('open')) {
 		window.location.href = "/";
 	} else {
