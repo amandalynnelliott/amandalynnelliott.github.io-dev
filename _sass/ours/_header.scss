@@ -1,3 +1,8 @@
+.wrapper {
+	@media screen and (max-width: 400px) {	
+		padding-bottom: 15px;	
+	}
+}
 
 .site-header {
 	background-color: $top-dark;
@@ -14,6 +19,13 @@
 	&:visited {
 		color: $site-title; 
 	}
+
+	@media screen and (max-width: $on-palm) {	
+		padding: 0 15px;
+		display: block;
+		float: none;
+		text-align: center;	
+	}
 }
 
 
@@ -23,6 +35,19 @@ nav {
 	justify-content: center;
 	//vertical-align: top; 
 	//align-items: stretch;
+
+	@media screen and (min-width: $on-phone) and (max-width: $on-palm) {
+		border-top: 1px solid $grey-color;
+	}
+
+	@media screen and (max-width: $on-phone) {
+		display: none;
+		width: 100%;
+
+		&.open {
+			display: flex;
+		}
+	}
 
 	& > ul > li {
 		float: left;
@@ -34,8 +59,27 @@ nav {
 		padding: 0;
 		list-style: none;
 
+		@media screen and (max-width: $on-phone) {
+			overflow: hidden;
+			background-color: $grey-color-dark;
+			visibility: hidden;
+			display: none;
+			overflow-x: visible;
+
+			&.open {
+				visibility: visible;
+				display: block;
+				overflow-y: visible;
+			}
+		}
+
 		li {
 			position: relative;
+
+			@media screen and (max-width: $on-phone) {	
+				width: 100%;
+				margin: 0;
+			}
 
 			&:hover > a {
 				color: #fff;
@@ -46,18 +90,30 @@ nav {
 				display: block;
 				min-width: 100%;
 				border-top: 5px solid $text-color;
+
+				@media screen and (max-width: $on-phone) {	
+					border: 0px;
+				}
 		
 				a {
 					padding: 0.5em 1.5em;
 					background-color: $grey-color-dark;
 				}
-		
+
 				li:first-child a {
 					padding-top: 1.5em;
+
+					@media screen and (max-width: $on-phone) {	
+						padding-top: 0.5em;
+					}
 				}
 		
 				li:last-child a {
 					padding-bottom: 1.5em;
+
+					@media screen and (max-width: $on-phone) {	
+						padding-bottom: 0.5em;
+					}
 				}
 
 				&.search {
@@ -70,9 +126,14 @@ nav {
 				background: $top-dark;
 				color: $site-title;
 				text-decoration: none;
-				padding: 1.3em 1.5em;
+				padding: 20px;
 				position: relative;
 				font-size: 14px;
+
+				@media screen and (max-width: $on-phone) {
+					padding: 1em 1.5em;
+					border-bottom: 1px solid $grey-color;
+				}
 
 				&:visited {
 					color: $site-title;
@@ -86,11 +147,28 @@ nav {
 
 		}
 
-		ul {
+		ul { // --- submenus
 			position: absolute;
 			white-space: nowrap;
 			z-index: 1;
 			display: none;
+
+			@media screen and (max-width: $on-phone) {
+				overflow: hidden;
+				visibility: hidden;
+				display: none;
+
+				&.open {
+					visibility: visible; 
+					display: block;
+					overflow-y: visible;
+					position: relative;	
+				}
+
+				a {
+					line-height: 16px;
+				}
+			}
 		}
 
 		&.search {
@@ -114,5 +192,42 @@ nav {
 				}
 			}
 		}
+	}
+}
+
+p.sign-up {
+	margin-bottom: 2em;
+	font-size: 14px;
+}
+
+.menu-button {
+	@media screen and (max-width: $on-phone) {
+		display: block;
+		color: $grey-color-light;
+		background-color: $grey-color-dark;
+		border: 1px solid $grey-color-dark;
+		padding: 10px 0px;
+		border: none;
+		font-size: 16px;
+		width: 100%;
+		border-radius: 5px;
+		outline: none;
+
+		&.open { //might mess up with jquery
+			border: 1px solid $grey-color;
+			color: $grey-color;
+			background-color: transparent;
+			outline: none;
+		}
+	}
+
+	@media screen and (min-width: $on-phone) {
+		display: none;
+	}
+}
+
+.caret {
+	@media screen and (min-width: $on-phone) {
+		display: none;
 	}
 }
