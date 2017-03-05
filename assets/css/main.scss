@@ -18,7 +18,7 @@ $brand-color:      rgb(113, 120, 175);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 25%); //#424242
 $top-dark:         #292929;
 $site-title:       #e4e4e4;
 
@@ -43,157 +43,6 @@ $on-laptop:        800px;
 @import "ours";
 
 
-
-
-
-// --- Header
-
-.site-header {
-	background-color: $top-dark;
-}
-
-.site-title, .site-title:visited {
-	color: $site-title; 
-}
-
-.site-title:hover {
-	text-decoration: none;
-	color: #fff;
-}
-
-.site-nav {
-	background-color: $top-dark;
-}
-
-
-
-
-
-
-nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-
-.nav a {
-	display: block;
-	background: #292929;
-	color: #e4e4e4;
-	text-decoration: none;
-	padding: 1.3em 1.5em;
-	position: relative;
-	font-size: 14px;
-}
-
-.nav {
-	vertical-align: top;
-	display: inline-block;
-}
-
-.nav li {
-	position: relative;
-}
-
-	.nav > li {
-		float: left;
-	}
-
-		.nav > li > a {
-		}
-
-		.nav > li:hover,
-		.nav > li:hover > a {
-		}
-
-	.nav li:hover > a {
-		color: #fff;
-		background-color: #424242;
-	}
-
-	.nav > li:first-child {
-	}
-
-		.nav > li:first-child > a {
-		}
-
-	.nav > li:last-child {
-		margin-right: 0;
-	}
-
-		.nav > li:last-child > a {
-		}
-
-	.nav li li a {
-	}
-
-		/* submenu positioning*/
-		.nav ul {
-			position: absolute;
-			white-space: nowrap;
-			z-index: 1;
-			display: none;
-		}
-
-		.nav ul:hover {
-
-		}
-
-		.nav > li:hover > ul {
-			display: block;
-			min-width: 100%;
-			border-top: 5px solid $text-color;
-		}
-
-		.nav > li li:hover > ul {
-		}
-
-	.nav li:hover > ul a {
-		padding: 0.5em 1.5em;
-		background-color: $grey-color-dark;
-	}
-
-	.nav li:hover > ul li:first-child a {
-		padding-top: 1.5em;
-	}
-
-	.nav li:hover > ul li:last-child a {
-		padding-bottom: 1.5em;
-	}
-
-	// Search navbar link
-
-ul.search {
-	background-color: $grey-color-dark;
-	padding: 1em 0.5em;
-}
-
-.nav li:hover > ul.search {
-	left:-209px;
-}
-
-ul.search input.search-box {
-	padding: 0.5em;
-	background-color: $grey-color-dark;
-	border: 1px solid $grey-color;
-	border-radius: 5px;
-	width: 200px;
-	height: 1.5em;
-	margin: 0 1em;
-	font-size: 14px;
-	color: $grey-color-light;
-}
-
-ul.search input.search-box:focus {
-	outline: none;
-	border-color: #fff;
-}
 
 // --- sign up
 
@@ -315,7 +164,7 @@ p.sign-up {
 	} */
 	
 	header nav ul li {
-		float: none;
+		//float: none;
 		width: 100%;
 		margin: 0;
 	}
