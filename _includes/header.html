@@ -1,14 +1,12 @@
-<header class="site-header" role="banner">
+<header role="banner">
 	<div class="wrapper">
-		<a class="site-title" href="/">{{ site.title }}</a>
-		<button type="button" class="menu-button">
-			Menu
-		</button>
+		<a href="/">{{ site.title }}</a>
+		<button type="button">Menu</button>
 		<nav>
-			<ul class="nav">
-				<li class="submenu-header">
-					<a>Blog</a> <!-- add href="/" back -->
-					<ul class="submenu">
+			<ul>
+				<li>
+					<a href="#" class="blog-link">Blog</a>
+					<ul class="blog-menu">
 						{% for category in site.categories %}
 						<li>
 							<a href="/{{ category | first }}/"><span class="fa fa-angle-right caret">&emsp;</span>{{ category | first | capitalize }}</a>
@@ -20,7 +18,7 @@
 						<li>
 							<a href="/email-signup/"><span class="fa fa-angle-right caret">&emsp;</span>Blog Posts by Email</a>
 						</li>
-					</ul>	
+					</ul>
 				</li>
 				<li>
 					<a href="/about/">About</a>
@@ -28,17 +26,17 @@
 				<li>
 					<a href="/contact/">Contact</a>
 				</li>
-				<li class="submenu-header">
-					<a>Test</a>
-					<ul class="submenu">
-						<li><a>Test 1</a></li>
-						<li><a>Test 2</a></li>
-						<li><a>Test 3</a></li>
+				<li>
+					<a href="#" class="test-link">Test</a>
+					<ul class="test-menu">
+						<li><a><span class="fa fa-angle-right caret">&emsp;</span>Test 1</a></li>
+						<li><a><span class="fa fa-angle-right caret">&emsp;</span>Test 2</a></li>
+						<li><a><span class="fa fa-angle-right caret">&emsp;</span>Test 3</a></li>
 					</ul>
 				</li>
-				<li class="submenu-header">
-					<a><span class="fa fa-search"></span></a> <!-- add href="/search/" back-->
-					<ul class="search submenu">
+				<li>
+					<a href="#" class="search-link"><span class="fa fa-search"></span></a>
+					<ul class="search-menu">
 						<li>
 							<form action="/search/" method="get">
 								<label for="search-box"></label>
@@ -53,24 +51,39 @@
 </header>
 
 <script>
-$('.menu-button').click(function () {
-	if ($('.menu-button').hasClass('open')) {
+$('header > div > button').click(function () {
+	if ($(this).hasClass('open')) {
+		$(this).removeClass('open');
 		$('nav').removeClass('open');
-		$('.menu-button').removeClass('open');
-		$('ul.nav').removeClass('open');
-		$('.submenu').removeClass('open');
+		$('nav > ul').removeClass('open');
 	} else {
+		$(this).addClass('open');
 		$('nav').addClass('open');
-		$('.menu-button').addClass('open');
-		$('ul.nav').addClass('open');
+		$('nav > ul').addClass('open');
 	}
 });
 
-$('ul.nav > li > a').click(function () {
-	if ($(this).next('ul.submenu').hasClass('open')) {
-		window.location.href = "/";
+$('.blog-link').click(function () {
+	if ($('.blog-menu').hasClass('open')) {
+		document.location.href = "/";
 	} else {
-		$(this).next('ul.submenu').addClass('open');
+		$('.blog-menu').addClass('open');
+	}
+});
+
+$('.test-link').click(function () {
+	if ($('.test-menu').hasClass('open')) {
+		document.location.href = "/";
+	} else {
+		$('.test-menu').addClass('open');
+	}
+});
+
+$('.search-link').click(function () {
+	if ($('.search-menu').hasClass('open')) {
+		document.location.href = "/search/";
+	} else {
+		$('.search-menu').addClass('open');
 	}
 });
 </script>

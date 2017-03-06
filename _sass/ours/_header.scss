@@ -1,33 +1,58 @@
-.wrapper {
-	@media screen and (max-width: 400px) {	
-		padding-bottom: 15px;	
-	}
-}
-
-.site-header {
+header {
 	background-color: $top-dark;
-}
 
-.site-title {
-	color: $site-title; 
-
-	&:hover {
-		text-decoration: none;
-		color: #fff;
-	}
-
-	&:visited {
+	& > .wrapper > a {
 		color: $site-title; 
+		font-size: 26px;
+  		font-weight: 300;
+  		line-height: 56px;
+  		letter-spacing: -1px;
+  		margin-bottom: 0;
+  		float: left;
+
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+
+		&:visited {
+			color: $site-title; 
+		}
+
+		@media screen and (max-width: $on-palm) {	
+			padding: 0 15px;
+			display: block;
+			float: none;
+			text-align: center;	
+		}
 	}
 
-	@media screen and (max-width: $on-palm) {	
-		padding: 0 15px;
-		display: block;
-		float: none;
-		text-align: center;	
+	button {
+		@media screen and (max-width: $on-phone) {
+			display: block;
+			color: $grey-color-light;
+			background-color: $grey-color-dark;
+			border: 1px solid $grey-color-dark;
+			padding: 10px 0px;
+			border: none;
+			font-size: 16px;
+			width: 100%;
+			border-radius: 5px;
+			outline: none;
+
+			&.open { //might mess up with jquery
+				border: 1px solid $grey-color;
+				color: $grey-color;
+				background-color: transparent;
+				outline: none;
+			}
+		}
+
+		@media screen and (min-width: $on-phone) {
+			display: none;
+		}
 	}
 }
-
 
 nav {
 	display: flex;
@@ -81,43 +106,50 @@ nav {
 				margin: 0;
 			}
 
-			&:hover > a {
-				color: #fff;
-				background-color: $grey-color-dark;
-			}
-
-			&:hover > ul {
-				display: block;
-				min-width: 100%;
-				border-top: 5px solid $text-color;
-
-				@media screen and (max-width: $on-phone) {	
-					border: 0px;
-				}
-		
-				a {
-					padding: 0.5em 1.5em;
+			// FIXME
+			@media screen and (min-width: $on-phone) {	
+				&:hover > a {
+					color: #fff;
 					background-color: $grey-color-dark;
 				}
 
-				li:first-child a {
-					padding-top: 1.5em;
+				&:hover > ul {
+					display: block;
+					min-width: 100%;
+					border-top: 5px solid $text-color;
 
 					@media screen and (max-width: $on-phone) {	
-						padding-top: 0.5em;
+						border: 0px;
 					}
-				}
-		
-				li:last-child a {
-					padding-bottom: 1.5em;
-
-					@media screen and (max-width: $on-phone) {	
-						padding-bottom: 0.5em;
+			
+					a {
+						padding: 0.5em 1.5em;
+						background-color: $grey-color-dark;
 					}
-				}
 
-				&.search {
-					left:-209px;
+					li:first-child a {
+						padding-top: 1.5em;
+
+						@media screen and (max-width: $on-phone) {	
+							padding-top: 0.5em;
+						}
+					}
+			
+					li:last-child a {
+						padding-bottom: 1.5em;
+
+						@media screen and (max-width: $on-phone) {	
+							padding-bottom: 0.5em;
+						}
+					}
+
+					&.search-menu {
+						left:-209px;
+
+						@media screen and (max-width: $on-phone) {	
+							left: 0px;
+						}
+					}
 				}
 			}
 
@@ -171,7 +203,7 @@ nav {
 			}
 		}
 
-		&.search {
+		&.search-menu {
 			background-color: $grey-color-dark;
 			padding: 1em 0.5em;
 
@@ -198,32 +230,6 @@ nav {
 p.sign-up {
 	margin-bottom: 2em;
 	font-size: 14px;
-}
-
-.menu-button {
-	@media screen and (max-width: $on-phone) {
-		display: block;
-		color: $grey-color-light;
-		background-color: $grey-color-dark;
-		border: 1px solid $grey-color-dark;
-		padding: 10px 0px;
-		border: none;
-		font-size: 16px;
-		width: 100%;
-		border-radius: 5px;
-		outline: none;
-
-		&.open { //might mess up with jquery
-			border: 1px solid $grey-color;
-			color: $grey-color;
-			background-color: transparent;
-			outline: none;
-		}
-	}
-
-	@media screen and (min-width: $on-phone) {
-		display: none;
-	}
 }
 
 .caret {

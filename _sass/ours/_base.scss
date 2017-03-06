@@ -9,6 +9,14 @@ body {
 	}
 }
 
+div {
+	&.wrapper {
+		@media screen and (max-width: 400px) {	
+			padding-bottom: 15px;
+		}
+	}
+}
+
 
 /**
  * Headings
@@ -90,7 +98,7 @@ a {
  * Inputs and buttons
  */
 
- button {
-	 font-family: $base-font-family;
-	 font-size: $base-font-size;
- }
+button {
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+}
