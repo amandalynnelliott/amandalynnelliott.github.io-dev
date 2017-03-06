@@ -1,14 +1,14 @@
-<header role="banner">
+<header class="site-header" role="banner">
 	<div class="wrapper">
-		<a href="/">{{ site.title }}</a>
-		<button type="button">Menu</button>
-		<nav>
-			<ul>
-				<li>
-					<a href="#" class="blog-link">Blog</a>
-					<ul class="blog-menu">
+		<a class="site-title" href="/">{{ site.title }}</a>
+		<button class="menu-button" type="button" >Menu</button>
+		<nav class="site-nav">
+			<ul class="nav-menu">
+				<li class="nav-item">
+					<a href="#">Blog</a>
+					<ul class="nav-submenu">
 						{% for category in site.categories %}
-						<li>
+						<li class="nav-submenu-item">
 							<a href="/{{ category | first }}/"><span class="fa fa-angle-right caret">&emsp;</span>{{ category | first | capitalize }}</a>
 						</li>
 						{% endfor %}
@@ -20,23 +20,23 @@
 						</li>
 					</ul>
 				</li>
-				<li>
+				<li class="nav-item">
 					<a href="/about/">About</a>
 				</li>
-				<li>
+				<li class="nav-item">
 					<a href="/contact/">Contact</a>
 				</li>
-				<li>
-					<a href="#" class="test-link">Test</a>
-					<ul class="test-menu">
-						<li><a><span class="fa fa-angle-right caret">&emsp;</span>Test 1</a></li>
-						<li><a><span class="fa fa-angle-right caret">&emsp;</span>Test 2</a></li>
-						<li><a><span class="fa fa-angle-right caret">&emsp;</span>Test 3</a></li>
+				<li class="nav-item">
+					<a href="#">Test</a>
+					<ul class="nav-submenu">
+						<li class="nav-submenu-item"><a><span class="fa fa-angle-right caret">&emsp;</span>Test 1</a></li>
+						<li class="nav-submenu-item"><a><span class="fa fa-angle-right caret">&emsp;</span>Test 2</a></li>
+						<li class="nav-submenu-item"><a><span class="fa fa-angle-right caret">&emsp;</span>Test 3</a></li>
 					</ul>
 				</li>
-				<li>
-					<a href="#" class="search-link"><span class="fa fa-search"></span></a>
-					<ul class="search-menu">
+				<li class="nav-item">
+					<a href="#"><span class="fa fa-search"></span></a>
+					<ul class="nav-submenu search-box">
 						<li>
 							<form action="/search/" method="get">
 								<label for="search-box"></label>
@@ -51,39 +51,43 @@
 </header>
 
 <script>
-$('header > div > button').click(function () {
+$('.menu-button').click(function () {
 	if ($(this).hasClass('open')) {
 		$(this).removeClass('open');
-		$('nav').removeClass('open');
-		$('nav > ul').removeClass('open');
+		$('.site-nav').removeClass('open');
+		$('.nav-menu').removeClass('open');
 	} else {
 		$(this).addClass('open');
-		$('nav').addClass('open');
-		$('nav > ul').addClass('open');
+		$('.site-nav').addClass('open');
+		$('.nav-menu').addClass('open');
 	}
 });
 
-$('.blog-link').click(function () {
-	if ($('.blog-menu').hasClass('open')) {
-		document.location.href = "/";
-	} else {
-		$('.blog-menu').addClass('open');
+$('.nav-item').hover(function () {
+	if ($(window).width() > 600) {
+		$(this).addClass('open');
+	}
+}, function () {
+	if ($(window).width() > 600) {
+		$(this).removeClass('open');
+		$('.nav-submenu', this).removeClass('open');
+	}
+	if ($(window).width() > 400) {
+		$('.nav-item').removeClass('open');
+		$('.nav-submenu').removeClass('open');
 	}
 });
 
-$('.test-link').click(function () {
-	if ($('.test-menu').hasClass('open')) {
-		document.location.href = "/";
+$('.nav-item').click(function () {
+	if ($(window).width() > 600) {
+		document.location.href = '/'; // FIXME
 	} else {
-		$('.test-menu').addClass('open');
-	}
-});
-
-$('.search-link').click(function () {
-	if ($('.search-menu').hasClass('open')) {
-		document.location.href = "/search/";
-	} else {
-		$('.search-menu').addClass('open');
+		if ($('.nav-submenu', this).hasClass('open')) {
+			document.location.href = '/';
+		} else {
+			$(this).addClass('open');
+			$('.nav-submenu', this).addClass('open');
+		}
 	}
 });
 </script>

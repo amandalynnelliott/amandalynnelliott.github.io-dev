@@ -1,65 +1,61 @@
-header {
+.site-header {
 	background-color: $top-dark;
+}
 
-	& > .wrapper > a {
-		color: $site-title; 
-		font-size: 26px;
-  		font-weight: 300;
-  		line-height: 56px;
-  		letter-spacing: -1px;
-  		margin-bottom: 0;
-  		float: left;
+.site-title {
+	color: $site-title; 
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 56px;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	float: left;
 
-		&:hover {
-			text-decoration: none;
-			color: #fff;
-		}
-
-		&:visited {
-			color: $site-title; 
-		}
-
-		@media screen and (max-width: $on-palm) {	
-			padding: 0 15px;
-			display: block;
-			float: none;
-			text-align: center;	
-		}
+	@media screen and (max-width: $on-palm) {	
+		padding: 0 15px;
+		display: block;
+		float: none;
+		text-align: center;	
 	}
 
-	button {
-		@media screen and (max-width: $on-phone) {
-			display: block;
-			color: $grey-color-light;
-			background-color: $grey-color-dark;
-			border: 1px solid $grey-color-dark;
-			padding: 10px 0px;
-			border: none;
-			font-size: 16px;
-			width: 100%;
-			border-radius: 5px;
-			outline: none;
+	&:visited {
+		color: $site-title; 
+	}
 
-			&.open { //might mess up with jquery
-				border: 1px solid $grey-color;
-				color: $grey-color;
-				background-color: transparent;
-				outline: none;
-			}
-		}
-
-		@media screen and (min-width: $on-phone) {
-			display: none;
-		}
+	&:hover {
+		text-decoration: none;
+		color: #fff;
 	}
 }
 
-nav {
+.menu-button {
+	display: none;
+
+	@media screen and (max-width: $on-phone) {
+		display: block;
+		color: $grey-color-light;
+		background-color: $grey-color-dark;
+		border: 1px solid $grey-color-dark;
+		padding: 10px 0px;
+		border: none;
+		font-size: 16px;
+		width: 100%;
+		border-radius: 5px;
+		outline: none;
+	}
+
+	&.open {
+		border: 1px solid $grey-color;
+		color: $grey-color;
+		background-color: transparent;
+		outline: none;
+	}
+}
+
+.site-nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	//vertical-align: top; 
-	//align-items: stretch;
 
 	@media screen and (min-width: $on-phone) and (max-width: $on-palm) {
 		border-top: 1px solid $grey-color;
@@ -73,140 +69,108 @@ nav {
 			display: flex;
 		}
 	}
+}
 
-	& > ul > li {
-		float: left;
+.nav-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	@media screen and (max-width: $on-phone) {
+		overflow: hidden;
+		background-color: $grey-color-dark;
+		visibility: hidden;
+		display: none;
+		overflow-x: visible;
+
+		&.open {
+			visibility: visible;
+			display: block;
+			overflow-y: visible;
+		}
+	}
+}
+
+.nav-item {
+	float: left;
+	position: relative;
+
+	@media screen and (max-width: $on-phone) {	
+		width: 100%;
+		margin: 0;
 	}
 
-	ul {
-		//display: inline-block;
-		margin: 0;
-		padding: 0;
-		list-style: none;
+	a {
+		display: block;
+		background: $top-dark;
+		color: $site-title;
+		text-decoration: none;
+		padding: 20px;
+		position: relative;
+		font-size: 14px;
 
 		@media screen and (max-width: $on-phone) {
-			overflow: hidden;
+			padding: 1em 1.5em;
+			border-bottom: 1px solid $grey-color;
+		}
+
+		&:visited {
+			color: $site-title;
+		}
+
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+
+	&.open > a {
+		color: #fff;
+		background-color: $grey-color-dark;
+	}
+
+	&.open > .nav-submenu {
+		display: block;
+		border-top: 5px solid $text-color;
+
+		@media screen and (max-width: $on-phone) {	
+			border: 0px;
+		}
+
+		a {
+			padding: 0.5em 1.5em;
 			background-color: $grey-color-dark;
-			visibility: hidden;
-			display: none;
-			overflow-x: visible;
-
-			&.open {
-				visibility: visible;
-				display: block;
-				overflow-y: visible;
-			}
 		}
 
-		li {
-			position: relative;
-
+		li:first-child a {
+			padding-top: 1.5em;
 			@media screen and (max-width: $on-phone) {	
-				width: 100%;
-				margin: 0;
-			}
-
-			// FIXME
-			@media screen and (min-width: $on-phone) {	
-				&:hover > a {
-					color: #fff;
-					background-color: $grey-color-dark;
-				}
-
-				&:hover > ul {
-					display: block;
-					min-width: 100%;
-					border-top: 5px solid $text-color;
-
-					@media screen and (max-width: $on-phone) {	
-						border: 0px;
-					}
-			
-					a {
-						padding: 0.5em 1.5em;
-						background-color: $grey-color-dark;
-					}
-
-					li:first-child a {
-						padding-top: 1.5em;
-
-						@media screen and (max-width: $on-phone) {	
-							padding-top: 0.5em;
-						}
-					}
-			
-					li:last-child a {
-						padding-bottom: 1.5em;
-
-						@media screen and (max-width: $on-phone) {	
-							padding-bottom: 0.5em;
-						}
-					}
-
-					&.search-menu {
-						left:-209px;
-
-						@media screen and (max-width: $on-phone) {	
-							left: 0px;
-						}
-					}
-				}
-			}
-
-			a {
-				display: block;
-				background: $top-dark;
-				color: $site-title;
-				text-decoration: none;
-				padding: 20px;
-				position: relative;
-				font-size: 14px;
-
-				@media screen and (max-width: $on-phone) {
-					padding: 1em 1.5em;
-					border-bottom: 1px solid $grey-color;
-				}
-
-				&:visited {
-					color: $site-title;
-				}
-
-				&:hover {
-					color: #fff;
-					text-decoration: none;
-				}
-			}
-
-		}
-
-		ul { // --- submenus
-			position: absolute;
-			white-space: nowrap;
-			z-index: 1;
-			display: none;
-
-			@media screen and (max-width: $on-phone) {
-				overflow: hidden;
-				visibility: hidden;
-				display: none;
-
-				&.open {
-					visibility: visible; 
-					display: block;
-					overflow-y: visible;
-					position: relative;	
-				}
-
-				a {
-					line-height: 16px;
-				}
+				padding-top: 0.5em;
 			}
 		}
 
-		&.search-menu {
+		li:last-child a {
+			padding-bottom: 1.5em;
+			@media screen and (max-width: $on-phone) {	
+				padding-bottom: 0.5em;
+			}
+		}
+		
+		&.search-box {
+			left:-209px;
 			background-color: $grey-color-dark;
 			padding: 1em 0.5em;
 
+			@media screen and (max-width: $on-phone) {	
+				left: 0px;
+				padding: 1em;
+				margin: 0;
+
+				form {
+					margin-right: 1em;
+				}
+			}
+			
 			input.search-box {
 				padding: 0.5em;
 				background-color: $grey-color-dark;
@@ -217,19 +181,44 @@ nav {
 				margin: 0 1em;
 				font-size: 14px;
 				color: $grey-color-light;
-
 				&:focus {
 					outline: none;
 					border-color: #fff;
+				}
+				@media screen and (max-width: $on-phone) {
+					width: 100%;
+					margin: 0;
 				}
 			}
 		}
 	}
 }
 
-p.sign-up {
-	margin-bottom: 2em;
-	font-size: 14px;
+.nav-submenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	white-space: nowrap;
+	z-index: 1;
+	display: none;
+
+	@media screen and (max-width: $on-phone) {
+		overflow: hidden;
+		visibility: hidden;
+		display: none;
+
+		&.open {
+			visibility: visible; 
+			display: block;
+			overflow-y: visible;
+			position: relative;	
+		}
+
+		a {
+			line-height: 16px;
+		}
+	}
 }
 
 .caret {
