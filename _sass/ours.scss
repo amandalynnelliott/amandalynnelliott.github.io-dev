@@ -25,9 +25,9 @@ $site-title:       #e4e4e4;
 // Width of the content area
 $content-width:    800px; 
 
-$on-phone:         400px;
-$on-palm:          600px; // CHANGE TO ON TABLET
-$on-laptop:        800px; 
+$on-phone:         425px;
+$on-palm:          768px; // CHANGE TO ON TABLET
+$on-laptop:        1024px; 
 
 // REMOVE THIS PLEASE
 @mixin media-query($device) {
