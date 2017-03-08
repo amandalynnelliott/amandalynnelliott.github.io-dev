@@ -8,9 +8,13 @@ permalink: /blog/2017/01/mindset-shifts/
 excerpt_separator: <!--more-->
 ---
 
-Let's dive into how mindset shifts can lead to massive gains in skill development. The example I've applied in my life is drawing people, but the insights I've gained as a result can be applied to any skill.
+In examining skill development, I decided to go a step beyond the generic "slow and steady wins the race" advice. Instead, I decided to dive into how mindset shifts can lead to <em>massive</em> gains, quickly. I didn't just want to be the tortoise, but the hare as well. 
 
-For over seven months, I've been rigorously studying how to draw human anatomy: <em>how to capture a person's personality and expression while they are going about their business in the public.</em> I've been attending weekly three-hour nude figure drawing classes, and have been people sketching in public places. 
+The following are lessons I've gained from experimenting with mindset shifts in respect to  the skill I've been developing in my life, drawing people, but these insights can be applied to any skill you're developing.
+
+### Choose: Make mistakes or Give up
+
+The past seven months, I've been rigorously studying how to draw human anatomy: <em>how to capture a person's personality and expression while they are going about their business in the public.</em> I've been attending weekly three-hour nude figure drawing classes, and have been people sketching in public places. 
 
 Here's some recent work:
 

@@ -87,6 +87,7 @@
 			visibility: visible;
 			display: block;
 			overflow-y: visible;
+			width: 100%;
 		}
 	}
 }
@@ -127,6 +128,10 @@
 	&.open > a {
 		color: #fff;
 		background-color: $grey-color-dark;
+		
+		@media screen and (max-width: $on-phone) {
+			background-color: $top-dark;
+		}
 	}
 
 	&.open > .nav-submenu {
@@ -136,10 +141,18 @@
 		@media screen and (max-width: $on-phone) {	
 			border: 0px;
 		}
+		
+		li a {
+			background-color: $grey-color-dark;
+		}
 
 		a {
 			padding: 0.5em 1.5em;
 			background-color: $grey-color-dark;
+			
+			@media screen and (max-width: $on-phone) {
+				background-color: $top-dark;
+			}
 		}
 
 		li:first-child a {
@@ -163,7 +176,7 @@
 
 			@media screen and (max-width: $on-phone) {	
 				left: 0px;
-				padding: 1em;
+				padding: 1em 2em;
 				margin: 0;
 
 				form {
