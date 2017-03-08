@@ -8,8 +8,21 @@
 	max-width: calc(625px - (30px * 2));
 }
 
-@media only screen and (min-width:400px) and (max-width: $on-laptop) {
-	.page-content {
+.page-content { //add logic to make this depend on character length
+	
+	@media only screen and (min-width:700px) and (max-width:$on-laptop) {
+		padding-right: 180px;
+	}
+	
+	@media only screen and (min-width:600px) and (max-width:700px) {
+		padding-right: 140px;
+	}
+	
+	@media only screen and (min-width:500px) and (max-width:600px) {
+		padding-right: 100px;
+	}
+	
+	@media only screen and (min-width:400px) and (max-width: 500px) {
 		padding-right: 60px;
 	}
 }
@@ -74,7 +87,7 @@ p.sidenote {
 
 	h3 {
 		font-size: 26px;
-		@include media-query($on-laptop) {
+		@media screen and (max-width:$on-laptop) {
 			font-size: 22px;
 		}
 	}
@@ -86,7 +99,7 @@ p.sidenote {
 }
 
 .related-post-items {
-	@include media-query($on-palm) {
+	@media screen and (max-width:$on-palm) {
 		font-size: 14px;
 	}
 }
@@ -95,7 +108,7 @@ p.sidenote {
 .post-nav {
 	font-size: 0.875em;
 	padding-top: 30px;
-	@include media-query($on-palm) {
+	@media screen and (max-width:$on-palm) {
 		font-size: 12px;
 	}
 }

@@ -191,7 +191,7 @@ pre {
     	padding-left: $spacing-unit / 2;
   	}
 
-	@media screen and (max-width: 400px) {	
+	@media screen and (max-width: $on-phone) {	
 		padding-bottom: 15px;
 	}
 }

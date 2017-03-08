@@ -1,5 +1,7 @@
 .site-header {
 	background-color: $top-dark;
+	border-top: 5px solid $grey-color-dark;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
 .site-title {
@@ -123,6 +125,10 @@
 			color: #fff;
 			text-decoration: none;
 		}
+		
+		&:active {
+			color: #fff;
+		} 
 	}
 
 	&.open > a {
