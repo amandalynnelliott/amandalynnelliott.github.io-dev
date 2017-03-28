@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, %vertical-rhythm
 }
 
 // Headers
-h1, h2, h3, h4, h5, h6 {
+h4, h5, h6 {
   	font-weight: $base-font-weight;
 }
 
@@ -41,18 +41,78 @@ h1, h2, h3 {
 h1 {
 	font-size: 36px;
 	letter-spacing: normal;
+	
+	@media screen and (max-width:$on-laptop) {
+    	font-size: 36px;
+	}
+	
+	@media screen and (max-width:$on-palm) {
+		font-size: 34px;
+	}
+	
+	@media screen and (max-width:$on-phone) {
+		font-size: 32px;
+	} 
 }
 
-h4 {
+h2 {
+    font-size: 34px;
+
+    @media screen and (max-width:$on-palm) {
+      font-size: 32px;
+    }
+	
+	@media screen and (max-width:$on-phone) {
+		font-size: 30px;
+	}
+}
+
+h3 {
+    font-size: 30px;
+
+    @media screen and (max-width:$on-palm) {
+      font-size: 28px;
+    }
+	
+	@media screen and (max-width:$on-phone) {
+		font-size: 26px;
+	}
+}
+
+ h4 {
+    font-size: 26px;
 	font-family: 'Signika', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
 	color: $grey-color;
-}
+
+    @media screen and (max-width:$on-palm) {
+      font-size: 24px; 
+    }
+	 
+	@media screen and (max-width:$on-phone) {
+		font-size: 22px;
+	}
+  }
+
+/*h3 {
+	font-size: 24px;
+		@media screen and (max-width:$on-phone) {
+			font-size: 20px;
+		}
+} */
 
 // Paragraphs
 p ~ h2, p ~ h3, p ~ h4 {
 	margin-top: 60px;
+	
+	@media screen and (max-width:$on-palm) {
+		margin-top: 50px;
+	}
+	
+	@media screen and (max-width:$on-phone) {
+		margin-top: 40px;
+	}
 }
 
 p {
@@ -61,6 +121,18 @@ p {
 	&.sign-up {
 		margin-bottom: 2em;
 		font-size: 14px;
+		
+		@media screen and (max-width:$on-phone) {
+			text-align: center;
+		}
+		
+		br {
+			display: none;
+			
+			@media screen and (max-width:$on-phone) {
+				display: inline;
+			}
+		}
 	}
 }
 

@@ -60,7 +60,7 @@ Isn't that exciting?
 
 ### Self-Education for Web Developers
 
-To get my feet wet, I first embarked on Udacity's <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"><b>Front-End Web Developer</b></a> curriculum. The courses are free to take, though you can pay if you want a credential.
+To get my feet wet, I first embarked on Udacity's <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001">Front-End Web Developer</a> curriculum. The courses are free to take, though you can pay if you want a credential.
 
 In a couple months, I completed the following:
 <ul>
@@ -71,7 +71,7 @@ In a couple months, I completed the following:
 
 There still is much left to learn in the program, but this was a good stopping point in order to code a website. 
 
-Also tremendously helpful has been the <a href="https://www.youtube.com/user/DevTipsForDesigners"><b>DevTips YouTube channel</b></a>. I have so much respect for the creator, Travis Neilson. His videos have great energy and balance information and humor well. It's also inspiring how each of his "blog posts" are actually beautiful standalone webpage designs in it of themselves.
+Also tremendously helpful has been the <a href="https://www.youtube.com/user/DevTipsForDesigners">DevTips YouTube channel</a>. I have so much respect for the creator, Travis Neilson. His videos have great energy and balance information and humor well. It's also inspiring how each of his "blog posts" are actually beautiful standalone webpage designs in it of themselves.
 
 
 ### Why I dumped WordPress for Jekyll
@@ -114,7 +114,7 @@ Keeping the colors of the website black, white, and grays might sound boring, bu
 
 Having liberated myself to allow what's unimportant be invisible, I was able to devote more time to the readability of the site. Most of my time designing was actually spent picking the right fonts, making sure paragraphs read well, along with headers, lists, and blockquotes. <em>My top priority was making reading the content a comfortable experience.</em>
 
-I expanded on my knowledge of typography by reading this beautiful guide: <a href="http://practicaltypography.com/"><b>Butterick's Practical Typography</b></a>
+I expanded on my knowledge of typography by reading this beautiful guide: <a href="http://practicaltypography.com/">Butterick's Practical Typography</a>
 
 I even added a custom side note element for use when I venture down a bit of a tangent while writing a post, which happens often!
 

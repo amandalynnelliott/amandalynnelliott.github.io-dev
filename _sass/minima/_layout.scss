@@ -201,46 +201,9 @@
 }
 
 .post-title {
-  //font-size: 40px;
   line-height: 1;
-
-  @media screen and (max-width:$on-laptop) {
-    font-size: 36px;
-  }
-	
-  @media screen and (max-width:$on-palm) {
-    font-size: 34px;
-  }
-	
- @media screen and (max-width:$on-phone) {
-    font-size: 32px;
-  } 
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
-
-  h2 {
-    font-size: 34px;
-
-    @media screen and (max-width:$on-laptop) {
-      font-size: 32px;
-    }
-  }
-
-  h3 {
-    font-size: 30px;
-
-    @media screen and (max-width:$on-laptop) {
-      font-size: 28px;
-    }
-  }
-
-  h4 {
-    font-size: 26px;
-
-    @media screen and (max-width:$on-laptop) {
-      font-size: 24px; 
-    }
-  }
 }

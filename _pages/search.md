@@ -12,6 +12,9 @@ permalink: /search/
 <script>
 window.store = {
 	{% for post in site.posts %}
+		
+		//<li class="post-list-item">
+		
 		"{{ post.url | slugify }}": {
 			"title": "{{ post.title | xml_escape }}",
 			"author": "{{ post.author | xml_escape }}",
@@ -24,6 +27,9 @@ window.store = {
 		{% unless forloop.last %}
 			,
 		{% endunless %}
+		
+		//</li>
+		
 	{% endfor %}
 };
 </script>
