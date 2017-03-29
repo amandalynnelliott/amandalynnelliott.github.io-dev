@@ -4,6 +4,7 @@ title: "This post demonstrates post content styles"
 categories: junk
 author: "Bart Simpson"
 meta: "Springfield"
+permalink: /blog/2016/03/this-post-demonstrates-post-content-styles/
 excerpt_separator: <!--more-->
 ---
 

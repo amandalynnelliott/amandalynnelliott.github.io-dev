@@ -4,7 +4,7 @@ title: "Making this Website"
 categories: announcements
 tags: website, dev
 author: "Amanda Lynn Elliott"
-permalink: /2017/02/making-website/
+permalink: /blog/2017/02/making-website/
 excerpt_separator: <!--more-->
 ---
 

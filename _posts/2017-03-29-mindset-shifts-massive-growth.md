@@ -7,6 +7,7 @@ author: "Amanda Lynn Elliott"
 permalink: /blog/2017/01/mindset-shifts/
 excerpt_separator: <!--more-->
 ---
+<!-- 2017-01-12 -->
 
 In examining skill development, I decided to go a step beyond the generic "slow and steady wins the race" advice. Instead, I decided to dive into how mindset shifts can lead to <em>massive</em> gains, quickly. I didn't just want to be the tortoise, but the hare as well. 
 
@@ -18,11 +19,11 @@ The past seven months, I've been rigorously studying how to draw human anatomy: 
 
 Here's some recent work:
 
-![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch3.jpg)  <!--more-->
+![sketch of people in public](/assets/img/pplsketch3.jpg)  <!--more-->
 
 And here's some from right before I started regular practice: 
 
-![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch-before.jpg)
+![sketch of people in public](/assets/img/pplsketch-before.jpg)
 
 
 <em>So much of the challenge with skill acquisition is overcoming the fear of failure enough to let yourself make the mistakes required to learn anything.</em>
@@ -72,7 +73,8 @@ It's like flying a plane from point A to B, and making many micro-adjustments al
 
 Soon the ratio of making mistakes to producing results shifts, and people start noticing your work.
 
-![mistakes and output over time chart]({{ site.baseurl }}/assets/img/2017/01/chart.png)
+<!--![mistakes and output over time chart]({{ site.baseurl }}/assets/img/chart.png)-->
+<img src="/assets/img/chart.png" />
 
 ### Never stop making mistakes.
 
@@ -148,7 +150,7 @@ Rather than erasing, drawing over, erasing and drawing over, which can eliminate
 
 It's not always pretty, but that's not the point; learning is.
 
-![sketch of people in public]({{ site.baseurl }}/assets/img/2017/01/pplsketch.jpg)
+![sketch of people in public]({{ site.baseurl }}/assets/img/pplsketch.jpg)
 
 Making a successful drawing in pen requires trust. A good output only happens when I trust myself to be okay with any mistakes that come up. 
 
