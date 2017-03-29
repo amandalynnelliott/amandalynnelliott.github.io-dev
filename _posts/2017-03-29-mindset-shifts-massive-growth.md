@@ -19,7 +19,7 @@ The past seven months, I've been rigorously studying how to draw human anatomy: 
 
 Here's some recent work:
 
-![sketch of people in public]({{site.url}}/assets/img/pplsketch3.jpg)  <!--more-->
+![sketch of people in public](https://github.com/amandalynnelliott/assets/img/pplsketch3.jpg)  <!--more-->
 
 And here's some from right before I started regular practice: 
 
