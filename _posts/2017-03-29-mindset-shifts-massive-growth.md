@@ -19,7 +19,7 @@ The past seven months, I've been rigorously studying how to draw human anatomy: 
 
 Here's some recent work:
 
-![sketch of people in public](/assets/img/pplsketch3.jpg)  <!--more-->
+![sketch of people in public]({{site.url}}/assets/img/pplsketch3.jpg)  <!--more-->
 
 And here's some from right before I started regular practice: 
 
@@ -73,8 +73,7 @@ It's like flying a plane from point A to B, and making many micro-adjustments al
 
 Soon the ratio of making mistakes to producing results shifts, and people start noticing your work.
 
-<!--![mistakes and output over time chart]({{ site.baseurl }}/assets/img/chart.png)-->
-<img src="/assets/img/chart.png" />
+![mistakes and output over time chart]({{ site.baseurl }}/assets/img/chart.png)
 
 ### Never stop making mistakes.
 
