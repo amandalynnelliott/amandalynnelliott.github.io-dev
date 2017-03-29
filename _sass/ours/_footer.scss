@@ -1,0 +1,38 @@
+.site-footer {
+	background-color: $grey-color-light;
+	border-top: 1px solid $grey-color-light;
+	padding-top: $spacing-unit;
+
+	
+	.footer-signup {
+		display: block;
+		padding-bottom: 60px;
+	}
+	
+	h3 {
+		@media screen and (min-width:$on-laptop) {
+		
+		}
+		
+		span {
+			font-size: 34px;
+		}
+	}
+	
+	input.email {
+		width: 50%;
+		float: left;
+		margin-right: 10px;
+	}
+	
+	.dark-bottom {
+		background-color: $grey-color-dark;
+		height: 45px;
+		
+		span {
+			color: $site-title;
+			float: right;
+			padding-top: 15px;
+		}
+	}
+}

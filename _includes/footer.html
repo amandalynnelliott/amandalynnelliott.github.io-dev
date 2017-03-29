@@ -1,6 +1,25 @@
 <footer class="site-footer">
-    <div class="wrapper">
-        <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <div class="wrapper footer-signup">
+		
+		<h3><span class="fa fa-envelope"></span> &nbsp;Stay in Touch</h3>
+			
+				<p>Receive Amanda's insights and project updates by email.</p>
+			
+				{% include mailchimp.html %}
+			
+		
+    </div>
+	
+	<div class="dark-bottom">
+		<div class="wrapper">
+			<a href="/feed.xml"><span class="fa fa-rss"></span></a>
+		</div>
+	</div>
+	
+</footer>
+
+	
+        <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <div class="footer-col-wrapper">
             <div class="footer-col footer-col-1">
                 <ul class="contact-list">
@@ -31,6 +50,4 @@
             <div class="footer-col footer-col-3">
                 <p>{{ site.description | escape }}</p>
             </div>
-        </div>
-    </div>
-</footer>
+        </div> -->
