@@ -6,11 +6,11 @@
 	{% include header.html %}
 	<div class="page-content" aria-label="Content">
 		<!-- FINISH ME -->
-		{% if page.url != "/email-signup/" %}
+		{% unless page.url contains "/email-" %}
 		<div class="wrapper">
 			<p class="sign-up">Sign up to receive Amanda's<br> <a href="/email-signup/">blog posts by email</a>.</p>
 		</div>
-		{% endif %}
+		{% endunless %}
 		<div class="wrapper">
 			{{ content }}
 		</div>
