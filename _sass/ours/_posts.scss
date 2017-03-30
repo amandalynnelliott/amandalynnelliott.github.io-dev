@@ -1,14 +1,17 @@
-// FIX THIS WHOLE FILE AND MERGE WITH MINIMA/LAYOUT
-
 /**
  * Layout
  */
+
+ .page-content {
+		padding: $spacing-unit 0;
+}
+
 
 .post-content, ul.post-list {
 	max-width: calc(625px - (30px * 2));
 }
 
-.page-content { //add logic to make this depend on character length
+.page-content {
 	
 	@media only screen and (min-width:700px) and (max-width:$on-laptop) {
 		padding-right: 180px;
@@ -27,18 +30,58 @@
 	}
 }
 
+.page-heading {
+  font-size: 20px;
+}
+
 
 /**
- * Post readability
+ * Posts and readability
  */
+
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  line-height: 1;
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
 
 .post p:first-child {
 	font-size: 24px;
 	line-height: 1.3;
-	
-	@include media-query($on-palm) {
-		font-size: 20px;
+
+	@media screen and (max-width:$on-phone) {
+		font-size: 22px;
 	}
+}
+
+.post-content li {
+	margin-bottom: 15px;
 }
 
 
@@ -46,12 +89,16 @@
  * List of posts
  */
 
+/*.post-content li:last-child {
+	margin-bottom: 30px;
+}*/
+
 .post-list li > ul li {
-	margin-bottom: 20px; 
+	margin-bottom: 15px; //change
 	margin-left: 20px;
 	list-style-type: disc;
 	
-	@include media-query($on-palm) {
+	@media screen and (max-width: $on-tablet) {
 		margin-left: 0;
 	}
 }
@@ -74,6 +121,33 @@
 	}
 }
 
+.post-list > li {
+	border-top: 1px solid $grey-color-light;
+}
+
+h2 a.post-link {
+	line-height: 1;
+	margin-bottom: 0;
+	font-size: 28px;
+	
+	@media screen and (max-width:$on-laptop) {
+		font-size: 26px;
+	}
+}
+
+.post-list-item h2, h3.search-result-title {
+	margin-bottom: 0;
+}
+
+h1.post-title {
+	margin-bottom: 5px;
+}
+
+.post-list-item h2 {
+	margin-top: $spacing-unit;
+}
+
+
 /**
  * Created elements
  */	
@@ -83,9 +157,6 @@ p.sidenote {
 	border-left: 10px solid $grey-color;
 	border-radius: 5px;
 	font-style: italic;
-	@include media-query($on-palm) {
-		padding: 1em 2em;
-	}
 }
 
 /**
@@ -117,7 +188,7 @@ p.sidenote {
 }
 
 .related-post-items {
-	@media screen and (max-width:$on-palm) {
+	@media screen and (max-width:$on-tablet) {
 		font-size: 14px;
 	}
 }
@@ -126,7 +197,7 @@ p.sidenote {
 .post-nav {
 	font-size: 0.875em;
 	padding-top: 30px;
-	@media screen and (max-width:$on-palm) {
+	@media screen and (max-width:$on-tablet) {
 		font-size: 12px;
 	}
 }

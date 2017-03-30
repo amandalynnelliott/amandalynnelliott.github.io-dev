@@ -7,7 +7,6 @@ author: "Amanda Lynn Elliott"
 permalink: /blog/2017/01/mindset-shifts/
 excerpt_separator: <!--more-->
 ---
-<!-- 2017-01-12 -->
 
 In examining skill development, I decided to go a step beyond the generic "slow and steady wins the race" advice. Instead, I decided to dive into how mindset shifts can lead to <em>massive</em> gains, quickly. I didn't just want to be the tortoise, but the hare as well. 
 

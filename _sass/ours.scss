@@ -26,21 +26,13 @@ $site-title:       #e4e4e4;
 $content-width:    800px; 
 
 $on-phone:         425px;
-$on-palm:          768px; // CHANGE TO ON TABLET
+$on-tablet:        768px; // CHANGE TO ON TABLET
 $on-laptop:        1024px; 
 
-// REMOVE THIS PLEASE
-@mixin media-query($device) {
-  	@media screen and (max-width: $device) {
-    	@content;
-  	}
-}
-
 // Imports
-@import 'minima/layout', // REMOVE
-		'ours/base',
+@import 'ours/base',
         'ours/header',
 		'ours/posts',
 		'ours/footer',
 		'ours/syntax-highlighting',
-		'ours/MOVING';
+		'ours/pages';
