@@ -8,15 +8,15 @@ permalink: /blog/2017/01/new-beacon/
 excerpt_separator: <!--more-->
 ---
 
-For seventeen months outstretched over 2014 and 2015, I wrote for my blog that I called <b>Cheating College</b>. I gave it this slogan: <em>lifelong learning without lifelong debt.</em>
+For seventeen months outstretched over 2014 and 2015, I wrote for my blog that I called **Cheating College**. I gave it this slogan: *lifelong learning without lifelong debt.*
 
 Cheating College was a way for me to chronical my alternative education pursuits and to dispel advice I learned while on my journey. It was also a great way for me to build the habit of writing regularly and creating content with the intent to be read by a specific audience. 
 
-<em>It empowered me to figure things out for people, to study problems and present solutions, and to make myself of value to others.</em>
+*It empowered me to figure things out for people, to study problems and present solutions, and to make myself of value to others.*
 
-During that time, I wrote over 30 articles, totaling over 54,000 words, and made over 30 custom graphics/ illustrations.
+During that time, I wrote over 30 articles, totaling over 54,000 words, and made over thirty custom graphics/ illustrations.
 
-I shut the blog down when I hit a number of brick walls in my career and family lives (which I will share once the emotions aren't so raw...) When I shut down the blog, at first it felt like I had removed a part of myself from existence, the beacon that had been letting the world know "<em>I am here, and this is what I do</em>" had been extinguished...
+I shut the blog down when I hit a number of brick walls in my career and family lives (which I will share once the emotions aren't so raw...) When I shut down the blog, at first it felt like I had removed a part of myself from existence, the beacon that had been letting the world know "*I am here, and this is what I do*" had been extinguished...
 
 In the uncomfortable darkness, I eventually learned more about myself and how I want to start again: better, stronger, wiser.
 
@@ -33,7 +33,7 @@ My goal with this new blog is simply to share my thoughts, because…
 
 ### 2. I may have stopped blogging, but I've never stopped writing.
 
-I'm always writing, journaling, researching: <em>asking questions and drawing conclusions.</em>
+I'm always writing, journaling, researching: *asking questions and drawing conclusions.*
 
 I've amassed quite a bit of work, which I'm starting to feel like a guilty hoarder for keeping it all to myself. Who am I not to share what others could benefit from? Moreover, who am I not to share when the potential feedback, counter-arguments, and opportunities that could result stand to make me a better person?
 
@@ -43,21 +43,21 @@ I can't stop writing if I tried, so I might as well start sharing!
 
 Cheating College was a great forum for me to teach myself how to create content that addressed specific concerns and desires for a niche audience. It taught me how to write, but always with a clear purpose guiding my words.
 
-This time I don't feel the need for such a restrictive compass. I'm not pigeon-holing myself to talk about only education and career topics, but instead opening myself up to dive into any topic I feel the need to. This is really liberating… like—standing on the edge of a boat, arms wide open, yelling "<em>I'm king of the world!</em>" kind of liberating…
+This time I don't feel the need for such a restrictive compass. I'm not pigeon-holing myself to talk about only education and career topics, but instead opening myself up to dive into any topic I feel the need to. This is really liberating… like—standing on the edge of a boat, arms wide open, yelling "*I'm king of the world!*" kind of liberating…
 
-<em>This opens the floodgates for me to share about something so vital to my existence that I wasn't able to before: my art. My obsession with visual communication, and my journey in its skill acquisition.</em>
+*This opens the floodgates for me to share about something so vital to my existence that I wasn't able to before: **my art.** My obsession with visual communication, and my journey in its skill acquisition.*
 
 Which brings me to…
 
 ### 4. Investing more time in making higher quality content.
 
-Blogging the first time around, I let the <em>rules</em> of social media dictate what content I made. I consistently aimed for one blog post a week, and always felt terrible when my output fell short. I often aimed to post the recommended frequency on Facebook, Twitter, etc…
+Blogging the first time around, I let the *rules* of social media dictate what content I made. I consistently aimed for one blog post a week, and always felt terrible when my output fell short. I often aimed to post the recommended frequency on Facebook, Twitter, etc…
 
 This typically resulted in a post 2,000 words long, with a simple custom illustration or two.
 
-If I never hit the brakes on that production pipeline, I never would've realized my newfound desire to… <b>animate my ideas</b>.
+If I never hit the brakes on that production pipeline, I never would've realized my newfound desire to… **animate my ideas**.
 
-<em>If a picture is worth a thousand words, what about MOVING pictures? What about 24 pictures per second? ;)</em>
+*If a picture is worth a thousand words, what about MOVING pictures? What about 24 pictures per second? ;)*
 
 Now free from the "must post weekly mindset," I'm building on my foundation of visual communication. I have a pipeline of personal projects and animations that will each take months, years even, to see to completion. And here is where I'll share them.
 
@@ -67,7 +67,7 @@ A lot of my old posts were actually more like exercises in "let's find out ALL t
 
 This happens to me a lot, even in other mediums, like speech-writing: I embark on one idea, yet the content for three spurt out like the birth of the mythical multi-headed Hydra.
 
-<em>This is a common problem, the problem of trying to say too much at once, which inevitably leads to nothing being said at all.</em>
+**This is a common problem, the problem of trying to say too much at once, which inevitably leads to nothing being said at all.**
 
 No more three-for-ones resulting in massively long posts that scare away even the most dedicated reader: this time I will be more liberal with laying down the axe. Each post will have a clear purpose from beginning to end, one head and one tail—these are messages, not conjoined siblings!
 
