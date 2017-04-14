@@ -107,6 +107,10 @@ p ~ h2, p ~ h3, p ~ h4 {
 	}
 }
 
+h2 ~ h3, h2 ~ h4, h3 ~ h4 {
+	margin-top: 0;
+}
+
 p {
 	margin-bottom: 20px;
 
@@ -155,15 +159,14 @@ img {
 }
 
 caption, figcaption {
-	color: $grey-color-light;
+	color: $grey-color;
+	font-size: $small-font-size;
+	padding-top: 5px;
+	text-align: center;
 }
 
 figure > img {
   display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
 }
 
 // Lists
