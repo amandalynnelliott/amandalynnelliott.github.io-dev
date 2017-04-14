@@ -3,23 +3,6 @@ layout: right-sidebar
 title: About Amanda
 permalink: /about/
 ---
-
-<style>
-.w3-animate-fading{
--webkit-animation:fading 10s infinite;
-animation:fading 10s infinite
-}
-@-webkit-keyframes fading{
-0%{opacity:0}
-50%{opacity:1}
-100%{opacity:0}
-}
-@keyframes fading{
-0%{opacity:0}
-50%{opacity:1}
-100%{opacity:0}
-}
-</style>
 I am a writer and illustrator living in Brevard County, Florida.
 I read a lot, do a lot, think a lot, and get a lot of ideas. Some of these ideas get polished enough to become the gems I put on display in this blog.
 
@@ -41,10 +24,10 @@ I make the work I want to see exist in the world.
 It makes me happy to create this work, and so, I share it with you. 
 
 
-<img class="mySlides w3-animate-fading" src="../assets/img/me/flowers.jpg">
-<img class="mySlides w3-animate-fading" src="../assets/img/me/glasses.jpg">
-<img class="mySlides w3-animate-fading" src="../assets/img/me/hat.jpg">
-<img class="mySlides w3-animate-fading" src="../assets/img/me/laugh.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/flowers.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/glasses.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/hat.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/laugh.jpg">
 *Flowers and hat photo credits: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a>*
 
 <script src="../assets/js/slideshow.js"></script>

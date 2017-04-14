@@ -18,3 +18,20 @@ ul#search-results {
 .mySlides {
 	height: 300px;
 }
+ /* slideshow */
+.animate-fading {
+	-webkit-animation:fading 10s infinite;
+	animation:fading 10s infinite
+}
+
+@-webkit-keyframes fading {
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
+}
+
+@keyframes fading {
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
+}
