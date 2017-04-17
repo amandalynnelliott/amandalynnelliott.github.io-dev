@@ -36,7 +36,7 @@ When you endure long periods of sustained stress, it takes a toll on your adrena
 
 My body didn’t just burn out, but it burnt out at the worst possible time.
 
-In the horrifying climax of a long-term mental episode, my mom was hit by a car and was in a coma. The trauma center became our second home, meanwhile I had inherited the entire load of housework, caring for teo dog and my teenage brother (who at the time, was having an episode himself), trying to be strong for my dad, and not to mention needing to address the unhealthy number of cats at home that were peeing on everything. 
+In the horrifying climax of a long-term mental episode, my mom was hit by a car and was in a coma. The trauma center became our second home, meanwhile I had inherited the entire load of housework, caring for two dog and my teenage brother (who at the time, was having an episode himself), trying to be strong for my dad, and not to mention needing to address the unhealthy number of cats at home that were peeing on everything. 
 
 I needed to heal so I could get everything under control, and I needed to do it fast.
 
@@ -70,11 +70,11 @@ The anchor I had to let go of was the way I valued logic over my emotions. I mad
 
 I desired success, and the security and acceptance that would come with it. *I held my emotions hostage for this goal.*
 
-My desperation would pump myself up for work that was draining and validate working with people I didn’t trust. I ended up taking out my pent up emotions on those closest to me and became a person I didn’t recognize. 
+My desperation would pump myself up for work that was draining and justify working with people I didn’t trust. I ended up taking out my pent up emotions on those closest to me and became a person I didn’t recognize. 
 
 It was only when I stopped suppressing my emotions that all of the negativity that I had been fearing was able to flood out of me. After the chaos, I was left free to experience inner peace. I realized that if I could learn to make my happiness in the present moment my new goal, to give myself the permission to be happy, and to give myself the approval that I desperately longed for, then I would change the course of my future from one of more sacrifice and pain, to one of joy, no matter where it led. 
 
-I used to set a goal and develop destructive tunnel vision in doing anything I could, sacrificing anything I could, in order to realize it. I had to accept that this was not working. I was holding onto things so tightly that they were slipping through my fingers, so I opted instead to let go. I worked to give myself the permission to be happy no matter outside circumstance. 
+I used to set a goal and then develop destructive tunnel vision in doing anything I could, sacrificing anything I could, in order to realize that goal. I had to accept that this was not working. I was holding onto things so tightly that they were slipping through my fingers, so I opted instead to let go entirely. I worked to give myself the permission to be happy no matter outside circumstances. 
 
 I started asking myself, “How am I feeling” and learning how to interpret the answers. 
 
@@ -85,7 +85,7 @@ The only reason you do anything is because you think it’ll make you feel bette
 You eat so you don’t feel hungry. You work so you can relax about your survival needs. Breathing feels better than holding your breath indefinitely.
 
 We always make decisions based on emotions, even when we tell ourselves otherwise. When we set priorities based on “logic” while ignoring how we feel, we are still acting based on emotion, just in this case the emotion we are acting on is fear. 
-Looking up to 2016, all of my actions were based in fear.
+Building up to 2016, all of my actions were based in fear.
 
 Running away from how you feel is like trying to outrun your shadow. Your feelings are here to stay no matter how exhausted you get. Realizing this, you have two options: keep suppressing your emotions out of fear and commit to a life of misery, or recognize the value within all negative emotion. See them as little nudges showing you when changes need to be made along your journey. Ignore these little nudges, and you risk losing control to them, and you might need a counselor to help you work through them. 
 
@@ -97,7 +97,7 @@ Your emotions are your life’s compass here to help you navigate.
 
 The truth is, most people are afraid to listen to their emotions. 
 
-How often do we needlessly hold our emotions hostage out of fear&ndash;suppressing feelings so we can fulfill other people’s expectations for us, trying to achieve a desired result that we tell ourselves will be worth the sacrifice in the long run?
+How often do we needlessly hold our emotions hostage out of fear&ndash;suppressing feelings so we can fulfill other people’s expectations for us&ndash;trying to achieve a desired result that we tell ourselves will be worth the sacrifice in the long run?
 
 In this instance, we’re still making decisions because we think they’ll make us feel better, just instead of taking actions that will directly lead to happiness, we go about it in a roundabout way. We try to achieve indirect happiness, setting out to fulfill the expectations that others have set for us, thinking that winning their approval will lead us to the happiness we seek. We act out of fear of losing their love.
 
@@ -111,7 +111,9 @@ Young children don’t suppress or misinterpret their emotions. They regularly d
 
 Growing up, we learn to doubt our emotions as a survival mechanism. To any dependent child, the key to continued survival is adult approval, and abandonment means death. At a young age, the stakes are high to keep the adults in our lives happy.
 
-We are more or less compliant to obey authority over our emotions until adolescence. At that point we are dying to start making decisions for ourselves. To society, this is seen as teenage rebellion, but teenagers only rebel in destructive ways when not given the freedom to exercise their judgement like any other muscle.  From here, teens either venture down a self-destructive path, where they value the opinions of people that their parents don’t approve of, like gang leaders for instance, or they decide to color within the lines, where they only make decisions that they know the adults in their lives will approve of, even if it means living a lie. Either path is a death: the first being a material one, the second being a spiritual one. 
+We are more or less compliant to obey authority over our emotions until adolescence. At that point we are dying to start making decisions for ourselves. To society, this is seen as teenage rebellion, but teenagers only rebel in destructive ways when not given the freedom to exercise their judgement like any other muscle.  
+
+From here, teens either venture down a self-destructive path, where they value the opinions of people that their parents don’t approve of, like gang leaders, or they decide to color within the lines. There they only make decisions that they know the adults in their lives will approve of, even if it means living a lie. Either path is a death: the first being a material one, the second being a spiritual one. 
 
 > We get conditioned to value the opinion of others over how we feel.
 Deeper than that, we get conditioned into believing that making the authority figures in our life happy is the key to our happiness. 
@@ -175,12 +177,12 @@ The self is the very thing you should never be without.
 
 Your self is the very thing that you should never sacrifice. 
 
-How you can make peace with these conflicting beliefs is to understand that if you try giving to others without first giving to yourself, you will have nothing to give. You need to fill up your own cup first, but once you do, soon the water spills over, meaning that now you have so much to effortlessly give. 
+How you can make peace with these conflicting beliefs is to understand that if you try giving to others without first giving to yourself, you will have nothing to give. You need to fill up your own cup first, but once you do, soon the water spills over, meaning that now you have much more available for effortlessly giving. 
 
 #### Thirdly
 We lose touch with our emotions for fear of becoming irrational. This fear is unfounded, because emotions and logic don’t have to be at odds with each other, but can instead be used to verify each other. You can, and should, make decisions that satisfy both your head and your heart. Listening to your emotions isn’t irrational, it’s a rational way of prioritizing your happiness first.
 
-People who are happy prioritize how they feel. This makes them less likely to burn themselves out, and leads producing much better work. Contrary to what fear-based ideologies condition us to believe, the more that people place top priority on their individual happiness, the better it is for everybody in the long run.
+People who are happy prioritize how they feel. This makes them less likely to burn themselves out, and leads them to producing much better work. Contrary to what fear-based ideologies condition us to believe, the more that people place top priority on their individual happiness, the better it is for everybody in the long run.
 
 For more in depth work with self-love, I highly recommend [this video](https://www.youtube.com/watch?v=zQHv75ahYDQ) and the book [Shadows Before Dawn](https://www.amazon.com/Shadows-Before-Dawn-Finding-Self-Love/dp/1401947190).
 
@@ -214,7 +216,7 @@ The challenge is simple. For 365 days, live your life by this question:
 
 For an entire year, I let the answers to this question be the guiding factor in my life, no matter how significant of a crossroads I was at. I asked it when making decisions like what to eat, but also bigger decisions, like where to direct my productive focus. 
 
-The answers to this question usually come easily. It’s putting the answers into action that is the challenging part. It meant prioritizing my happiness in the present moment over all else in my life, even the expectations of others. During the challenge yourself might mean changing the dynamics of relationships in your life, or letting go of some relationships entirely. It certainly did for me.
+The answers to this question usually come easily. It’s putting the answers into action that is the challenging part. It meant prioritizing my happiness in the present moment over all else in my life, even the expectations of others. If you do the challenge yourself, it might mean changing the dynamics of your relationships, or letting go of some relationships entirely. It certainly did for me.
 
 ### Results 
 
@@ -224,11 +226,13 @@ To my pleasant surprise, after having practiced self-love for a year, I can say 
 
 Living by this question has brought me such tremendous happiness and growth that it has become impossible for me to live any other way. Sometimes I slip up and will fall back into old thought habits that will make me feel negative, but eventually, I always relearn these lessons and come back to living by “What would somebody who loved themselves do” with joy.
 
-I can conclude the year saying that the results were incredible. Despite all of the trauma I’ve been through, this was still an amazing year for me during which I transformed much of how I live and how I see the world.
+*I can conclude the year saying that the results were incredible. Despite all of the trauma I’ve been through, this was still an amazing year for me during which I transformed much of how I live and how I see the world.*
 
-I went from living off of processed food to going vegan with a diet mostly of fresh produce. I read 15 books. I met amazing people that I’m honored to call my friends and collaboration partners. I dramatically changed my spiritual and political beliefs.
+I stabilized what used to be an unhealthy household. I helped my brother learn how to manage his mental illness and taught him life skills. I went from living off of processed food to going vegan with a diet mostly of fresh produce. I read 15 books. I met amazing people that I’m honored to call my friends and collaboration partners. I dramatically changed my spiritual and political beliefs.
 
 I got out of my shell and took acting classes, dramatically improved my ability to draw the human form--the lessons from which I can apply to rapid growth for any skill, started playing the ukulele, and made progress in learning the disciplines of both video and web animation.
+
+There are many lessons from the year that I will share in upcoming posts.
 
 In summary, I have learned:
 
@@ -236,7 +240,7 @@ In summary, I have learned:
 - Positive emotions are your indication that you are doing the right things.
 - Negative emotions are your indication that you need to change something, whether that means changing the outside environment by taking action, or changing your inner environment by changing your thoughts. 
 
-These lessons so ridiculously simple that I’m surprised I ever got conditioned to live otherwise.
+These lessons are so ridiculously simple that I’m surprised I ever got conditioned to live otherwise.
 
 ### I dare you
 
