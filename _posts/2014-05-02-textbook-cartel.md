@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "From Inside the Textbook Cartel"
-categories: education
-tags: college, debt, textbooks
+categories: society education
+tags: college debt textbooks
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/05/textbook-cartel/
 excerpt_separator: <!--more-->

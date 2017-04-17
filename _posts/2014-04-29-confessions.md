@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Confessions"
-categories: education
-tags: college, parents
+categories: society education
+tags: college parents
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/04/confessions/
 excerpt_separator: <!--more-->

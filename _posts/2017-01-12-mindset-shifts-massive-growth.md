@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Mindset Shifts to Unlock Massive Growth"
-categories: productivity
-tags: art drawing performance mindset skill development
+categories: personal-dev mastery
+tags: art drawing performance beliefs skill-development mistakes
 author: "Amanda Lynn Elliott"
 permalink: /blog/2017/01/mindset-shifts/
 excerpt_separator: <!--more-->

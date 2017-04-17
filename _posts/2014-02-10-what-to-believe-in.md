@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "What to Believe In"
-categories: education
-tags: 
+categories: society education
+tags: belief
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/02/what-to-believe-in/
 excerpt_separator: <!--more-->

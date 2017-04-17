@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Exploration & Interviews Part 1: The Secret Sauce"
-categories: education
-tags: career, interviews
+categories: personal-dev abundance
+tags: career interviews
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/08/interviews-secret-sauce/
 excerpt_separator: <!--more-->

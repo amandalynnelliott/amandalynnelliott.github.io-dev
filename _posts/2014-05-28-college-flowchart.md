@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "FLOWCHART: Who Should Rethink Getting a Degree and Why"
-categories: education
-tags: college, debt, flowchart
+categories: society education
+tags: college debt flowchart
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/05/college-flowchart/
 excerpt_separator: <!--more-->

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Making this Website"
-categories: announcements
-tags: website, dev
+categories: personal-dev mastery
+tags: website web-dev
 author: "Amanda Lynn Elliott"
 permalink: /blog/2017/02/making-website/
 excerpt_separator: <!--more-->

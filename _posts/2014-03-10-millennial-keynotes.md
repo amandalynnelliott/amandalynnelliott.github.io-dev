@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "What it Means to be a Millennial (generation y) Keynotes"
-categories: education
-tags: millennial, career, keynotes
+categories: society education
+tags: millennial career keynotes
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/03/millennial-keynotes/
 excerpt_separator: <!--more-->

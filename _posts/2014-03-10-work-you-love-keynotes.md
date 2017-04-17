@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How to Find the Work You Love Keynotes"
-categories: education
-tags: college, career, keynotes
+categories: personal-dev abundance
+tags: college career purpose keynotes
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/03/work-you-love-keynotes/
 excerpt_separator: <!--more-->

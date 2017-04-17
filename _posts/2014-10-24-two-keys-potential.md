@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The 2 Keys to Unlocking Your Potential and Cultivating Happiness"
-categories: education
-tags: college, purpose
+categories: personal-dev consciousness
+tags: college purpose reflection
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/10/two-keys/
 excerpt_separator: <!--more-->

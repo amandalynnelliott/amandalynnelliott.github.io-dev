@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Education Revolution Keynotes"
-categories: education
+categories: society education
 tags: keynotes
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/03/edu-revolution-keynotes/
