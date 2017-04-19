@@ -57,10 +57,11 @@
 .site-nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-end;
 
 	@media screen and (min-width: $on-phone) and (max-width: $on-tablet) {
 		border-top: 1px solid $grey-color;
+		justify-content: center;
 	}
 
 	@media screen and (max-width: $on-phone) {

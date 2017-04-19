@@ -24,7 +24,7 @@ I committed to life.<!--more-->
 
 ## 2016: The Year of Post-Traumatic Growth
 
-> [Post-traumatic growth](https://en.wikipedia.org/wiki/Posttraumatic_growth#cite_note-ref1-1): positive psychological change as the result of adversity and other challenges in order to rise to a higher level of functioning. Posttraumatic growth is not about returning to the same as it was previously experienced before a period of traumatic suffering, but rather it is about undergoing significant “life-changing” psychological shifts in thinking and relating to the world that is deeply meaningful.
+<p class="sidenote"><a href="https://en.wikipedia.org/wiki/Posttraumatic_growth#cite_note-ref1-1">Post-traumatic growth</a>: positive psychological change as the result of adversity and other challenges in order to rise to a higher level of functioning. Posttraumatic growth is not about returning to the same as it was previously experienced before a period of traumatic suffering, but rather it is about undergoing significant “life-changing” psychological shifts in thinking and relating to the world that is deeply meaningful.</p>
 
 Talk about starting a year off on the wrong foot. 
 

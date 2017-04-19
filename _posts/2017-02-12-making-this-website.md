@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 Taking two months to complete, building and designing this website has been an educational and rewarding process. Here's how I got it done.
 
-*Similarly, read [**New Beacon**]({{site.url}}/blog/2017/01/new-beacon/") to see my purpose with blogging.*
+*Similarly, read [**New Beacon**]({{site.url}}/blog/2017/01/new-beacon/) to see my purpose with blogging.*
 
 Here are the reasons that made getting this website up and running more urgent:
 

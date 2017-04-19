@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+caption: "*handshake* Nice to meet you!"
 ---
 <form id="contact_form" action="https://formspree.io/leshrec2@gmail.com" method="POST" enctype="multipart/form-data">
     <div class="row">
