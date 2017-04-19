@@ -9,7 +9,9 @@ layout: default
 				: {{ page.title }}
 			{% endif %}
 		</h1>
-		<p class="post-meta">thoughts like these rack my brain and keep me sane</p>
+		{% if page.category == null %}
+			<p class="post-meta">thoughts like these rack my brain and keep me sane</p>
+		{% endif %}
 	</div>
 	{{ content }}
 	<ul class="post-list">
