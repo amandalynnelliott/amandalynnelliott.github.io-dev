@@ -12,7 +12,7 @@ The thought of not going to college might seem absurd, but isn’t the outcome o
 
 The stress put on recent college graduates ladled with egregious amounts of student loan debt, who struggle to enter the workforce and are forced to take jobs that don’t even require a college degree, has reached new extremes.
 
-One story even entailed a college graduated who couldn’t handle the stress of it all, opted to default on his student loans the only legal way you can: death. What made it worse, was that not to long after his suicide, student loan collectors didn’t skip a beat, and started harassing *his parents*.
+One story even entailed a college graduated who couldn’t handle the stress of it all, opted to default on his student loans the only legal way you can: death. What made it worse, was that not to long after his suicide, student loan collectors didn’t skip a beat, and started harassing *his parents*.<!--more-->
 
 In wake of the recent development of [student debt suicides](http://www.huffingtonpost.com/c-cryn-johannsen/student-loan-debt-suicides_b_1638972.html), I feel like this article had to be written. Is it really absurd to consider not going to college when the potential outcome is so horrible? I think not.
 
@@ -28,7 +28,7 @@ So let’s take a deep breath, assess what a college education consists of, asse
 
 I made this flowchart to help explain.
 
-![college gamble flowchart]({{ site.url }}/assets/img/cc/college-flowchart-0.png)<!--more-->
+![college gamble flowchart]({{ site.url }}/assets/img/cc/college-flowchart-0.png)
 
 ## The Breakdown: <br>The 6 things you are buying when you buy a degree
 

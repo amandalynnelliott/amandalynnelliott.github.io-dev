@@ -15,8 +15,12 @@ ul#search-results {
 
 // --- About page
 
-slides {
+.slides {
+	padding-left: $spacing-unit*2;
 	
+	figcaption {
+		text-align: left;
+	}
 }
 
 .mySlides {

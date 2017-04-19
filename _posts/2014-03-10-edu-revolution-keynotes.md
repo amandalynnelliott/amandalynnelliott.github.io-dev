@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 We are in the midst of an education revolution.
 
-Brilliant minds all over the world are challenging the industrial and dated way of educating, and are bringing student empowerment, passion, and creativity to center stage.
+Brilliant minds all over the world are challenging the industrial and dated way of educating, and are bringing student empowerment, passion, and creativity to center stage.<!--more-->
 
 ### 1. The Five Minute University
 
@@ -18,7 +18,7 @@ Father Guido Sarducci is a chain-smoking priest with tinted glasses, a character
 
 {% include embed-YouTube.html id="kO8x8eoU3L4" %}
 
-I often re-watch this because it is hilariously true.<!--more-->
+I often re-watch this because it is hilariously true.
 
 ### 2. Why I Hate School But Love Education
 

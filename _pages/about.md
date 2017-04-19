@@ -29,7 +29,7 @@ It makes me happy to create this work, and so, I share it with you.
 <img class="mySlides animate-fading" src="../assets/img/me/glasses.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/hat.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/laugh.jpg">
-</div>
 <figcaption>Flowers and hat photo credits: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a></figcaption>
+</div>
 
 <script src="../assets/js/slideshow.js"></script>
