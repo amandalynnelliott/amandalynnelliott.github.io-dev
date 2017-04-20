@@ -10,6 +10,7 @@ body {
 	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
  	color: $text-color;
   	background-color: $background-color;
+	text-align: justify;
   	-webkit-text-size-adjust: 100%;
   	-webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -19,6 +20,7 @@ body {
 
 	@media screen and (max-width:$on-phone) {
 		font-size: 18px;
+		line-height: 30px;
 	}
 }
 
@@ -79,11 +81,14 @@ h3 {
 }
 
  h4 {
-    font-size: 26px;
+    font-size: 24px;
+	line-height: 2;
 	font-family: 'Signika', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
 	color: $grey-color;
+	background-color: $grey-color-light;
+	text-align: center;
 
     @media screen and (max-width:$on-tablet) {
       font-size: 24px; 
@@ -93,6 +98,17 @@ h3 {
 		font-size: 22px;
 	}
   }
+
+h2, h3 {
+	
+	@media screen and (max-width:$on-tablet) {
+		text-align: left;
+	}
+	
+	@media screen and (max-width:$on-phone) {
+		text-align: center;
+	}
+}
 
 // Paragraphs
 p ~ h2, p ~ h3, p ~ h4 {
@@ -112,14 +128,16 @@ h2 ~ h3, h2 ~ h4, h3 ~ h4 {
 }
 
 p {
-	margin-bottom: 20px;
+	margin-bottom: 32px;
 
 	&.sign-up {
-		margin-bottom: 2em;
 		font-size: 14px;
+		text-align: end;
 		
 		@media screen and (max-width:$on-phone) {
-			text-align: center;
+			text-align: right;
+			line-height: 20px;
+			margin-bottom: 16px;
 		}
 		
 		br {
@@ -134,22 +152,31 @@ p {
 
 // Blockquotes
 blockquote {
-	margin: 1.5em 0;
-	padding-left: 2em;
+	margin: $spacing-unit 0;
+	padding-left: $spacing-unit*2;
 	color: $grey-color;
   	border-left: 10px solid #e8e8e8;
   	font-size: 30px;
   	letter-spacing: -1px;
   	font-style: italic;
+	line-height: 1.4;
+	text-align: left;
 
   	> :last-child {
     	margin-bottom: 0;
-  	}		
+  	}
+	
+	@media screen and (max-width: $on-phone) {
+		padding-left: $spacing-unit;
+		font-size: 24px;
+		line-height: 1.5;
+	}
 }
 
 blockquote footer {
 	font-size: 0.8em;
-	margin: 0.5em 0;
+	margin: $spacing-unit/2 0;
+	line-height: 1.5;
 }
 
 // Images
@@ -161,8 +188,12 @@ img {
 caption, figcaption {
 	color: $grey-color;
 	font-size: $small-font-size;
-	padding-top: 5px;
+	padding-top: 8px;
 	text-align: center;
+	
+	@media screen and (max-width:$on-phone) {
+		font-size: 20px;
+	}
 }
 
 figure > img {
@@ -199,6 +230,7 @@ a {
 button {
 	font-family: $base-font-family;
 	font-size: $base-font-size;
+	-webkit-appearance: none;
 }
 
 label {
@@ -208,7 +240,7 @@ label {
 input, textarea {
 	font-family: inherit;
 	color: $brand-color;
-	padding: 0.5em;
+	padding: 8px;
 	background-color: #fff;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -238,7 +270,7 @@ input[type="submit"]:focus {
 }
 
 .row {
-	margin-bottom: 1.5em;
+	margin-bottom: 16px;
 }
 
 input.name, input.email, textarea {
@@ -247,7 +279,7 @@ input.name, input.email, textarea {
 
 @media screen and (max-width:$on-tablet){
 	input.name, input.email, textarea {
-		width: 94%;
+		width: 93%;
 	}
 }
 
@@ -313,4 +345,23 @@ pre {
   	path {
     	fill: $grey-color;
   	}
+}
+
+
+// Embedded Videos
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+	margin-bottom: 10px;
+} 
+	
+.embed-container iframe, .embed-container object, .embed-container embed { 	
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
 }

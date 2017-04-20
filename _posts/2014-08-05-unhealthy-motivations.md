@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Are your motivations unhealthy? – Fear and the Alternative"
-categories: abundance
-tags: motivation, fear, productivity
+categories: personal-dev abundance
+tags: motivation fear productivity
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/08/unhealthy-motivations/
 excerpt_separator: <!--more-->

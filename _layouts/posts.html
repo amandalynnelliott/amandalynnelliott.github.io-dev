@@ -9,6 +9,9 @@ layout: default
 				: {{ page.title }}
 			{% endif %}
 		</h1>
+		{% if page.category == null %}
+			<p class="post-meta">thoughts like these rack my brain and keep me sane</p>
+		{% endif %}
 	</div>
 	{{ content }}
 	<ul class="post-list">
@@ -24,7 +27,7 @@ layout: default
 						<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
 					</h2>
 					<span class="post-meta">
-						{{ post.date | date: "%b %-d, %Y" }}
+						{{ post.date | date: "%B %-d, %Y" }}
 					</span>
 				</div>
 				{{ post.excerpt }} <em><a href="{{ post.url }}">Read more</a></em>

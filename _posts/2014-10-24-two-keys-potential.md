@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The 2 Keys to Unlocking Your Potential and Cultivating Happiness"
-categories: education
-tags: college, purpose
+categories: personal-dev consciousness
+tags: college purpose reflection
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/10/two-keys/
 excerpt_separator: <!--more-->
@@ -15,14 +15,13 @@ excerpt_separator: <!--more-->
 
 I made this illustration a year ago when I was playing with the idea of unlocking one’s potential, and (as any eighteen year old would be) I was confused and overwhelmed.
 
-Self-discovery is quite confusing and overwhelming, and so I did my best to illustrate to illustrate the anguish of a teenager asking, What should I do?… Which path is right for me? Which college is right for me? Which major? Is the debt worth it? How can I reach my artistic potential without an art degree? … *Which keys unlock my potential?*
+Self-discovery is quite confusing and overwhelming, and so I did my best to illustrate to illustrate the anguish of a teenager asking, What should I do?… Which path is right for me? Which college is right for me? Which major? Is the debt worth it? How can I reach my artistic potential without an art degree? … *Which keys unlock my potential?*<!--more-->
 
 ![key unlocking potential illustration]({{ site.url }}/assets/img/cc/keys-illo.jpg)
 
 However, I was definitely not alone in my anxiety about the future. Young adults are fantastic at asking the question, “What should I do with my life,” but are terrible at answering the question, “What do you *want* to do with your life?”
 
 It’s the result of a fantastic kind of brainwashing–young adults leave school institutionalized. Hopefully in reading this, you’ll learn how to take control of your life again, and discover the two keys to unlocking your true potential.
-<!--more-->
 
 ### Why we don’t know our potential already: Being in School Erodes Your Ability to Make Decisions
 

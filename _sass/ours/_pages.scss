@@ -1,9 +1,18 @@
 // -- Archives page
 
-ul.archive-list li {
+ul.archive-list {
 	font-size: 16px;
-	list-style-type: none;
-	margin-bottom: 10px;
+	line-height: 24px;
+	text-align: left;
+	
+	@media screen and (max-width:$on-phone) {
+		margin-left: 0px;
+	}
+	
+	li {
+		list-style-type: none;
+		margin-bottom: 16px;
+	}
 }
 
 // -- Search page
@@ -15,9 +24,29 @@ ul#search-results {
 
 // --- About page
 
-.mySlides {
-	height: 300px;
+.slides-wrapper {
+	padding-left: $spacing-unit*2;
+	
+	@media screen and (max-width:$on-phone) {
+		padding-left: 0;
+	}
+	
+	.mySlides {
+		height: 300px;
+		
+		@media screen and (max-width:$on-phone) {
+			max-height: 200px;
+		}
+	}
+	
+	figcaption {
+		text-align: left;
+		font-size: 14px;
+		line-height: 1;
+	}
 }
+
+
  /* slideshow */
 .animate-fading {
 	-webkit-animation:fading 10s infinite;

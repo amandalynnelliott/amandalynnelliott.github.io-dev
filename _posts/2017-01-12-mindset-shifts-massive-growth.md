@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Mindset Shifts to Unlock Massive Growth"
-categories: productivity
-tags: art drawing performance mindset skill development
+categories: personal-dev mastery
+tags: art drawing performance beliefs skill-development mistakes
 author: "Amanda Lynn Elliott"
 permalink: /blog/2017/01/mindset-shifts/
 excerpt_separator: <!--more-->
 ---
 
-In examining skill development, I decided to go a step beyond the generic "slow and steady wins the race" advice. Instead, I decided to dive into how mindset shifts can lead to *massive* gains, quickly. I didn't just want to be the tortoise, but the hare as well. 
+In examining skill development, I decided to go a step beyond the generic 'slow and steady wins the race' advice. Instead, I decided to dive into how mindset shifts can lead to *massive* gains quickly. I didn't just want to be the tortoise, but the hare as well. 
 
 The following are lessons I've gained from experimenting with mindset shifts in respect to  the skill I've been developing in my life, drawing people, but these insights can be applied to any skill you're developing.
 
@@ -29,11 +29,11 @@ And here's some from right before I started regular practice:
 
 I've noticed this my whole life when people would approach me while I was drawing, explaining how they *can't draw*. I'd point to their perfectly functioning hands, and ask, *Why not?*
 
-It's not that people *can't* draw—that they truly are incapable of making marks on a page—it's that they won't. They're too scared.
+It's not that people *can't* draw — that they truly are incapable of making marks on a page — it's that they won't. They're too scared.
 
 Scared of messing up, of making bad art, and of their self-worth being defined by that bad art. This mindset says, "*Steve makes worthless art, which means he is a worthless person. He should just give up.*" 
 
-It goes without saying, these fears are not true. Though it isn't rational, it is the kind of traumatizing event people foresee happening when they consider expressing themselves—so they jump ahead to end result they already predict: *they give up.* 
+It goes without saying, these fears are not true. Though it isn't rational, it is the kind of traumatizing event people foresee happening when they consider expressing themselves — so they jump ahead to end result they already predict: *they give up.* 
 
 Unfortunately, in an attempt to avoid pain, they end up causing more of it. The pain of embarrassment is nothing compared to the pain of regret. 
 

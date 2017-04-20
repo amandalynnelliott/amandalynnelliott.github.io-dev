@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Exploration & Interviews Part 1: The Secret Sauce"
-categories: education
-tags: career, interviews
+categories: personal-dev abundance
+tags: career interviews
 author: "Amanda Lynn Elliott"
 permalink: /blog/2014/08/interviews-secret-sauce/
 excerpt_separator: <!--more-->
@@ -14,7 +14,7 @@ Recently I picked up a copy of [Roadtrip Nation](http://roadtripnation.com/about
 
 Roadtrip Nation is a book, [television series](http://www.pbs.org/roadtrip-nation/home/), and movement started by Mike Marriner and Nathan Gebhard, college students at the time who wanted to chart their own life paths instead of prescribing to somebody else’s. They had the crazy idea to go on a road trip across the country to interview successful people from all walks of life. In exploring and learning about a variety of different life paths, they gained advice to help others and themselves in their own life navigation.
 
-Well, a book publisher just so happened to like this crazy idea, funded their trip across the country in an RV, and low and behold, the Roadtrip Nation movement was born.
+Well, a book publisher just so happened to like this crazy idea, funded their trip across the country in an RV, and low and behold, the Roadtrip Nation movement was born.<!--more-->
 
 ## The Roadtrip Nation Manifesto
 
