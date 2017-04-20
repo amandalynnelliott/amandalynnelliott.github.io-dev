@@ -1,11 +1,11 @@
 readme file
 ---
 
+<!--
 To add
-- branding
---- fonts
---- colors
+- plugins
 - google analytics
+-->
 
 # AmandaLynnElliott's blog theme
 
@@ -212,12 +212,9 @@ Input:
 [^2]: Dogs are usually not red
 ```
 
-Output: ***Works on the blog, not here***
+Output:
 
-**The quick brown fox[^1] jumped over the lazy dog[^2].**
-
-[^1]: Foxes are red
-[^2]: Dogs are usually not red
+![doc footnote](/doc-footnote.png?raw=true)
 
 #### Adding Images
 
@@ -236,10 +233,31 @@ Adding slideshows.<a name="slideshow"></a>
 3. Add to bottom. `<script src="../assets/js/slideshow.js"></script>`.
 
 
+## Branding
 
+[See example post.](/doc-post-styles.png?raw=true)
 
+### Fonts
 
-Resources 
-- [Jekyll Quickstart Guide](https://jekyllrb.com/docs/quickstart/)
+| Type        | Font   | Size |	Weight | Color | Style |
+| ---------- |:-------:| ----:| ------:| -----:| ---:|
+| `<h1>`     | Signika | 36px |	600	   | #505050 | Normal |
+| `<h2>`     | Signika | 34px |	600	   | #505050 | Normal |
+| `<h3>`	 | Signika | 30px |	600	   | #505050 | Normal |
+| `<h4>`	 | Signika | 26px |	300	   | #828282 | Normal |
+| `body`	 | Merriweather Sans | 20px | 400 |	#505050 | Normal |
+| `caption`	 | Merriweather Sans | 14px | 400 | #828282 | Normal |
+| `blockquote` | Merriweather Sans | 30px | 400 | #828282 | Italic
 
+### Colors
 
+| Type | Hexcode |
+| --- |:-------:|
+| background | #fdfdfd|
+| text | #505050 |
+| links | #7178af |
+| grey | #828282 | 
+| grey light | #e8e8e8 |
+| grey dark | #424242 |
+| header background | #292929 |
+| header title | #e4e4e4 |
