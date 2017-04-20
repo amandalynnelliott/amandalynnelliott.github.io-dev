@@ -188,8 +188,12 @@ img {
 caption, figcaption {
 	color: $grey-color;
 	font-size: $small-font-size;
-	padding-top: 5px;
+	padding-top: 8px;
 	text-align: center;
+	
+	@media screen and (max-width:$on-phone) {
+		font-size: 20px;
+	}
 }
 
 figure > img {
@@ -226,6 +230,7 @@ a {
 button {
 	font-family: $base-font-family;
 	font-size: $base-font-size;
+	-webkit-appearance: none;
 }
 
 label {
@@ -235,7 +240,7 @@ label {
 input, textarea {
 	font-family: inherit;
 	color: $brand-color;
-	padding: 0.5em;
+	padding: 8px;
 	background-color: #fff;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -265,7 +270,7 @@ input[type="submit"]:focus {
 }
 
 .row {
-	margin-bottom: 1.5em;
+	margin-bottom: 16px;
 }
 
 input.name, input.email, textarea {
@@ -274,7 +279,7 @@ input.name, input.email, textarea {
 
 @media screen and (max-width:$on-tablet){
 	input.name, input.email, textarea {
-		width: 94%;
+		width: 95%;
 	}
 }
 

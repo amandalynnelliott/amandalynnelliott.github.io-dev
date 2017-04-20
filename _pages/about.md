@@ -24,7 +24,7 @@ Post topics range from skill development, creativity, philosophy, life lessons, 
 I make the work I want to see exist in the world.
 It makes me happy to create this work, and so, I share it with you. 
 
-<div class="slides">
+<div class="slides-wrapper">
 <img class="mySlides animate-fading" src="../assets/img/me/flowers.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/glasses.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/hat.jpg">

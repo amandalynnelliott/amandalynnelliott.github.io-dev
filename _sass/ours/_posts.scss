@@ -168,6 +168,10 @@ p.sidenote {
 	border-radius: 5px;
 	font-style: italic;
 	text-align: left;
+	
+	@media screen and (max-width:$on-phone) {
+		padding: $spacing-unit;
+	}
 }
 
 /**
@@ -184,16 +188,26 @@ p.sidenote {
 	padding-bottom: 2em;
 	border-bottom: 1px solid $grey-color-light;
 	font-size: 0.9em;
+	text-align: left;
 
 	h3 {
 		font-size: 26px;
 		@media screen and (max-width:$on-laptop) {
 			font-size: 22px;
+			text-align: left;
 		}
 	}
 
 	p {
-		margin-bottom: 0.5em;
+		
+		margin-bottom:24px;
+		line-height:16px;
+		
+		@media screen and (max-width:$on-phone) {
+			margin-bottom: 16px;
+			//line-height: 16px;
+		}
+		
 	}
 
 }
