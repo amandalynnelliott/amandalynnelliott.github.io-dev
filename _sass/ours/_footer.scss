@@ -11,8 +11,8 @@
 	}
 	
 	h3 {
-		@media screen and (min-width:320px) {
-			text-align: left;
+		@media screen and (min-width:$on-laptop) {
+		
 		}
 		
 		span {
@@ -26,7 +26,7 @@
 		margin-right: 8px;
 		
 		@media screen and (max-width: 320px) {
-			width: 94%;
+			margin-right: 0;
 		}
 	}
 	
