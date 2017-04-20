@@ -43,46 +43,50 @@
 </header>
 
 <script>
+	var onPhone = 425;
+	var onTablet = 768;
+
 	$(document).ready(function () {
+		// only on mobile
 		$('.menu-button').click(function () {
 			if ($(this).hasClass('open')) {
-				$(this).removeClass('open');
-				$('.site-nav').removeClass('open');
-				$('.nav-menu').removeClass('open');
+				$(this).removeClass('open'); // turn the button off
+				$('.site-nav').removeClass('open'); // hides the menu
+				$('.nav-menu').removeClass('open'); // hides the menu
 			} else {
-				$(this).addClass('open');
-				$('.site-nav').addClass('open');
-				$('.nav-menu').addClass('open');
+				$(this).addClass('open'); // turn the button on
+				$('.site-nav').addClass('open'); // show the menu
+				$('.nav-menu').addClass('open'); // show the menu
 			}
 		});
 
 		$('.nav-item').hover(function () {
-			if ($(window).width() > 600) {
-				$(this).addClass('open');
-			}
+			$(this).addClass('open');
 		}, function () {
-			if ($(window).width() > 600) {
-				$(this).removeClass('open');
-				$('.nav-submenu', this).removeClass('open');
-			}
-			if ($(window).width() > 400) {
-				$('.nav-item').removeClass('open');	
-				$('.nav-submenu').removeClass('open');
+			if ($(window).width() > onPhone) { // if not on phone
+				$('.nav-item').removeClass('open'); // turns off all nav item buttons
+				$('.nav-submenu').removeClass('open'); // hides all nav submenus
 			}
 		});
 
 		$('.nav-link').click(function (e) {
-			e.preventDefault();
-			if ($(window).width() > 600) {
-				document.location.href = $(this).attr('href');
+			e.preventDefault(); // stop the page from going to the link
+			if (!isTouchDevice()) {
+				document.location.href = $(this).attr('href'); // goes to the link
 			} else {
-				if ($(this).siblings('.nav-submenu').length == 0 || $(this).siblings('.nav-submenu').hasClass('open')) {
-					document.location.href = $(this).attr('href');
+				if ($(this).siblings('.nav-submenu').length == 0 || $(this).siblings('.nav-submenu').hasClass('open')) { // if there is no submenu, or the submenu is open
+					document.location.href = $(this).attr('href'); // goes to the link
 				} else {
-					$(this).parent('.nav-item').addClass('open');
-					$(this).siblings('.nav-submenu').addClass('open');
+					$(this).siblings('.nav-submenu').addClass('open'); // open the submenu
 				}
 			}
 		});
 	});
+	
+	function isTouchDevice() {
+		// for testing in the DOM
+		//return true;
+		return 'ontouchstart' in document.documentElement;
+	}
+
 </script>
