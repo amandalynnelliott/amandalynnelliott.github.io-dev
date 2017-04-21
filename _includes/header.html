@@ -53,10 +53,16 @@
 				$(this).removeClass('open'); // turn the button off
 				$('.site-nav').removeClass('open'); // hides the menu
 				$('.nav-menu').removeClass('open'); // hides the menu
+
+				//$('.site-nav').slideUp(1000);
+				//$('.nav-menu').slideUp(1000);
 			} else {
 				$(this).addClass('open'); // turn the button on
 				$('.site-nav').addClass('open'); // show the menu
 				$('.nav-menu').addClass('open'); // show the menu
+
+				//$('.site-nav').slideDown(1000);
+				//$('.nav-menu').slideDown(1000);
 			}
 		});
 
@@ -85,7 +91,7 @@
 	
 	function isTouchDevice() {
 		// for testing in the DOM
-		//return true;
+		return true;
 		return 'ontouchstart' in document.documentElement;
 	}
 

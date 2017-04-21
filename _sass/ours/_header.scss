@@ -82,13 +82,13 @@
 	@media screen and (max-width: $on-phone) {
 		overflow: hidden;
 		background-color: $grey-color-dark;
-		visibility: hidden;
-		display: none;
+		visibility: hidden; // comment this
+		display: none; // comment this
 		overflow-x: visible;
 
 		&.open {
-			visibility: visible;
-			display: block;
+			visibility: visible; // comment this
+			display: block; // comment this
 			overflow-y: visible;
 			width: 100%;
 		}
