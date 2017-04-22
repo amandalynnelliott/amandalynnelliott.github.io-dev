@@ -17,6 +17,11 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
 	font-kerning: normal;
+	
+	@media screen and (max-width:$on-tablet) {
+    	font-size: 18px;
+		line-height: 26px;
+    }
 
 	@media screen and (max-width:$on-phone) {
 		font-size: 16px;
@@ -35,6 +40,7 @@ h4, h5, h6 {
 }
 
 h1, h2, h3 {
+	line-height: 1;
 	font-weight: 600;
 	font-family: 'Signika', sans-serif;
 }
@@ -58,9 +64,10 @@ h1 {
 
 h2 {
     font-size: 34px;
+	line-height: 1;
 
     @media screen and (max-width:$on-tablet) {
-      font-size: 32px;
+    	font-size: 32px;
     }
 	
 	@media screen and (max-width:$on-phone) {
@@ -101,7 +108,7 @@ h3 {
 
 h2, h3 {
 	
-	@media screen and (max-width:$on-tablet) {
+	@media screen and (min-width:$on-phone) {
 		text-align: left;
 	}
 	
