@@ -28,7 +28,7 @@ This theme was built up from the Jekyll theme [`minima`](https://github.com/jeky
 
 Refers to the `_layouts` directory and determines much of the website structure. Adding a new layout is like adding a new page type, and is done by adding the file to the directory, and linking to it in the `layout:` property in the FrontMatter of the doc.
 
-- `default.html` --- The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents in this file at the line that says `{{ content }}` and are linked to this file via [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: default`.
+- `default.html` --- The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents in this file at the line that says `{{ content }}` and are linked to this file via [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: default`. This also has a `caption` variable that can be used to add a caption under the header, which is in the same position and styled as `post-meta` for posts.
 - `page.html` --- The layout for documents that contain FrontMatter, but are not posts.
 - `post.html` --- The layout for posts. Has post-footer for "Read related articles" list, and arrows linking to  
 - `posts.html` --- Currently acting as home page, develops a list of post excerpts and "read more" links ordered by most-recent to oldest. 
@@ -214,7 +214,7 @@ Input:
 
 Output:
 
-![doc footnote](/doc-footnote.png?raw=true)
+![doc footnote](/doc-footnote.PNG?raw=true)
 
 #### Adding Images
 
@@ -235,7 +235,7 @@ Adding slideshows.<a name="slideshow"></a>
 
 ## Branding
 
-[See example post.](/doc-post-styles.png?raw=true)
+[See example post.](/doc-branding.PNG?raw=true)
 
 ### Fonts
 
@@ -245,9 +245,10 @@ Adding slideshows.<a name="slideshow"></a>
 | `<h2>`     | Signika | 34px |	600	   | #505050 | Normal |
 | `<h3>`	 | Signika | 30px |	600	   | #505050 | Normal |
 | `<h4>`	 | Signika | 26px |	300	   | #828282 | Normal |
-| `body`	 | Merriweather Sans | 20px | 400 |	#505050 | Normal |
-| `caption`	 | Merriweather Sans | 14px | 400 | #828282 | Normal |
-| `blockquote` | Merriweather Sans | 30px | 400 | #828282 | Italic
+| `body`	 | Open Sans | 20px | 400 |	#505050 | Normal |
+| `caption`	 | Open Sans | 14px | 400 | #828282 | Normal |
+| `.post-meta`	 | Signika | 16px | 400 | #828282 | Normal |
+| `blockquote` | Open Sans | 30px | 400 | #828282 | Italic |
 
 ### Colors
 
