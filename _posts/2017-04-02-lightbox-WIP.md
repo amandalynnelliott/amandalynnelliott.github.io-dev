@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "24 Hour Comic Challenge"
+title: "Lightbox WIP"
 categories: personal-dev mastery
 tags: drawing story
 author: "Amanda Lynn Elliott"
