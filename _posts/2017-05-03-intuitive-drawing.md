@@ -18,11 +18,11 @@ This is about getting to the place beyond conscious thought.
 
 Recent work:
 
-![recent life drawing - 3 minute sketches]({{ site.url }}/assets/img/2017/05/Brett.JPG)
+![recent life drawing - 3 minute sketches]({{ site.url }}/assets/img/2017/05/Brett.jpg)
 
 Before practice and mindset shifts:
 
-![before consistent figure drawing practice]({{ site.url }}/assets/img/2017/05/before.JPG)
+![before consistent figure drawing practice]({{ site.url }}/assets/img/2017/05/before.jpg)
 
 <!--more-->
 
@@ -38,7 +38,7 @@ As an artist, your job is to capture this movement.
 
 We are not static, but *dynamic*. We are always moving, and so are our thoughts, as are the cells that keep us alive. Everything within us is always changing and moving. 
 
-![1 minute sketch model movement]({{ site.url }}/assets/img/2017/05/Kayla.JPG)
+![1 minute sketch model movement]({{ site.url }}/assets/img/2017/05/Kayla.jpg)
 
 These are the things I focus on capturing when drawing somebody, instead of just on rendering their form accurately as if they were only hunks of flesh. There is a huge difference between drawing life and drawing an inanimate building. Let’s embrace the life within, let’s exaggerate, discover personalities and emotions, experiment, and go wild! 
 
@@ -64,7 +64,7 @@ This argument is surprisingly relevant to what we are talking about: the concept
 
 Yes, there is a time to study, this is the active energy, the Yang. But in order to achieve balance we need the passive and receptive energy of the Yin as well. You might recognize this:
 
-![yin and yang]({{ site.url }}/assets/img/2017/05/yin-yang.JPG)
+![yin and yang]({{ site.url }}/assets/img/2017/05/yin-yang.jpg)
 
 Most of Western society has an overemphasis on the Yang energy, the masculine, the active, and the topic of drawing is no exception. For the sake of this post, I instead focus on how to channel our underutilized Yin energy, so that we can achieve balance, just like the fumbling toddler.
 
@@ -83,7 +83,7 @@ Here we are, learning how to walk.
 
 The goal is a complete and balanced whole. 
 
-![complete circle solar eclipse]({{ site.url }}/assets/img/2017/05/eclipse.JPG)
+![complete circle solar eclipse]({{ site.url }}/assets/img/2017/05/eclipse.jpg)
 
 ### Awaken Your Intuition
 
@@ -93,7 +93,7 @@ The best way I can describe channeling your intuition is to: **Turn your brain o
 
 If you’ve ever meditated for substantial periods of time, you might know what I’m talking about. You focus on deepening your breath and let your thoughts pass by over you like clouds. You simply be still. You release any fear and accept where you are. Once you find this quiet, timeless, and positive place, you know you are safe to learn. From here is where you channel confidence. 
 
-![model meditation pose - 2 minute sketch]({{ site.url }}/assets/img/2017/05/Jordan-meditate.JPG)
+![model meditation pose - 2 minute sketch]({{ site.url }}/assets/img/2017/05/Jordan-meditate.jpg)
 
 Your intuition is powerful, but it is easily blocked. It can easily be blocked by any negative emotions, worries, and fears, oftentimes our fears about how [making mistakes makes us not good enough]({{ site.url }}/blog/2017/01/mindset-shifts/). 
 
@@ -129,13 +129,13 @@ One time during a life drawing session that I had rushed in late to, finding the
 </p>
 
 <!-- CHANGE THIS TO LIGHTBOX -->
-![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will1.JPG)
+![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will1.jpg)
 
-![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will2.JPG)
+![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will2.jpg)
 
-![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will3.JPG)
+![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will3.jpg)
 
-![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will4.JPG)
+![shocking session]({{ site.url }}/assets/img/2017/05/gallery/Will4.jpg)
 
 ### Develop Mind-Body Awareness
 
@@ -145,7 +145,7 @@ By mind-body awareness, I mean that I am aware of how I hold my body at all time
 
 My yoga practice has given me is a stronger sense of mind-body-awareness. When I see a model doing a complex pose, I can easily put myself in his or her shoes. I can imagine flexing and relaxing my own muscles in the same way to hold the same pose, and when I visualize doing this, the drawing comes out significantly better. 
 
-![2 minute sketches]({{ site.url }}/assets/img/2017/05/Jordan-moving.JPG)
+![2 minute sketches]({{ site.url }}/assets/img/2017/05/Jordan-moving.jpg)
 
 I find this realization beautiful because exercise is completely unrelated to drawing, but the connection for me has been profound. I used to look at exercise as time that could have been spent working, but now I see and appreciate how it can amplify my work in ways I never could have expected.  
 
@@ -169,7 +169,7 @@ You can let this yin and yang metaphor carry you even further by asking yourself
 - How can I balance these energies to create unity—a balanced silhouette?
 
 <figure>
-<img src="{{ site.url }}/assets/img/2017/05/force-book.JPG" alt="Force book photo">
+<img src="{{ site.url }}/assets/img/2017/05/force-book.jpg" alt="Force book photo">
 <figcaption>I highly recommend geting <a href="https://www.amazon.com/dp/B008YTXQTQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1">this book</a>.</figcaption>
 </figure>
 
