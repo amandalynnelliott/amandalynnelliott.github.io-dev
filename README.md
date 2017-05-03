@@ -240,7 +240,7 @@ Adding slideshows.<a name="slideshow"></a>
 ### Fonts
 
 | Type        | Font   | Size |	Weight | Color | Style |
-| ---------- |:-------:| ----:| ------:| -----:| ---:|
+| ---------- |-------| ----:| ------:| -----:| ---:|
 | `<h1>`     | Signika | 36px |	600	   | #505050 | Normal |
 | `<h2>`     | Signika | 34px |	600	   | #505050 | Normal |
 | `<h3>`	 | Signika | 30px |	600	   | #505050 | Normal |

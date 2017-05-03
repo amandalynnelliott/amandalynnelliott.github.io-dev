@@ -199,7 +199,7 @@ caption, figcaption {
 	text-align: center;
 	
 	@media screen and (max-width:$on-phone) {
-		font-size: 20px;
+		font-size: 14px;
 	}
 }
 
@@ -230,6 +230,36 @@ a {
 	&:hover {
     	text-decoration: underline;
 		color: $brand-color;
+	}
+}
+
+// Tables
+
+table, th, td {
+    border: 1px solid $grey-color-light;
+}
+
+table {
+	margin-bottom: $spacing-unit;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: $small-font-size;
+	
+	td {
+		//padding-right: 24px;
+	}
+	
+	th, td {
+		padding: 8px 16px;
+	}
+	
+	tr:nth-child(even) {
+		background-color: $grey-color-light;
+	}
+	
+	th {
+		background-color: $grey-color;
+		color: $background-color;
 	}
 }
 
