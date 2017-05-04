@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Figure Drawing: Embracing Intuition "
+title: "Embracing Intuition in Figure Drawing"
 categories: personal-dev mastery
 tags: drawing figure life anatomy intuition
 author: "Amanda Lynn Elliott"

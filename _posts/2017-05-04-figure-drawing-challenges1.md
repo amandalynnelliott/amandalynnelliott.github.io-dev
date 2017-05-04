@@ -16,7 +16,7 @@ Now for me, I'm much more engaged during the quick gesture poses before the long
 
 But since I was paying for the full class, long pose included, I wanted to curb my tenancy to leave early. 
 
-I realized that if you aren't engaged in an activity, especially a routine one like this, then there's no point to putting in the time. I simply had to make these four 20 minute sessions more challenging. And thus, this list of challenges was born!
+I realized that if you aren't engaged in an activity, especially a routine one like this, then there's no point to putting in the time. I simply had to make these four 20 minute sessions more challenging. And thus, this list of challenges was born!<!--more-->
 
 1.	**Ambidexterity** – Use your non-dominant hand exclusively. 
 2.	**Anatomy** – Focus on a specific muscle group and draw these muscles over the pose. Study the mechanics of this moving form.
