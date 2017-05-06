@@ -19,7 +19,7 @@ Developing the ability to draw with both of my hands was first on my challenge l
 I dove in, taking a 20 minute figure drawing session to draw solely with my non-dominant left hand. 
 As to be expected, drawing with my left hand is a slow and clumsy process, but what I didn’t expect was *how good it felt.*<!--more-->
 
-It felt like an orgasm for the right side of my brain—a side that had been so underused. It was like discovering an ancient tomb in my mind that had been sealed for thousands of years, and suddenly thrusting it open, making way for a massive gust of energy sweep away all cobwebs and dust it contained. This resulting perspective was fresh and clear. 
+It felt like an orgasm for the right side of my brain—a side that had been so underused. It was like discovering an ancient tomb in my mind that had been sealed for thousands of years, and suddenly thrusting it open, making way for a massive gust of energy to sweep away all cobwebs and dust it contained. This resulting perspective was fresh and clear. 
 
 Brandon did the challenge with me, and he had the same awakening experience. We agreed: It felt exhausting and awesome!
 
