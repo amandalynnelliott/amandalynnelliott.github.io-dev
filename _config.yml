@@ -25,9 +25,18 @@ markdown: kramdown
 # theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-paginate-categories
 exclude:
   - Gemfile
   - Gemfile.lock
 include: [
 	_pages
 ]
+
+# Pagination
+paginate: 5
+paginate_path: "/p/:num/"
+
+paginate_category_basepath: '/c/:name/'
+paginate_category_layout: 'posts.html'

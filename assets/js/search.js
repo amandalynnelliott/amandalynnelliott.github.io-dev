@@ -8,7 +8,6 @@
 				appendString += '<li class="post-list-item">';
                 appendString += '<h2><a class="post-link" href="' + item.url + '">' + item.title + '</a></h2>';
                 appendString += '<span class="post-meta">' + item.date + '</span>';
-                appendString += '<p>' + item.excerpt + '<em><a href="' + item.url + '">Read more</a></em></p>';
 				appendString += '</li>';
             }
             searchResults.innerHTML = appendString;
@@ -38,10 +37,11 @@
         // a boost of 10 to indicate matches on this field are more important.
         var idx = lunr(function () {
             this.field('id');
-            this.field('title', { boost: 10 });
+            this.field('title');
             this.field('author');
             this.field('category');
             this.field('content');
+            this.field('date', { boost: 10});
         });
         for (var key in window.store) { // Add the data to lunr
             idx.add({
@@ -49,7 +49,8 @@
                 'title': window.store[key].title,
                 'author': window.store[key].author,
                 'category': window.store[key].category,
-                'content': window.store[key].content
+                'content': window.store[key].content,
+                'date': window.store[key].date
             });
             var results = idx.search(searchTerm); // Get lunr to perform a search
             displaySearchResults(results, window.store); // We'll write this in the next section
