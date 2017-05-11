@@ -53,4 +53,20 @@ $(document).ready(function () {
             enabled: true
         }
     });
+
+    $('.gallery-zoo').magnificPopup({
+        type: 'image',
+        items: (function () {
+            var items = [];
+            for (var i = 1; i <= 9; i++) {
+                items.push({
+                    src: '/assets/img/2017/05/gallery-zoo/' + i + '.jpg'
+                });
+            }
+            return items;
+        })(),
+        gallery: {
+            enabled: true
+        }
+    });
 });
