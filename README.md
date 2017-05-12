@@ -13,12 +13,30 @@ A Jekyll-generated minimial blog website. The focus is less on design, more on c
 
 ## Getting Started
 
+There are two repos for this site. `amandalynnelliott.github.io` for the live site that is set up with GitHub Pages. 
+And `amandalynnelliott.github.io-dev` that can be served locally for development.
+
 1. [Ruby install](https://www.ruby-lang.org/en/)
 2. [Git install](https://git-scm.com/)
 3. `gem install jekyll bundler`
 4. `git clone https://github.com/amandalynnelliott/amandalynnelliott.github.io.git`
 5. `cd amandalynnelliott.github.io`
 6. `bundle exec jekyll serve`
+
+## Updating Site (and adding posts)
+
+1. Once changes are added to the `-dev` repo, type the command `jekyll build.`
+2. Go into the `_site` folder and copy the new contents. 
+3. Paste and replace the contents in the live repo, except for the .git folder. 
+4. Commit both repos. 
+
+#### About Adding Posts
+
+See Jekyll's [writing posts documentation](https://jekyllrb.com/docs/posts/).
+
+If not ready to publish, add to `_drafts` folder. Move to `_posts` when ready to publish. 
+
+Once new file in `_posts` is pushed to main directory, it will be sent to out to RSS email campaign. 
 
 ## Contents At-A-Glance
 
@@ -54,10 +72,8 @@ Refers to snippets of code within the `_includes` directory that can be inserted
 - `footer.html` --- Defines site's footer section.
 - `google-analytics.html` --- Inserts Google Analytics module (active only in production environment). For future use.
 - `head.html` --- Code-block that defines `<head></head>` in *default* layout. 
-- `header.html` --- Defines the site's main header section, including the navigation bar. 
-- `lightbox.html` --- **Needs work.** The same functionality as `modal-image.html` except it only applies when called by a specific element, and is for a gallery of images. 
+- `header.html` --- Defines the site's main header section, including the navigation bar.  
 - `mailchimp.html` --- MailChimp subscribe form. 
-- `modal-image.html` --- By default for all images inside *Posts*, adds the functionality for user to click images, making it enlarge infront of dark backgorund and displaying it's alt text. Won't apply to images with the class `ignore-modal`.
 
 ### Sass
 
@@ -99,21 +115,15 @@ Otherwise for posts, organized in folders by year and month, like the structure 
 ### JavaScript
 
 - `jquery-3.1.1.min.js` 
+- `jquery-magnific-popup.min.js` --- For Maginific Popup, which is used to allow images to enlarge with lightbox when clicked, and for adding image gallery functionality.
 - `lunr.min.js` --- For search functionality.
+- `popup.js` --- Controls made from Magnific Popup, including images galleries.
 - `search.js`
 - `slideshow.js` --- For fading image [slideshows](#slideshow). Mostly reserved for pages instead of blog posts because it can be distracting. 
 
 ## Content
 
 ### Categories and Tags
-
-Posts can have multiple categories separated by spaces, but make it a rare occurance.
-
-It's important to keep categories and tags minimal and organized so post organizion doesn't become bloated. 
-
-Category links are self-generated in the dropdown menu in `_includes/header.html`. They each have a doc inside `_pages.html` so the link doesn't return a 404 page.
-
-My posts separate into two sections. In the future, this will be displayed on the dropdown menu and custom home page.
 
 All posts have two categories. The first being either ***personal-dev*** or ***society**, and the then a second category and tags from the following list. 
 
@@ -140,32 +150,6 @@ All posts have two categories. The first being either ***personal-dev*** or ***s
 	- Government <- politics
 	- Economy
 	- Insurance
-
-
-#### Adding New Categories
-
-Only after checking above list to prevent dublication of categories...
-
-1. In `_pages` make `category-name.md`
-2. Within that file, add the following FrontMatter:
-	```markdown 
-	layout: posts
-	title: Category Name
-	permalink: /category-name/
-	category: category-name
-	```
-3. In post, add `category: category-name` to FrontMatter. 
-4. Add category to above list.
-
-Links to categories are automatically generated into the dropdown menu under *Blog*. The code for that is in `header.html`. 
-
-### Adding Posts
-
-See Jekyll's [writing posts documentation](https://jekyllrb.com/docs/posts/).
-
-If not ready to publish, add to `_drafts` folder. Move to `_posts` when ready to publish. 
-
-Once new file in `_posts` is pushed to main directory, it will be sent to out to RSS email campaign. 
 
 #### Writing
 
@@ -223,11 +207,12 @@ Adding a single image.
 2. Link in post with markdown syntax. 
 3. If wanting to add caption, use `<figure>` and `<figcaption>`.
 
-Adding an image gallery/ lightbox. **WIP**
-1. In the `assets/img/YYYY/MM/`directory, create a folder called `gallery` and place images there. 
-2. ... 
+Adding an image gallery --- Using **Magnific Popup**
+1. In the `assets/img/YYYY/MM/`directory, create a folder called `gallery` and place images there, each named as a number starting with one. 
+2. Where you want the gallery, in the post, add the image with unique class following the standard of `gallery-POST`.
+3. With that class, write the gallery script in `popup.js.`
 
-Adding slideshows.<a name="slideshow"></a> 
+Adding image fading slideshows.<a name="slideshow"></a> 
 1. List out images in HTML.
 2. Add classes `mySlides` and `animate-fading`.
 3. Add to bottom. `<script src="../assets/js/slideshow.js"></script>`.
@@ -262,3 +247,9 @@ Adding slideshows.<a name="slideshow"></a>
 | grey dark | #424242 |
 | header background | #292929 |
 | header title | #e4e4e4 |
+
+## Plugins
+
+- jekyll-feed
+- jekyll-paginate
+- jekyll-paginate-categories --- Third party plugin, and the reason site has to be built locally before committing to GitHub's servers.
