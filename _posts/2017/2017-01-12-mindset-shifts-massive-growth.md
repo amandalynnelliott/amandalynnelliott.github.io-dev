@@ -18,11 +18,11 @@ The past seven months, I've been rigorously studying how to draw human anatomy: 
 
 Here's some recent work:
 
-![sketch of people in public]({{ site.url }}/assets/img/pplsketch3.jpg)  <!--more-->
+![sketch of people in public]({{ site.url }}/assets/img/2017/01/pplsketch3.jpg)  <!--more-->
 
 And here's some from right before I started regular practice: 
 
-![sketch of people in public]({{ site.url }}/assets/img/pplsketch-before.jpg)
+![sketch of people in public]({{ site.url }}/assets/img/2017/01/pplsketch-before.jpg)
 
 
 *So much of the challenge with skill acquisition is overcoming the fear of failure enough to let yourself make the mistakes required to learn anything.*
@@ -72,7 +72,7 @@ It's like flying a plane from point A to B, and making many micro-adjustments al
 
 Soon the ratio of making mistakes to producing results shifts, and people start noticing your work.
 
-![mistakes and output over time chart]({{ site.url }}/assets/img/chart.png)
+![mistakes and output over time chart]({{ site.url }}/assets/img/2017/01/chart.png)
 
 ### Never stop making mistakes.
 
@@ -147,7 +147,7 @@ Rather than erasing, drawing over, erasing and drawing over, which can eliminate
 
 It's not always pretty, but that's not the point; learning is.
 
-![sketch of people in public]({{ site.url }}/assets/img/pplsketch.jpg)
+![sketch of people in public]({{ site.url }}/assets/img/2017/01/pplsketch.jpg)
 
 Making a successful drawing in pen requires trust. A good output only happens when I trust myself to be okay with any mistakes that come up. 
 
