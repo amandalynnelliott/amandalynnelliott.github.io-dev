@@ -235,3 +235,29 @@ p.sidenote {
 	float: right;
 	text-align: right;
 }
+
+
+/**
+ * Pagination
+ */
+.pagination ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-left: 0;
+	margin-top: 8px;
+	
+	li {
+		padding: 4px 8px;
+		margin: 0 4px;
+		border: 1px solid $grey-color-light;
+		
+		&:hover, &.current {
+			background-color: $brand-color-light;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+	}	
+}

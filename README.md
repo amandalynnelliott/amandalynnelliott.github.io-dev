@@ -241,7 +241,8 @@ Adding image fading slideshows.<a name="slideshow"></a>
 | --- |:-------:|
 | background | #fdfdfd|
 | text | #505050 |
-| links | #7178af |
+| brand-color | #7178af |
+| brand-color light | #E3E5EF|
 | grey | #828282 | 
 | grey light | #e8e8e8 |
 | grey dark | #424242 |

@@ -29,21 +29,37 @@ layout: default
 				{{ post.excerpt }} <em><a href="{{ post.url }}">Read more</a></em>
 			</li>
 		{% endfor %}
-	</ul>
-	<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-</div>
-
-<!-- Pagination links -->
+		
+		<li>
+<!-- PAGINATION- Davis make this "1, 2, 3 ... [last number] / always have a few pages around current page -->
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
+	<ul>
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+		<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a></li>
   {% else %}
-    <span class="previous">Previous</span>
+		
   {% endif %}
-  <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+		<li class="current"><em>{{ page }}</em></li>
+    {% elsif page == 1 %}
+		<li><a href="{{ site.url }}">{{ page }}</a></li><!-- there is no /p/1/ -->
+    {% else %}
+		<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+		<li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a></li>
   {% else %}
-    <span class="next">Next</span>
+   
   {% endif %}
+	</ul>
+</div>
+{% endif %}
+<!-- END PAGINATION -->
+		</li>
+	</ul>
 </div>
