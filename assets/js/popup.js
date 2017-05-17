@@ -69,4 +69,36 @@ $(document).ready(function () {
             enabled: true
         }
     });
+	
+	$('.gallery-emiliano').magnificPopup({
+        type: 'image',
+        items: (function () {
+            var items = [];
+            for (var i = 1; i <= 4; i++) {
+                items.push({
+                    src: '/assets/img/cc/art/gallery-emiliano/' + i + '.jpg'
+                });
+            }
+            return items;
+        })(),
+        gallery: {
+            enabled: true
+        }
+    });
+	
+	$('.gallery-victo').magnificPopup({
+        type: 'image',
+        items: (function () {
+            var items = [];
+            for (var i = 1; i <= 4; i++) {
+                items.push({
+                    src: '/assets/img/cc/art/gallery-victo/' + i + '.jpg'
+                });
+            }
+            return items;
+        })(),
+        gallery: {
+            enabled: true
+        }
+    });
 });
