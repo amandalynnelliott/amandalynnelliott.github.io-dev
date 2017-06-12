@@ -125,11 +125,11 @@ Otherwise for posts, organized in folders by year and month, like the structure 
 
 ### Categories and Tags
 
-All posts have two categories. The first being either  *general*, *personal-dev* or *society*, and the then a second category and tags from the following list. 
+All posts have two categories unless they are general. If not general the first is *personal-dev* or *society*, and then they have a second category and tags from the following list. 
 
-0. **General**
-	- Announcements
-	- Store
+0. General
+	- **Announcements**
+	- **Store**
 
 1. **Personal development**/ individual/ small-scale
 	- Mastery <- skill development, experiment
