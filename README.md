@@ -125,9 +125,9 @@ Otherwise for posts, organized in folders by year and month, like the structure 
 
 ### Categories and Tags
 
-All posts have two categories. The first being either ***personal-dev*** or ***society**, and the then a second category and tags from the following list. 
+All posts have two categories. The first being either  *general*, *personal-dev* or *society*, and the then a second category and tags from the following list. 
 
-0. General 
+0. **General**
 	- Announcements
 	- Store
 

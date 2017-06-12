@@ -26,9 +26,10 @@ It makes me happy to create this work, and so, I share it with you.
 
 <div class="slides-wrapper">
 <img class="mySlides animate-fading" src="../assets/img/me/flowers.jpg">
-<img class="mySlides animate-fading" src="../assets/img/me/glasses.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/hat.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/laugh.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/waterfront.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/underground2.jpg">
 <figcaption>Flowers and hat photo credits: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a></figcaption>
 </div>
 
