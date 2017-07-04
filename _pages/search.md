@@ -8,7 +8,12 @@ permalink: /search/
     <input type="text" class="search-box" name="query">
     <input type="submit" value="Search">
 </form>
+
 <ul class="post-list" id="search-results"></ul>
+
+<a id="search-prev">Previous</a>
+<a id="search-next">Next</a>
+
 <script>
 window.store = {
 	{% for post in site.posts %}
@@ -24,3 +29,15 @@ window.store = {
 };
 </script>
 <script src="/assets/js/search.js"></script>
+
+<script>
+	$('#search-prev').click(ev => {
+		var page = (parseInt(getQueryVariable('page')) || 1) - 1;
+		window.location.href = '/search/?query=' + getQueryVariable('query') + '&page=' + page;
+	});
+
+	$('#search-next').click(ev => {
+		var page = (parseInt(getQueryVariable('page')) || 1) + 1;
+		window.location.href = '/search/?query=' + getQueryVariable('query') + '&page=' + page;
+	});
+</script>
