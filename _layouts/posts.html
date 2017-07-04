@@ -31,35 +31,35 @@ layout: default
 		{% endfor %}
 		
 		<li>
-<!-- PAGINATION- Davis make this "1, 2, 3 ... [last number] / always have a few pages around current page -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-	<ul>
-  {% if paginator.previous_page %}
-		<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a></li>
-  {% else %}
+		<!-- PAGINATION- Davis make this "1, 2, 3 ... [last number] / always have a few pages around current page -->
+		{% if paginator.total_pages > 1 %}
+		<div class="pagination">
+			<ul>
+		  {% if paginator.previous_page %}
+				<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a></li>
+		  {% else %}
+				
+		  {% endif %}
 		
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-		<li class="current"><em>{{ page }}</em></li>
-    {% elsif page == 1 %}
-		<li><a href="{{ site.url }}">{{ page }}</a></li><!-- there is no /p/1/ -->
-    {% else %}
-		<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-		<li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a></li>
-  {% else %}
-   
-  {% endif %}
-	</ul>
-</div>
-{% endif %}
-<!-- END PAGINATION -->
+		  {% for page in (1..paginator.total_pages) %}
+		    {% if page == paginator.page %}
+				<li class="current"><em>{{ page }}</em></li>
+		    {% elsif page == 1 %}
+				<li><a href="{{ site.url }}">{{ page }}</a></li><!-- there is no /p/1/ -->
+		    {% else %}
+				<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+		    {% endif %}
+		  {% endfor %}
+		
+		  {% if paginator.next_page %}
+				<li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a></li>
+		  {% else %}
+		
+		  {% endif %}
+			</ul>
+		</div>
+		{% endif %}
+		<!-- END PAGINATION -->
 		</li>
 	</ul>
 </div>

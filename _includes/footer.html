@@ -3,12 +3,8 @@
 	{% unless page.url contains "/email-" %}
     <div class="wrapper footer-signup">
 		<h3><span class="fa fa-envelope"></span> &nbsp;Stay in Touch</h3>
-			
-				<p>Receive Amanda's insights and project updates by email.</p>
-			
-				{% include mailchimp.html %}
-			
-		
+			<p>Receive Amanda's insights and project updates by email.</p>
+			{% include mailchimp.html %}
     </div>
 	{% endunless %}
 	

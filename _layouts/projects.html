@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+    <div class="page-content" aria-label="Content">
+        {% unless page.url contains "/email-" %}
+        <div class="wrapper">
+            <p class="sign-up">Sign up to receive Amanda's<br> <a href="/email-signup/">blog posts by email</a>.</p>
+        </div>
+        {% endunless %}
+        <div class="full-width-wrapper">
+            {{ content }}
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>

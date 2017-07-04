@@ -2,38 +2,9 @@
  * Layout
  */
 
- .page-content {
-	padding: $spacing-unit 0;
-}
-
-
 .post-content, ul.post-list {
 	max-width: calc(625px - (32px*2));
 }
-
-.page-content {
-	
-	@media only screen and (min-width:700px) and (max-width:$on-laptop) {
-		padding-right: 180px;
-	}
-	
-	@media only screen and (min-width:600px) and (max-width:700px) {
-		padding-right: 140px;
-	}
-	
-	@media only screen and (min-width:500px) and (max-width:600px) {
-		padding-right: 100px;
-	}
-	
-	@media only screen and (min-width:400px) and (max-width: 500px) {
-		padding-right: 60px;
-	}
-}
-
-.page-heading {
-  font-size: 20px;
-}
-
 
 /**
  * Posts and readability
