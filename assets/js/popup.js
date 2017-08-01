@@ -1,4 +1,21 @@
 $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+
     $('img').magnificPopup({
         type: 'image'
     });
@@ -9,11 +26,9 @@ $(document).ready(function () {
     */
     $('.elephant-image').magnificPopup({
         type: 'image',
-        items: [
-            {
-                src: '/assets/img/chart.png'
-            }
-        ]
+        items: [{
+            src: '/assets/img/chart.png'
+        }]
     });
 
     /*
@@ -22,8 +37,7 @@ $(document).ready(function () {
     */
     $('.pplsketch-gallery').magnificPopup({
         type: 'image',
-        items: [
-            {
+        items: [{
                 src: '/assets/img/pplsketch.jpg'
             },
             {
@@ -67,10 +81,11 @@ $(document).ready(function () {
         })(),
         gallery: {
             enabled: true
-        }
+        },
+        index: 5,
     });
-	
-	$('.gallery-emiliano').magnificPopup({
+
+    $('.gallery-emiliano').magnificPopup({
         type: 'image',
         items: (function () {
             var items = [];
@@ -85,8 +100,8 @@ $(document).ready(function () {
             enabled: true
         }
     });
-	
-	$('.gallery-victo').magnificPopup({
+
+    $('.gallery-victo').magnificPopup({
         type: 'image',
         items: (function () {
             var items = [];

@@ -10,7 +10,7 @@
     }
 
     function displaySearchResults(results) {
-        var postsPerPage = 3;
+        var postsPerPage = 10;
         var currentPage = (getQueryVariable('page') || 1) - 1;
 
         // displays the posts
