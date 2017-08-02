@@ -81,8 +81,7 @@ $(document).ready(function () {
         })(),
         gallery: {
             enabled: true
-        },
-        index: 5,
+        }
     });
 
     $('.gallery-emiliano').magnificPopup({
