@@ -438,3 +438,43 @@ pre {
 	width: 100%; 
 	height: 100%; 
 }
+
+
+// Image Gallery for popup.js
+.gall-container {
+	position: relative;
+}
+
+.gall-text {
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+
+	z-index:2;
+	background-color: rgba(0,0,0,0.35);
+	color: white;
+	text-align:center;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 72px;
+	margin-top: -46px;
+	pointer-events: none;
+
+		i {
+			font-size:32px;
+
+			&:first-child {
+				color: $text-color;
+			}
+
+			&:last-child {
+				cursor: pointer;
+			}
+		}
+}
+
+img[class^="gallery-"] {
+	z-index: 1;
+	cursor: pointer;
+}

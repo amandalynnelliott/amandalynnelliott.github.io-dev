@@ -21,21 +21,23 @@ $(document).ready(function () {
     });
 
     /*
-        EXAMPLE
-        See: lightbox-WIP.md
-    */
-    $('.elephant-image').magnificPopup({
-        type: 'image',
-        items: [{
-            src: '/assets/img/chart.png'
-        }]
-    });
+        Image galleries
 
-    /*
         EXAMPLE
         See: lightbox-WIP.md
     */
-    $('.pplsketch-gallery').magnificPopup({
+
+    $("img[class^='gallery']").wrap("<div class='gall-container'></div>");
+
+    var imgCount = 0;
+
+    function getOverlayTemplate(count) {
+        return "<div class='gall-text'><span>Image Gallery: 1 of " + count + "</span><div><i class='fa fa-caret-left' aria-hidden='true'></i>&nbsp;<i class='fa fa-caret-right' aria-hidden='true'></i></div></div>"
+    }
+
+    imgCount = 3;
+    $('.gallery-pplsketch').before(getOverlayTemplate(imgCount));
+    $('.gallery-pplsketch').magnificPopup({
         type: 'image',
         items: [{
                 src: '/assets/img/pplsketch.jpg'
@@ -52,11 +54,13 @@ $(document).ready(function () {
         }
     });
 
-    $('.elephant-gallery').magnificPopup({
+    imgCount = 24;
+    $('.gallery-elephant').before(getOverlayTemplate(imgCount));
+    $('.gallery-elephant').magnificPopup({
         type: 'image',
         items: (function () {
             var items = [];
-            for (var i = 1; i <= 24; i++) {
+            for (var i = 1; i <= imgCount; i++) {
                 items.push({
                     src: '/assets/img/2017/04/elephant/' + i + '.jpg'
                 });
@@ -68,11 +72,13 @@ $(document).ready(function () {
         }
     });
 
+    imgCount = 9;
+    $('.gallery-zoo').before(getOverlayTemplate(imgCount));
     $('.gallery-zoo').magnificPopup({
         type: 'image',
         items: (function () {
             var items = [];
-            for (var i = 1; i <= 9; i++) {
+            for (var i = 1; i <= imgCount; i++) {
                 items.push({
                     src: '/assets/img/2017/05/gallery-zoo/' + i + '.jpg'
                 });
@@ -84,11 +90,13 @@ $(document).ready(function () {
         }
     });
 
+    imgCount = 4;
+    $('.gallery-emiliano').before(getOverlayTemplate(imgCount));
     $('.gallery-emiliano').magnificPopup({
         type: 'image',
         items: (function () {
             var items = [];
-            for (var i = 1; i <= 4; i++) {
+            for (var i = 1; i <= imgCount; i++) {
                 items.push({
                     src: '/assets/img/cc/art/gallery-emiliano/' + i + '.jpg'
                 });
@@ -100,11 +108,13 @@ $(document).ready(function () {
         }
     });
 
+    imgCount = 4;
+    $('.gallery-emiliano').before(getOverlayTemplate(imgCount));
     $('.gallery-victo').magnificPopup({
         type: 'image',
         items: (function () {
             var items = [];
-            for (var i = 1; i <= 4; i++) {
+            for (var i = 1; i <= imgCount; i++) {
                 items.push({
                     src: '/assets/img/cc/art/gallery-victo/' + i + '.jpg'
                 });
