@@ -76,6 +76,8 @@ We all can't know everything.
 Phones
 Teamwork 
 
+![github and Trello pics]()
+
 
 ### Existing Tools Used
 
