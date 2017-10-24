@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I Moved… and Moved Back"
-categories: personal-dev emotions relationships
+categories: personal-dev emotions relationships announcements
 tags: moving community beliefs relationships
 author: "Amanda Lynn Elliott"
 permalink: /blog/2017/10/moved-back/
