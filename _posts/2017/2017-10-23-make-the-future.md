@@ -16,7 +16,7 @@ She didn't say anything explicitly bad, but I walked in expecting a discussion a
 
 We have a tendency to view the future as static, fixed, and mostly removed from our control. There's a tendency to view reality with the cold detachment of a scientific researcher: as if everything can be reduced to the goofy meaningless randomness of colliding atoms that is, again, outside of the control of us mere mortals. 
 
-This is such a powerless world-view to have; as if we are wandering through a thick fog, and anything we stumble upon, be it a million dollars, or a deadly fall off a cliff, would be a total accident.
+This is such a powerless world-view to have. It makes us wrought with worry and anxiety; as if we are wandering through a thick fog, and anything we stumble upon, be it a million dollars, or a deadly fall off a cliff, would be a total accident.
 
 Luckily, this powerless worldview is entirely optional.<!--more-->
 
@@ -28,15 +28,17 @@ Here are examples of powerful beliefs:
 - You make your future. 
 - Your present is what your past self has made for you.  
 
-Don't wait and see what the future has in store for you, *make* it. *Command* whatever you want into being. 
+Don't anxiously wait and see what the future has in store for you, *make* it. *Command* whatever you want into being. 
 
 You are a sovereign individual and nobody has control over your thoughts, even if you are incarcerated. Even if your external world and physical body is trapped, your thoughts are always under your directive. That it in of itself is a comforting thought to have.
 
 ![Pacific Ocean]({{ site.url }}/assets/img/2017/10/3Pacific2.jpg)
 
-It all starts with your thoughts. Your life is the story you tell yourself about who you are. These thoughts form beliefs and build momentum as actions and habits, and before you know it, the story your life that you've been telling yourself is already past tense and it's time for you to write something new.
+It all starts with your thoughts. Your life is the story you tell yourself about who you are. 
 
-No matter what change you want to make in your life, such as losing weight, earning more money, living addiction free, developing meaningful relationships, it all starts with accepting where you are right now, and the responsibility that comes with that. You don't have to linger in guilt or regret for long, because this state is what your old self has made for you, and you're done with that. Let it go.
+These thoughts form beliefs and build momentum as actions and habits, and before you know it, the story your life that you've been telling yourself is already past tense and it's time for you to write something new.
+
+No matter what change you want to make in your life, such as losing weight, earning more money, living addiction free, developing meaningful relationships, it all starts with accepting where you are right now, and the responsibility that comes with that. If drastic changes are desired, you don't have to linger in guilt or regret for long, because this state is what your old self has made for you. You're done with that. Let it go.
 
 ### Intention
 
@@ -64,13 +66,13 @@ When people don't explicitly state and pursue their desires, then the only optio
 
 The quickest way to find out if a decision is good or bad for you is simply to act. It's in action that we gain vital decision-making information. 
 
-In sitting on your laurels "trying the make the best decision," you take on the exhausting task of envisioning all potential choices and outcomes, and weighing them all against each other. Usually with the strategy, no decision is made unless it is forced by some external factor, or the golden answer that has been achieved is so precious that we become too attached to the outcome. 
+In sitting on your laurels "trying the make the best decision," you take on the exhausting task of envisioning all potential choices and outcomes, and weighing them all against each other. With the strategy, overcome with self-doubt, no decision is made unless it is forced by some external factor, or the golden answer that is eventually uncovered is so precious that we become too attached to the outcome. It's perfection paralyzes us. 
 
-It's like spending months on the perfect business plan, anxiously launching, only to discover that not only is it not a good business idea, but more importantly, you wouldn't be passionate about growing or maintaining it in the first place. (I may have done this a few times…) 
+It's like spending months on the perfect business plan, anxiously launching, only to discover that, not only is it not a good business idea, but more importantly, you wouldn't be passionate about growing or maintaining it in the first place. (I may have done this a few times…) 
 
-Alternatively, once you have an idea, you could immediately act, then receive feedback, both internal and external, and adjust accordingly, without attaching your self-worth to the outcome. It'll spare yourself a lot of grief, and allow you to view life as exactly what it is: one giant learning experiment! 
+Alternatively, once you get an idea, you could immediately act, receive feedback, both internal and external, and adjust accordingly, without attaching your self-worth to the outcome. It'll spare yourself a lot of grief, and allow you to view life as exactly what it is: one giant learning experiment! 
 
-Delaying action takes many forms, excel spreadsheets, calendars, mile-long to-do lists, all of that busy work can be oh-so-tempting. It's taken a while, but I've stopped kidding myself. I hardly plan the day ahead, let alone weeks or months like I used to try. I accept now that I work best with a vague vision of the future, and my projects take me about a few months out, but the second an interesting opportunity arises or my priorities change, I adapt without hesitation. I find myself planning less and acting more, learning more, and I'm all the happier for it. 
+Delaying action takes many forms: excel spreadsheets, calendars, mile-long to-do lists. All of that busy work can be oh-so-tempting. It's taken a while, but I've stopped kidding myself. I hardly plan the day ahead, let alone weeks or months like I used to try. I accept now that I work best with a vague vision of the future, and my projects take me about a few months out, but the second an interesting opportunity arises or my priorities change, I adapt without hesitation. I find myself planning less and acting more, learning more, and I'm all the happier for it. 
 
 
 #### The Devil
@@ -85,6 +87,8 @@ But here lies the trick, the card up the Devil's sleeve, so to say. Fear is not 
 > Look closely at the card, and you'll see that the chains on the man and woman are loose and could easily be removed. The Devil cannot take control without ongoing permission. 
 
 The Devil, far from evil incarnate, is actually the caretaker of those who refuse to take care of themselves. Actually, can you think of anything more evil than the act of freely giving up your free will?
+
+Worrying about the future invites the very fear that the Devil's bondage feeds on. With enough practice, it becomes silly to worry about something you feel in control of.
 
 When faced with a decision, seriously ask yourself, what do you want? Which path challenges you towards exalted happiness, and which sounds like the comforting clanking of the limited mobility of chains?
 
@@ -107,7 +111,9 @@ Liberation of any material kind (of health, money, love, etc) is rooted first an
 
 Make your future. Make it as colorful as you want. Venture into the smoky unknown confident of what you'll find on the other side. 
 
-For more on this interesting archetype I recommend the work of Napoleon Hill who authored of the famous *Think and Grow Rich.* Specifically, his controversial book, *[Outwitting the Devil](https://www.amazon.com/Napoleon-Hills-Outwitting-Devil-Freedom/dp/1469259036)*. In it he documents a conversation he had with "the Devil," the personification of fear, and gets him to confess all the tricks he uses to manipulate people into giving up their free will to him. Written in 1938, Hill's wife prevented publication for fear of public outcry. Enough immediate family members passed away, and it wasn't published until a few years ago, though it's relevance to today is alarming and it hits close to home in many areas. 
+<p class="sidenote">For more on this interesting archetype, I recommend the work of Napoleon Hill who authored the famous <b>Think and Grow Rich</b>. Specifically, his controversial book, <b><a href="https://www.amazon.com/Napoleon-Hills-Outwitting-Devil-Freedom/dp/1469259036">Outwitting the Devil</a></b>. 
+<br/><br/>In it he documents a conversation he had with the personification of fear, so called "the Devil," and gets him to confess all the tricks he uses to manipulate people into giving up their free will to him. 
+<br/><br/>Written in 1938, Hill's wife prevented the book's publication for fear of public outcry. Enough immediate family members passed away, and it wasn't published until a few years ago, though it's relevance to today is alarming and it hits close to home in many areas.</p>
 
 <p style="text-align:center">***</p>
 
