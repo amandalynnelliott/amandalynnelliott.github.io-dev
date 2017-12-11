@@ -125,4 +125,22 @@ $(document).ready(function () {
             enabled: true
         }
     });
+
+    imgCount = 5;
+    $('.gallery-trip-sketches').before(getOverlayTemplate(imgCount));
+    $('.gallery-trip-sketches').magnificPopup({
+        type: 'image',
+        items: (function () {
+            var items = [];
+            for (var i = 1; i <= imgCount; i++) {
+                items.push({
+                    src: '/assets/img/2017/12/gallery-trip-sketches/' + i + '.jpg'
+                });
+            }
+            return items;
+        })(),
+        gallery: {
+            enabled: true
+        }
+    });
 });
