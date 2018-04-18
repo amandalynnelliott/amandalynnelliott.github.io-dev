@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 caption: "*handshake* Nice to meet you!"
 ---
-<form id="contact_form" action="https://formspree.io/leshrec2@gmail.com" method="POST" enctype="multipart/form-data">
+<form id="contact_form" action="https://formspree.io/aelliottart@gmail.com" method="POST" enctype="multipart/form-data">
     <div class="row">
         <label for="name">Your name</label><br />
         <input id="name" class="name" name="name" type="text" value="" /><br />
