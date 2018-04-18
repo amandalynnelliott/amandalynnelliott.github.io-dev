@@ -2,7 +2,7 @@
 layout: post
 title: "How I Write"
 categories: personal-dev mastery emotions
-tags: writing creativity inspiration research process creative nonfiction memory cathartic notecards
+tags: writing creativity inspiration research process creative nonfiction memory cathartic notecards intuition
 author: "Amanda Lynn Elliott"
 permalink: /blog/2018/04/how-i-write/
 excerpt_separator: <!--more-->
