@@ -21,17 +21,17 @@ If you can stomach this read, even if you are the only person in the world who c
 
 The most recent shooting took place in Florida, the state I call home, where I grew up. Palm trees and beaches line the memories of my mom needing to go to the hospital yet again in handcuffs, the experiences of which were not discussed afterwards. *"What was mommy sick with?"* I am 8 years old and confused. My dad teaches me a new word. "Bipolar."
 
-Though you may learn a new word, that doesn't mean that you can say it whenever you want, not even when you need to. Some words are like curse words; any relief you get in yelling them loudly is not worth the risk. 
+Though you may learn a new word, that doesn't mean that you can say it whenever you want, not even when you need to. Some words are like curse words; any relief you get in yelling them loudly is not worth the risk.
 
 <i>F**k!</i>
 
-The Florida sun beats down on the car to accent the embarrassment that has flushed my cheeks in a K-Mart parking lot. My mom used to work here, but not since she quit weeks ago. Inside she made a scene in front of her old coworkers as I stood aside with my brother, Matthew. He's frustratingly too young to understand, and our matching red hair makes us stand out at a time where I'd give anything for invisibility. A former coworker puts his arm around my mom and asks with genuine concern, *"Are you okay?"* I want to run away. 
+The Florida sun beats down on the car to accent the embarrassment that has flushed my cheeks in a K-Mart parking lot. My mom used to work here, but not since she quit weeks ago. Inside she made a scene in front of her old coworkers as I stood aside with my brother, Matthew. He's frustratingly too young to understand, and our matching red hair makes us stand out at a time where I'd give anything for invisibility. A former coworker puts his arm around my mom and asks with genuine concern, *"Are you okay?"* I want to run away.
 
-Minutes later we are in the car and my mom is calling the police yet again. The wait in between a 911 call and the cops arriving to file yet another report that is not true, but that they pretend to take seriously for my mom's sake, stresses me out. I can't take it anymore. The police report captures my loud arguing with my mom through the cellphone and ends poignantly: "Daughter hung up on me." I was twelve.
+Minutes later we are in the car and my mom is calling the police yet again. The wait in between a 911 call and the cops arriving to file yet another report that is not true, but that they pretend to take seriously for my mom's sake, stresses me out. I can't take it anymore. The police report captures my loud arguing with my mom through the cellphone and ends poignantly: "Daughter hung up on me." I was twelve.<!--more-->
 
 My family is in lots of police reports. It's one thing to have painful memories, quite another to have them documented and on file at the police station down the road. Anytime I want, I can go there and get a freshly printed copy of them all: my family's personal traumatic memory album that we never asked for, but make payments on nonetheless.
 
-___
+---
 <br/>
 
 I hold these police reports close to my chest as an anchor in this sea of chaos, proof to show the cops the next time they come knocking, that they need to trust me instead of my mom. Mom doesn't know what she is talking about. Sometimes when they take her away, she comes back better. Not most of the time, but sometimes,and it's a risk I'm willing to take. I love her so much.
@@ -64,7 +64,7 @@ I can get mad at my mom sometimes, but I can never say that she is a bad mother.
 
 No amount of book-learning could cover the guilt and devastation my mom felt for passing on the gene of insanity to her son. She had given him life, would give her own life for his if need be, but on a fundamental level, had doomed him. She calls from a church at three in the morning feeling suicidal. An ambulance answers her cry for help by taking her to the place that sometimes helps, and she is back home within an hour. Quick treatment, we are told, because she just needed a nap.
 
-___
+---
 <br/>
 
 I lived in the unpredictable chaos of my mom and brother going in and out of the insane revolving door of mental hospitals for six months. The knife-safe key still felt heavy in my pocket as my mom's erradic spending habit and collection of cats grew to frightening proportions. My anxiety surmounts to levels I never knew were possible and sometimes it all escapes out of me in the form of a scream.
@@ -81,24 +81,23 @@ She refused to get out of the car, and I am told that she cannot be admitted aga
 
 Her admittance is longer than normal this time, more than a few days, which gives me hope. After two weeks, she is home, and soon we enjoy Thanksgiving dinner together as a family. I send out Thank You cards to the people who finally helped my mom. I am relieved. We had so much to be thankful for. I fill myself to the brim with my mom's mashed potatoes and smiles.
 
-<p style="text-align:center">***<p>
+<p style="text-align:center">***</p>
 
-I wish I could end my message to you right here, on this message of hope and trust in the mental health system. I wish I could tell you that we lived happily ever after so that you could sleep soundly... But this is not a fairytale, and I am wide awake at 4:30 in the morning, taking a deep breath, because the hardest parts are yet to come. 
+I wish I could end my message to you right here, on this message of hope and trust in the mental health system. I wish I could tell you that we lived happily ever after so that you could sleep soundly... But this is not a fairytale, and I am wide awake at 4:30 in the morning, taking a deep breath, because the hardest parts are yet to come.
 
-<p style="text-align:center">***<p>
-
+<p style="text-align:center">***</p>
 
 <blockquote>
 "We are still mad about the mad. We still don't understand them and that lack of understanding makes us mean and arrogant, and makes us mislead ourselves, and so we hurt them."
 <footer>- David Cohen</footer>
 </blockquote>
 
-
 My feet drag across the pavement as I go to the police station to get yet another report.
 I don't want to read it, but I need to know what happened. I wasn't there.
 
 Reading it makes me breakdown.
-___
+
+---
 <br/>
 
 The thing about medications is that they suck.
@@ -115,14 +114,14 @@ That night, I gave up. I decided I wouldn't try to get her help anymore. Nothing
 
 If I knew what would happen 24 hours later, I would not have stopped trying.
 
-___
+---
 <br/>
 
 Death, with time, comes with a sense of finality, of peace, and of closure for loved ones. This is not a story of death.
 
 On this fateful day, I left my mom in order to work. My plan was to work to escape this madhouse that my home had become.
 
-She stops me at the door, barely able to speak. I can tell she is upset. She says she loves me with all her heart and soul. I say I love her too. 
+She stops me at the door, barely able to speak. I can tell she is upset and scared. She says she loves me with all her heart and soul. I say I love her too. 
 
 I walk out the door.
 
@@ -160,7 +159,8 @@ I'm not saying the medicine doesn't help, but he would have episodes even on the
 
 He's enrolled back in school again and doesn't need a full-time caregiver anymore. We threw away that wretched knife-safe and key. I am proud of him as if he was my own son.
 
-+
+---
+<br/>
 
 Schizophrenia, Bipolar, Mental Illness. These are no longer bad words to me. I say them freely without fear.
 
@@ -186,7 +186,7 @@ During episodes, sometimes my brother would yell.
 
 Have you noticed that people only raise their voices when they feel like they aren't being listened to?
 
-___
+---
 <br/>
 
 When a person learns that if they express their negative experiences, their darkest thoughts, then they will be, not only outcasted, but also forcibly hospitalized and made to take pills that make them sick, and turned into a monster with no future, do you think that makes people inclined to talk?
@@ -218,3 +218,11 @@ I wish I could go back and stop myself from taking her to the insane place again
 But I can't go back, and neither can you. We have to keep moving forward. We have to believe that the pain we endure teaches us something valuable if we only listen.
 
 I'm tired of the insanity. It's exhausting doing the same thing over and over again expecting things to be different. It's time to try other things. I'm not saying I have all of the answers, but I have forty books about the mind in my online shopping cart and am determined to understand, to listen, and to keep sharing my thoughts.
+
+Envision a world where mass shootings can be spoken of in past tense, an era long gone. It won't pass until we have learned from it, until we listen.
+
+Are you listening?
+
+I believe you.<br/>
+I believe you can get better.<br/>
+I believe you can learn to control this.<br/>
