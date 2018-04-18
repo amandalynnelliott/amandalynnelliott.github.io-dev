@@ -2,7 +2,7 @@
 layout: post
 title: "How I Write"
 categories: personal-dev mastery emotions
-tags: writing creativity inspiration research process creative nonfiction memory cathartic notecards
+tags: writing creativity inspiration research process creative nonfiction notecards intuition emotions
 author: "Amanda Lynn Elliott"
 permalink: /blog/2018/04/how-i-write/
 excerpt_separator: <!--more-->
@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 <footer>–Robert Frost</footer>
 </blockquote>
 
-I am thrilled with the feedback from [my last post]({{ site.url }}/blog/2018/02/mental-illness/)—a tear-jerker for any who attempts reading it. It's a story that took me two years to write… not that I was actively writing it whole time. I desperately wanted to share my story sooner. I wanted to send it to newspapers, accompanied with my own rude political-cartoon style illustrations mocking the mental healthcare system, but I couldn't do it. I was too angry.
+I am thrilled with the feedback from [my last post]({{ site.url }}/blog/2018/02/mental-illness/)—a tear-jerker for any who attempts reading it. It's a story that took me two years to write… not that I was actively writing it the whole time. I desperately wanted to share my story sooner. I wanted to send it to newspapers, accompanied with my own rude political-cartoon style illustrations mocking the mental healthcare system, but I couldn't do it. I was too angry.
 
 I couldn't let myself share my story until I let myself empathize with mental healthcare practitioners—the people I called and left countless unanswered voicemails for help—desperate cries drowned in a sea of others. I had to stop wanting to tear them down and instead see things from their perspective: the overwhelm and frustration that comes from needing to solve urgent problems with the wrong set of tools. You do your best to cover gashing wounds with band-aids, but the line of wailing wounded is going out the door.
 
@@ -133,7 +133,7 @@ Writing, while being the most intense step, is also the briefest. Inspiration's 
 
 This is where your thinking brain comes. While total objectivity is boring, total subjectivity is exhausting. We need a balance. We tell the facts, [but with style](https://www.skillshare.com/classes/Creative-Nonfiction-Write-Truth-with-Style/1252230072/classroom/discussions?enrolledRedirect=1).
 
-This is where you take what has poured out of you and read it from the perspective of someone who has ever seen it before. Dry your tears, open the door and invite others in. Reading the work aloud to somebody who's hearing it for the first time is a beneficial [telepathic writing technique](http://comfortpit.com/quentin-tarantinos-telepathic-writing/).
+This is where you take what has poured out of you and read it from the perspective of someone who has never seen it before. Dry your tears, open the door and invite others in. Reading the work aloud to somebody who's hearing it for the first time is a beneficial [telepathic writing technique](http://comfortpit.com/quentin-tarantinos-telepathic-writing/).
 
 Usually the first draft is longer than necessary. When editing, there's an initial urge to add more, but resist the desire to hold the reader's hand. It's degrading and makes for a [less suspenseful read](https://medium.com/@declannishiyama/3-writing-lessons-from-stephen-king-2f48a97fa285).
 
