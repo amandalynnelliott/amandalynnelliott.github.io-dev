@@ -2,7 +2,7 @@
 layout: post
 title: "365 Days of Self Love"
 categories: personal-dev emotions
-tags: self-love happiness trauma healing emotions
+tags: self-love happiness trauma healing emotions my-story
 author: "Amanda Lynn Elliott"
 permalink: /blog/2017/04/365-days-of-self-love/
 excerpt_separator: <!--more-->

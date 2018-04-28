@@ -2,7 +2,7 @@
 layout: post
 title: "Mental Illness"
 categories: personal-dev emotions
-tags: mental illness health trauma healing bipolar schizophrenia shooting shootings mind brain psych psychologist psychiatry psychiatrist psychotic caregiver caregiving
+tags: mental illness health trauma healing bipolar schizophrenia shooting shootings mind brain psych psychologist psychiatry psychiatrist psychotic caregiver caregiving my-story
 author: "Amanda Lynn Elliott"
 permalink: /blog/2018/02/mental-illness/
 excerpt_separator: <!--more-->
