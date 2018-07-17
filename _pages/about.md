@@ -2,36 +2,37 @@
 layout: page
 title: About Amanda
 permalink: /about/
-caption: "blogger and indie animator"
+caption: "blogger, researcher, artist"
 ---
-I am a writer and artist living in Brevard County, Florida.
-I read a lot, do a lot, think a lot, and get a lot of ideas. Some of these ideas get polished enough to become the gems I put on display in this blog.
 
-My work is motivated by this question: <em>How can I communicate the most amount of content in the most potent way possible? The quickest, simplest,  most impactful way?</em>
+I research, write, and create art.
 
-The journey has led to me to leverage my drawing passion that I've exercised since childhood, along with developing a writing skill that I improved through my <em>Cheating College</em> blog I ran in 2014-5. I also practice public speaking and explore visual thinking techniques from the obscure field of graphic facilitation.
+Post topics range from emotional health, skill development, creativity, sustainability—any insights I feel others may benefit from.
 
-I'm currently focused on teaching myself animation of the two kinds of flavors: Handdrawn Disney style frame-by-frame animation, and web animation made with CSS and JavaScript.
+Since my traumatic experiences of 2016, I've committed to living according to the question, "What would somebody who loved themselves do?" *See the results of that in [365 Days of Self Love]({{ site.url }}/blog/2017/04/365-days-of-self-love/).*
 
-To test these different methods of content-delivery, I tackle the most abstract and complex problems that excite me. I research and study the selected problem until I get hit with an insight, usually in the form of a clear and simple solution. Then I communicate this solution the best way I can. <em>ie: <a href="../assets/img/cc/college-flowchart.png">College Gamble Flowchart</a>.</em>
+For more on those life-altering experiences, read [Mental Illness]({{ site.url }}/blog/2018/02/mental-illness/) and [Manipulation]({{ site.url }}/blog/2018/04/manipulation/).
 
-To find problems to dissect for these high-level projects, I study, experiment, and explore the questions that stem from this question: <em>How we can live better, both as individuals and as a society?</em>
+I study, experiment, and explore the questions that stem from this question: <em>How we can live better, both as individuals and as a society?</em>
 
 This blog is my outlet for sharing what I discover along this journey.
 
-Post topics range from skill development, creativity, philosophy, life lessons, how society and institutions can be improved, and project implementation... I have many interests, so essentially anything I feel others may benefit from.
-
 I make the work I want to see exist in the world.
-It makes me happy to create this work, and so, I share it with you. 
+It makes me happy to create this work, and so, I share it with you.
 
 <div class="slides-wrapper">
+<img class="mySlides animate-fading" src="../assets/img/me/Martin2.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/Millie.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/flowers.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/hat.jpg">
-<img class="mySlides animate-fading" src="../assets/img/me/snorkeling.jpg">
-<img class="mySlides animate-fading" src="../assets/img/me/laugh.jpg">
-<img class="mySlides animate-fading" src="../assets/img/me/underground2.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/Eric-first.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/Eric-wind.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/green-Eric.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/green-SLittle.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/uke-Halek.jpg">
+<img class="mySlides animate-fading" src="../assets/img/me/Eric-windowsill.jpg">
 <img class="mySlides animate-fading" src="../assets/img/me/mirror1.jpg">
-<figcaption>Flowers and hat photo credits: <a href="https://www.facebook.com/ericswallick?fref=ts">Eric Swallick photography</a></figcaption>
+<figcaption>Photographers credited: <a href="https://www.facebook.com/ericswallick">Eric Swallick</a>, <a href="https://www.facebook.com/marty.roland">Martin Roland</a>, <a href="https://www.facebook.com/mille.sorger">Millie Sorger</a>, <a href="https://www.facebook.com/stephen.little.3304">Stephen Little</a>, <a href="https://www.facebook.com/mark.halek.1">Mark Halek</a></figcaption>
 </div>
 
 <script src="../assets/js/slideshow.js"></script>
