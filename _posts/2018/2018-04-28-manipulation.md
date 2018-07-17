@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manipulation"
-categories: personal-dev relationships emotions
+categories: personal-dev relationships emotions consciousness
 tags: manipulation darkworker lightworker my-story power success fame fear love
 author: "Amanda Lynn Elliott"
 permalink: /blog/2018/04/manipulation/
