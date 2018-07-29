@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 ![fish ladders]({{ site.url }}/assets/img/2018/04/fish-ladders.jpg)
 
 <blockquote>
-"No tears in the writer, no tears in the reader. No surprise in the writer, no surprise in the reader."
+No tears in the writer, no tears in the reader. No surprise in the writer, no surprise in the reader.
 <footer>–Robert Frost</footer>
 </blockquote>
 

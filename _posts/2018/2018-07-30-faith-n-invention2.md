@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 In [part one]({{ site.url }}/blog/2018/07/faith-and-invention-part-1/) I discuss the personal benefits of faith.
 
-Now let's extend that perspective to encompass the world.
+Now in this second and final part, let's extend that perspective to encompass the world.
 
 ---
 <br/>

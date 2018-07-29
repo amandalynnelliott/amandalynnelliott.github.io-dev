@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 ---
 ![Bok Tower]({{ site.url }}/assets/img/2018/07/BokTower-distant.jpg)
 
-<blockquote>“We have to continually be jumping off cliffs and developing our wings on the way down.”
+<blockquote>We have to continually be jumping off cliffs and developing our wings on the way down.
 <footer>― Kurt Vonnegut</footer></blockquote>
 
 I'm on a massage table in an healing room surrounded by candles, crystals, raddles and feathers, not sure what to expect. A strange tall hermaphadite statue with a penis and breasts looks down at me, as if questioning me: *What are you doing here?* Before I can answer, the Shaman enters, asks me to relax, places a crystal on my abdomen, and gets to work.
@@ -59,7 +59,7 @@ Not me.
 
 The interesting thing that happened for my life, is that the more I let myself embrace that dirty f-word called faith, the more that I imagined my life getting better, the more it actually did.
 
-<blockquote>“Imagination is everything. It is the preview of life's coming attractions”
+<blockquote>Imagination is everything. It is the preview of life's coming attractions
 <footer>― Albert Einstein</footer></blockquote>
 
 Faith requires an exercise in imagination. Taking the "leap of faith" can easily become an act of suicide without seeing the ledge on the other side and believing that you can make the jump.
