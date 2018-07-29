@@ -2,7 +2,7 @@
 layout: post
 title: "Make the Future"
 categories: personal-dev consciousness relationships
-tags: beliefs intentions reflection devil
+tags: beliefs intentions reflection devil consciousness
 author: "Amanda Lynn Elliott"
 permalink: /blog/2017/10/make-the-future/
 excerpt_separator: <!--more-->
