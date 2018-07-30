@@ -59,7 +59,7 @@ Not me.
 
 The interesting thing that happened for my life, is that the more I let myself embrace that dirty f-word called faith, the more that I imagined my life getting better, the more it actually did.
 
-<blockquote>Imagination is everything. It is the preview of life's coming attractions
+<blockquote>Imagination is everything. It is the preview of life's coming attractions.
 <footer>― Albert Einstein</footer></blockquote>
 
 Faith requires an exercise in imagination. Taking the "leap of faith" can easily become an act of suicide without seeing the ledge on the other side and believing that you can make the jump.

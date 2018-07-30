@@ -8,7 +8,7 @@ permalink: /blog/2018/07/faith-and-invention-part-2/
 excerpt_separator: <!--more-->
 ---
 
-In [part one]({{ site.url }}/blog/2018/07/faith-and-invention-part-1/) I discuss the personal benefits of faith.
+In [part one]({{ site.url }}/blog/2018/07/faith-and-invention-part-1/) I discuss the personal benefits of faith in overcoming challenges life throws at you.
 
 Now in this second and final part, let's extend that perspective to encompass the world.
 
@@ -20,7 +20,7 @@ Now in this second and final part, let's extend that perspective to encompass th
 ### Faith is Risky Business
 
 <blockquote>
-"Persons with high levels of personal mastery… cannot afford to choose between reason and intuition, or head or heart, any more than they would choose to work on one leg or see with one eye."
+Persons with high levels of personal mastery… cannot afford to choose between reason and intuition, or head or heart, any more than they would choose to work on one leg or see with one eye.
 <footer>― Peter Sage</footer></blockquote>
 
 Leaders and inventors don't only focus on what is commonly accepted. Allergic to conformity, visionaries are strange with their habit of constantly challenging our assumptions. Their resulting insights, though beneficial to society, can be detrimental to those whose empires depend on upholding the status quo.
@@ -113,7 +113,7 @@ I also have faith in a future where we live [sustainably]({{ site.url }}/blog/20
 
 I have made peace with my faith and the risk that expressing it requires. The ground I stand on may not exist yet, but I invite you to join me in building it.
 
-<blockquote>"You have to leave the city of your comfort and go into the wilderness of your intuition… What you'll discover will be wonderful. What you'll discover is yourself."
+<blockquote>You have to leave the city of your comfort and go into the wilderness of your intuition… What you'll discover will be wonderful. What you'll discover is yourself.
 <footer>― Alan Alda</footer></blockquote>
 
 No path is better than the one taken on unwavering faith. The gift is not the destination, but the journey. It's not what comes to be, but what you are *becoming*.
