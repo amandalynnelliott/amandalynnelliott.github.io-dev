@@ -25,6 +25,11 @@ And `amandalynnelliott.github.io-dev` that can be served locally for development
 
 ## Updating Site (and adding posts)
 
+Using the command `node deploy` runs a script to deletes, regenerates, and pushes the live repo. 
+Push dev repo with commit message.
+
+### Updating Site - old method
+
 1. Once changes are added to the `-dev` repo, type the command `jekyll build.`
 2. Go into the `_site` folder and copy the new contents. 
 3. Paste and replace the contents in the live repo, except for the .git folder. 

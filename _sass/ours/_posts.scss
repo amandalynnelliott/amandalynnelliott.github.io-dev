@@ -149,6 +149,19 @@ p.sidenote {
 	}
 }
 
+.poem {
+	padding: $spacing-unit $spacing-unit*2;
+	background-color: $grey-color-light;
+	border-left: 10px solid $grey-color;
+	border-radius: 5px;
+	text-align: left;
+	font-size: 16px;
+	
+	@media screen and (max-width:$on-phone) {
+		padding: $spacing-unit;
+	}
+}
+
 /**
  * Post footer
  */

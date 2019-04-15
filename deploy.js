@@ -2,28 +2,28 @@ const fs = require('fs');
 const exec = require('child_process').exec;
 
 Promise.resolve()
-    .then(() => new Promise((res, rej) => rmdirAsync('./_site', err => err ? rej(err) : res(console.log('Files deleted')))))
-    .then(() => new Promise((res, rej) => exec('bundle exec jekyll build', {
+    .then(() => new Promise((resolve, reject) => rmdirAsync('./_site', err => err ? reject(err) : resolve(console.log('Files deleted')))))
+    .then(() => new Promise((resolve, reject) => exec('bundle exec jekyll build', {
         env: {
             JEKYLL_ENV: 'production'
         }
-    }, err => err ? rej(err) : res(console.log('Site built')))))
-    .then(() => new Promise((res, rej) => fs.writeFile('./_site/CNAME', 'amandalynnelliott.com', err => err ? rej(err) : res(console.log('CNAME added')))))
-    .then(() => new Promise((res, rej) => exec('git init', {
+    }, err => err ? reject(err) : resolve(console.log('Site built')))))
+    .then(() => new Promise((resolve, reject) => fs.writeFile('./_site/CNAME', 'amandalynnelliott.com', err => err ? reject(err) : resolve(console.log('CNAME added')))))
+    .then(() => new Promise((resolve, reject) => exec('git init', {
         cwd: './_site'
-    }, err => err ? rej(err) : res(console.log('Repositiory initialized')))))
-    .then(() => new Promise((res, rej) => exec('git add .', {
+    }, err => err ? reject(err) : resolve(console.log('Repositiory initialized')))))
+    .then(() => new Promise((resolve, reject) => exec('git add .', {
         cwd: './_site'
-    }, err => err ? rej(err) : res(console.log('Files staged')))))
-    .then(() => new Promise((res, rej) => exec(`git commit -m "${process.argv[2] || 'New Commit'}"`, {
+    }, err => err ? reject(err) : resolve(console.log('Files staged')))))
+    .then(() => new Promise((resolve, reject) => exec(`git commit -m "${process.argv[2] || 'New Commit'}"`, {
         cwd: './_site'
-    }, err => err ? rej(err) : res(console.log('Files committed')))))
-    .then(() => new Promise((res, rej) => exec('git remote add origin https://github.com/amandalynnelliott/amandalynnelliott.github.io', {
+    }, err => err ? reject(err) : resolve(console.log('Files committed')))))
+    .then(() => new Promise((resolve, reject) => exec('git remote add origin https://github.com/amandalynnelliott/amandalynnelliott.github.io', {
         cwd: './_site'
-    }, err => err ? rej(err) : res(console.log('Remote added')))))
-    .then(() => new Promise((res, rej) => exec('git push origin master --force', {
+    }, err => err ? reject(err) : resolve(console.log('Remote added')))))
+    .then(() => new Promise((resolve, reject) => exec('git push origin master --force', {
         cwd: './_site'
-    }, err => err ? rej(err) : res(console.log('Commit pushed')))))
+    }, err => err ? reject(err) : resolve(console.log('Commit pushed')))))
     .catch(console.error);
 
 /**
