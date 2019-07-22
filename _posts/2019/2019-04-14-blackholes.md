@@ -2,7 +2,7 @@
 layout: post
 title: "Escaping Black Holes"
 categories: personal-dev consciousness emotions
-tags: self-love happiness trauma healing emotions my-story
+tags: self-love happiness trauma healing emotions my-story school
 author: "Amanda Lynn Elliott"
 permalink: /blog/2019/04/escaping-black-holes/
 excerpt_separator: <!--more-->
