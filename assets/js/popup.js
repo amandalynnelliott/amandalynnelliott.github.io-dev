@@ -16,7 +16,7 @@ $(document).ready(function () {
         }
     });
 
-    $('img').magnificPopup({
+    $('img').not(':no-popup').magnificPopup({
         type: 'image'
     });
 
@@ -135,6 +135,24 @@ $(document).ready(function () {
             for (var i = 1; i <= imgCount; i++) {
                 items.push({
                     src: '/assets/img/2017/12/gallery-trip-sketches/' + i + '.jpg'
+                });
+            }
+            return items;
+        })(),
+        gallery: {
+            enabled: true
+        }
+    });
+
+    imgCount = 3;
+    $('.gallery-AKEA').before(getOverlayTemplate(imgCount));
+    $('.gallery-AKEA').magnificPopup({
+        type: 'image',
+        items: (function () {
+            var items = [];
+            for (var i = 1; i <= imgCount; i++) {
+                items.push({
+                    src: '/assets/img/2020/01/AKEA-gallery/' + i + '.PNG'
                 });
             }
             return items;
