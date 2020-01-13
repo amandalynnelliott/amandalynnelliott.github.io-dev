@@ -4,6 +4,7 @@ title: Contact
 permalink: /contact/
 caption: "*handshake* Nice to meet you!"
 ---
+
 <form id="contact_form" action="https://formspree.io/aelliottart@gmail.com" method="POST" enctype="multipart/form-data">
     <div class="row">
         <label for="name">Your name</label><br />
@@ -18,4 +19,4 @@ caption: "*handshake* Nice to meet you!"
         <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
     </div>
     <input id="submit_button" type="submit" value="Send Message" />
-</form>	
+</form>

@@ -28,7 +28,7 @@ Promise.resolve()
 
 /**
  * Recursively removes a directory and all files.
- * @param {string} path 
+ * @param {string} path
  * @param {(err: NodeJS.ErrnoException) => void} callback
  * @returns {void}
  */

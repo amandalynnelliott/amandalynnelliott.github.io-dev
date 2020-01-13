@@ -2,10 +2,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="p:domain_verify" content="0835774202088563ab5be0b62f1643d5"/><!-- Pinterest verification -->
+    <meta name="p:domain_verify" content="0835774202088563ab5be0b62f1643d5" /><!-- Pinterest verification -->
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/me/hat-crop2.png">
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="/feed.xml">
@@ -18,5 +19,6 @@
     <script src="/assets/js/popup.js"></script>
     <script src="/assets/js/utils.js"></script>
     <script src="/assets/js/owl.carousel.min.js"></script>
-    {% if jekyll.environment == 'production' and site.google_analytics %} {% include google-analytics.html %} {% endif %}
+    {% if jekyll.environment == 'production' and site.google_analytics %} {% include google-analytics.html %}
+    {% endif %}
 </head>

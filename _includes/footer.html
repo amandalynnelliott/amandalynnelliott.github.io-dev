@@ -1,17 +1,17 @@
 <footer class="site-footer">
-	
+
 	{% unless page.url contains "/email-" %}
-    <div class="wrapper footer-signup">
+	<div class="wrapper footer-signup">
 		<h3><span class="fa fa-envelope"></span> &nbsp;Stay in Touch</h3>
-			<p>Receive Amanda's insights and project updates by email.</p>
-			{% include mailchimp.html %}
-    </div>
+		<p>Receive Amanda's insights and project updates by email.</p>
+		{% include mailchimp.html %}
+	</div>
 	{% endunless %}
-	
+
 	<div class="dark-bottom">
 		<div class="wrapper">
 			<a href="/feed.xml"><span class="fa fa-rss" title="Subscribe by RSS"></span></a>
 		</div>
 	</div>
-	
+
 </footer>
