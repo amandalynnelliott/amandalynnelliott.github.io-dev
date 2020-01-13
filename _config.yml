@@ -28,6 +28,7 @@ gems:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-paginate-categories
+  - wdm
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -16,7 +16,7 @@ $(document).ready(function () {
         }
     });
 
-    $('img').not(':no-popup').magnificPopup({
+    $('img').not('.no-popup').magnificPopup({
         type: 'image'
     });
 

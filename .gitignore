@@ -1,6 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
-Gemfile.lock
+.jekyll-cache
+debug.log
 
 2017-05-06-lightbox-WIP.md
