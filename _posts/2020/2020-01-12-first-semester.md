@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Semester"
-categories: personal-dev mastery productivity
+categories: personal-dev mastery productivity sustainability announcements
 tags: purpose career work school college university red-tide research leadership programming data-science
 author: "Amanda Lynn Elliott"
 permalink: /blog/2020/01/first-semester/
@@ -133,7 +133,7 @@ My leadership style seemed to be effective. I felt like my job as team leader wa
 
 Also for the class, I designed a logo and icons like we were a bona fide company, and we gave a 20 minute presentation on our work.
 
-![group presentation]({{ site.url }}/assets/img/2020/01/AKEA-presentation.png)
+![group presentation]({{ site.url }}/assets/img/2020/01/AKEA-presentation.PNG)
 
 When you start a project, *embark with the goal of contributing something meaningful*, and even if you don't accomplish this goal, see what happens.
 
