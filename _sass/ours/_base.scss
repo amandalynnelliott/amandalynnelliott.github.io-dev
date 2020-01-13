@@ -446,10 +446,6 @@ pre {
 }
 
 .gall-text {
-	/*display: flex;
-	flex-direction: column;
-	justify-content: center;*/
-
 	z-index:2;
 	background-color: rgba(0,0,0,0.35);
 	color: white;
@@ -457,8 +453,6 @@ pre {
 	position: absolute;
 	top: 50%;
 	width: 100%;
-	height: 72px;
-	margin-top: -46px;
 	pointer-events: none;
 
 		i {
@@ -477,4 +471,45 @@ pre {
 img[class^="gallery-"] {
 	z-index: 1;
 	cursor: pointer;
+}
+
+// Grid for Thumbnails
+
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+
+.grid-container {
+	display: grid;
+	grid-gap: 12px;
+	// grid-template-columns: auto auto auto;
+	grid-template-areas:
+    'item1 item2'
+	'item3 item4';
+	
+	img {
+		-webkit-filter: grayscale(0) blur(0);
+		filter: grayscale(0) blur(0);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+	}
+
+	img:hover {
+		cursor: pointer;
+		-webkit-filter: grayscale(100%) blur(0);
+		filter: grayscale(100%) blur(0);
+	}
+}
+
+
+.grid-item-title {
+	visibility: collapse;
+	z-index: 2;
+	// background-color: rgba(0, 0, 0, 0.35);
+	// color: white;
+}
+
+.grid-item-title:hover {
+	visibility: visible;
 }
