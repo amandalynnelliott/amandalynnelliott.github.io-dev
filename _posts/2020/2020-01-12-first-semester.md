@@ -26,7 +26,7 @@ Even still, this was the hardest semester I've ever had. The following are two p
 
 Much of my work this semester went to my technical writing class. The bulk of the class involved group work, organizing 1-3 group meetings a week, all awhile researching an approved topic. Our topic was red tide.
 
-Red tide is a kind of microorganism that proliferates so rapidly that it turns seawaters red. It is a kind of *harmful algae bloom* that produces dangerous toxins that can effect respiratory and nervous systems.
+Red tide is a kind of microorganism that proliferates so rapidly that it turns seawaters red. It is a kind of *harmful algae bloom* that produces dangerous toxins that can affect respiratory and nervous systems.
 
 <figure>
     <img alt="red tide" src="{{ site.url }}/assets/img/2020/01/AKEA-redtide.jpg">
