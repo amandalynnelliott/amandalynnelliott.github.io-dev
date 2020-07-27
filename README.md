@@ -152,6 +152,7 @@ All posts have two categories unless they are general. If not general the first 
 3. **Society commentary**/ groups/ big-scale
     - Education <- public education, higher education, social-conditioning (*These posts also inherit the Society category.)
     - Government <- politics
+    - Sustainability
     - Economy
     - Insurance
 

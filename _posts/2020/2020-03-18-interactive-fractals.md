@@ -2,7 +2,7 @@
 layout: post
 title: "Interactive Fractals"
 categories: personal-dev mastery productivity
-tags: programming math resources visualization trigonometry calculus fractal
+tags: programming math resources visualization trigonometry calculus fractal interactive
 author: "Amanda Lynn Elliott"
 permalink: /blog/2020/03/interactive-fractals/
 excerpt_separator: <!--more-->
