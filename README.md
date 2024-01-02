@@ -13,12 +13,13 @@ A Jekyll-generated minimial blog website. The focus is less on design, more on c
 There are two repos for this site. `amandalynnelliott.github.io` for the live site that is set up with GitHub Pages.
 And `amandalynnelliott.github.io-dev` that can be served locally for development.
 
-1. [Ruby install](https://www.ruby-lang.org/en/)
+1. [Ruby install v2.7 w/devkit](https://www.ruby-lang.org/en/)
 2. [Git install](https://git-scm.com/)
 3. `gem install jekyll bundler`
 4. `git clone https://github.com/amandalynnelliott/amandalynnelliott.github.io.git`
 5. `cd amandalynnelliott.github.io`
 6. `bundle exec jekyll serve --livereload`
+   1. `--livereload` may not work. if it doesn't, just omit it
 
 ## Updating Site (and adding posts)
 
