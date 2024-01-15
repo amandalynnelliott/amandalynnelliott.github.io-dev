@@ -5,11 +5,17 @@
 <body>
     {% include header.html %}
     <div class="page-content" aria-label="Content">
-        {% unless page.url contains "/email-" %}
         <div class="wrapper">
+            {% unless page.url contains "/email-" %}
             <p class="sign-up">Sign up to receive Amanda's<br> <a href="/email-signup/">blog posts by email</a>.</p>
+            {% endunless %}
+            <!-- <article class="post"> -->
+                <div class="post-header">
+                    <h1 class="post-title">{{ page.title }}</h1>
+                    <p class="post-meta">{{ page.caption }}</p>
+                </div>
+            <!-- </article> -->
         </div>
-        {% endunless %}
         <div class="full-width-wrapper">
             {{ content }}
         </div>

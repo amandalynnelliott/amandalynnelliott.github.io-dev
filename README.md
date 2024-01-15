@@ -52,7 +52,8 @@ Refers to the `_layouts` directory and determines much of the website structure.
 - `default.html` --- The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents in this file at the line that says `{{ content }}` and are linked to this file via [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: default`. This also has a `caption` variable that can be used to add a caption under the header, which is in the same position and styled as `post-meta` for posts.
 - `page.html` --- The layout for documents that contain FrontMatter, but are not posts.
 - `post.html` --- The layout for posts. Has post-footer for "Read related articles" list, and arrows linking to  
-- `posts.html` --- Currently acting as home page, develops a list of post excerpts and "read more" links ordered by most-recent to oldest.
+- `posts.html` --- For home page and post catergories. Develops a list of post excerpts and "read more" links ordered by most-recent to oldest.
+- `projects.html` --- Wide layout. Used for displaying images like an art portfolio.
 
 To be added:
 
@@ -119,8 +120,9 @@ Otherwise for posts, organized in folders by year and month, like the structure 
 
 ### JavaScript
 
+- `gridzy.min.js` --- For displaying multiple images in a dynamic grid that automatically resizes them, like for an art portfolio.
 - `jquery-3.1.1.min.js`
-- `jquery-magnific-popup.min.js` --- For Maginific Popup, which is used to allow images to enlarge with lightbox when clicked, and for adding image gallery functionality.
+- `jquery-magnific-popup.min.js` --- For Magnific Popup, which is used to allow images to enlarge with lightbox when clicked, and for adding image gallery functionality.
 - `lunr.min.js` --- For search functionality.
 - `popup.js` --- Controls made from Magnific Popup, including images galleries.
 - `search.js`

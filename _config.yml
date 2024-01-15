@@ -41,4 +41,5 @@ paginate: 5
 paginate_path: "/p/:num/"
 
 paginate_category_basepath: '/c/:name/'
+paginate_category_path: '/c/:name/p/:num/'
 paginate_category_layout: 'posts.html'

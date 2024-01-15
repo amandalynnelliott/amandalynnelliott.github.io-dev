@@ -2,10 +2,10 @@
 layout: page
 title: About Amanda
 permalink: /about/
-caption: "blogger, physics & math student"
+caption: "blogger, physics graduate student"
 ---
 
-I am an undergraduate student majoring in physics and math, living in Florida. My curiosity for the world propels me to spend many hours researching, experimenting, and writing. Some of what I write ends up being shared here.
+I am an graduate student majoring in physics, living in Rochester, NY. I got my undergrate Physics degree at Florida Tech in 2019. My curiosity for the world propels me to spend many hours researching, experimenting, and writing. Some of what I write ends up being shared here.
 
 Post topics include emotional health, skill development, technical projects, creativity, the environment and sustainability—any insights I feel others may benefit from.
 

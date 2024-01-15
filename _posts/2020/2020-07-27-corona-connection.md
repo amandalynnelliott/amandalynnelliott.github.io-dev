@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Corona Connection: Rise of the Communities"
-categories: society sustainability government
+categories: sustainability
 tags: coronavirus, covid-19, pandemic, epidemic, sustainability, environment, reflection, black, lives, matter, BLM, environment, climate, change, energy
 author: "Amanda Lynn Elliott"
 permalink: /blog/2020/07/corona-connection/

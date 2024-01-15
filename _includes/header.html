@@ -7,15 +7,15 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/">Blog</a>
 					<ul class="nav-submenu">
+						<li>
+							<a href="/archives/"><span class="fa fa-angle-right caret">&emsp;</span>Full Archive</a>
+						</li>
 						{% for category in site.categories %}
 						<li class="nav-submenu-item">
 							<a href="/c/{{ category | first }}/"><span
 									class="fa fa-angle-right caret">&emsp;</span>{{ category | first | capitalize }}</a>
 						</li>
 						{% endfor %}
-						<li>
-							<a href="/archives/"><span class="fa fa-angle-right caret">&emsp;</span>Full Archive</a>
-						</li>
 						<li>
 							<a href="/email-signup/"><span class="fa fa-angle-right caret">&emsp;</span>Blog Posts by
 								Email</a>
@@ -25,6 +25,17 @@
 				<!--li class="nav-item">
 					<a class="nav-link" href="/projects/">Projects</a>
 				</li-->
+				<li class="nav-item">
+					<a class="nav-link" href="/projects/">Projects</a>
+					<ul class="nav-submenu">
+						<li>
+							<a href="/art/"><span class="fa fa-angle-right caret">&emsp;</span>Art</a>
+						</li>
+						<li>
+							<a href="/flowarts/"><span class="fa fa-angle-right caret">&emsp;</span>Flow Arts</a>
+						</li>
+					</ul>
+				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/about/">About</a>
 				</li>

@@ -17,7 +17,12 @@ $(document).ready(function () {
     });
 
     $('img').not('.no-popup').magnificPopup({
-        type: 'image'
+        type: 'image',
+        image: {
+            titleSrc: function (item) {
+                return item.el[0].getAttribute('caption');
+            }
+        },
     });
 
     /*
@@ -153,6 +158,24 @@ $(document).ready(function () {
             for (var i = 1; i <= imgCount; i++) {
                 items.push({
                     src: '/assets/img/2020/01/AKEA-gallery/' + i + '.PNG'
+                });
+            }
+            return items;
+        })(),
+        gallery: {
+            enabled: true
+        }
+    });
+
+    imgCount = 5;
+    $('.gallery-veil').before(getOverlayTemplate(imgCount));
+    $('.gallery-veil').magnificPopup({
+        type: 'image',
+        items: (function () {
+            var items = [];
+            for (var i = 1; i <= imgCount; i++) {
+                items.push({
+                    src: '/assets/img/2024/01/art-journey/veil/' + i + '.jpg'
                 });
             }
             return items;
