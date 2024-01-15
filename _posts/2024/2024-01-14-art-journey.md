@@ -70,7 +70,7 @@ If you ever go to art fairs, you may notice that some artist's booths have diffi
 
 When you embark to express yourself creatively, make sure it is from not a place of lack or neediness, but a positive desire to share a part of yourself.
 
-<figure>
+<figure id="veil">
 <img class="gallery-veil" src="{{site.url}}/assets/img/2024/01/art-journey/veil/1.jpg">
 <figcaption>
 When walking around Mt. Hope Cemetery in Rochester, NY, I kept seeing statues of urns that were half-covered with cloth. Apparently, this is a <a href="https://historyinstone.blogspot.com/2012/12/the-draped-urn.html">popular symbol that was used for statues in the 1800s</a>, used to symbolize the deceased passing through the veil between life and death.

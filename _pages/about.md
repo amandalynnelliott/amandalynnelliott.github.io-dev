@@ -5,7 +5,7 @@ permalink: /about/
 caption: "blogger, physics graduate student"
 ---
 
-I am an graduate student majoring in physics, living in Rochester, NY. I got my undergrate Physics degree at Florida Tech in 2019. My curiosity for the world propels me to spend many hours researching, experimenting, and writing. Some of what I write ends up being shared here.
+I am an physics PhD student, living in Rochester, NY. I got my undergrate Physics degree at Florida Tech in 2023. My curiosity for the world propels me to spend many hours researching, experimenting, and writing. Some of what I write ends up being shared here.
 
 Post topics include emotional health, skill development, technical projects, creativity, the environment and sustainability—any insights I feel others may benefit from.
 

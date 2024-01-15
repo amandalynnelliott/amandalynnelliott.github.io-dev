@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 The last few months have highlighted our need for community. Despite the availability of technology and the ability to easily communicate to whomever and whenever we please, we live in an age of loneliness, where many people feel like they have few people (or even no one) that they can rely on for emotional support.
 
-![Key West, FL]({{ site.url }}/assets/img/2020/07/keywest-cactus.jpg)
+![Key West, FL]({{ site.url }}/assets/img/2020/07/keywest-cactus.JPG)
 
 Social distancing has been a catalyst of personal growth for many of us as quarantine forced us into solitude and a period of self-reflection. It was the pause button on the busy-ness of everyday life that was uncomfortable, but needed. Empty grocery store shelves broke the illusion of infinite abundance, and alerted us to the fragility of modern society. After only a month of reduced transportation, city air and waterways got noticeably clearer.
 

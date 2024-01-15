@@ -95,42 +95,6 @@ $(document).ready(function () {
         }
     });
 
-    imgCount = 4;
-    $('.gallery-emiliano').before(getOverlayTemplate(imgCount));
-    $('.gallery-emiliano').magnificPopup({
-        type: 'image',
-        items: (function () {
-            var items = [];
-            for (var i = 1; i <= imgCount; i++) {
-                items.push({
-                    src: '/assets/img/cc/art/gallery-emiliano/' + i + '.jpg'
-                });
-            }
-            return items;
-        })(),
-        gallery: {
-            enabled: true
-        }
-    });
-
-    imgCount = 4;
-    $('.gallery-emiliano').before(getOverlayTemplate(imgCount));
-    $('.gallery-victo').magnificPopup({
-        type: 'image',
-        items: (function () {
-            var items = [];
-            for (var i = 1; i <= imgCount; i++) {
-                items.push({
-                    src: '/assets/img/cc/art/gallery-victo/' + i + '.jpg'
-                });
-            }
-            return items;
-        })(),
-        gallery: {
-            enabled: true
-        }
-    });
-
     imgCount = 5;
     $('.gallery-trip-sketches').before(getOverlayTemplate(imgCount));
     $('.gallery-trip-sketches').magnificPopup({

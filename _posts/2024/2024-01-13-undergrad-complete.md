@@ -27,7 +27,7 @@ I worked on two projects while I was there. Since these projects are ITAR restri
 The first project was funded by the Air Force. The goal of this project is to create a device that monitors a constant speed drive on A-10 aircrafts. The developed device reads a voltage pulse from a variable reluctance sensor and logs data for each flight.
 
 <figure>
-<img src="{{ site.url }}/assets/img/2024/01/A-10.webp" alt="Airforce A-10 Warthog Aircraft" caption="Airforce A-10 Warthog Aircraft" />
+<img src="{{ site.url }}/assets/img/2024/01/A-10.webp" alt="Airforce A-10 Warthog Aircraft" />
 <figcaption>Source: <a href="https://www.thedrive.com/the-war-zone/37233/the-a-10-warthog-is-preparing-for-its-biggest-upgrade-in-over-a-decade">The War Zone</a></figcaption>
 </figure>
 

@@ -17,7 +17,7 @@ When I graduated from high school and community college six years ago, I was cer
 I enjoy my classes, and often seek additional learning resources outside of class. It feels like a long period of frustration and confusion is finally at a close.
 
 Even still, this was the hardest semester I've ever had. The following are two projects that I worked on.
-
+<div id="AKEA"></div>
 ### Red Tide Research Project
 
 <p style="text-align:center">
