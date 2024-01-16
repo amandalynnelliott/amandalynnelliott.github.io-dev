@@ -81,7 +81,7 @@ One of the differences between our two types of electrostatic dust lofting was t
 
 ![script - lofting angle calculation]({{site.url}}/assets/img/2024/01/Boulder/charging-script.gif)
 
-These particle tracking scripts are available on [Github](https://github.com/amandalynnelliott/particle_tracking).
+These particle tracking scripts are available on [GitHub](https://github.com/amandalynnelliott/particle_tracking).
 
 Our results were promising to indicate that the Large Hadron Collider was experiencing shutdowns due to electrostatic dust lofting. The goal of the project was then to characterize the paramaters that facilitate or inhibit dust lofting, with the long-term goal of dust mitigation at the collider. Throughout the project, I had the invaluable guidance from my advisors in Boulder, along with the insight provided by four CERN collaborators. It was an unsuspecting collaboration between space scientists and particle physicists.
 
@@ -149,7 +149,7 @@ The first thing I did was set up a plasma simulation software called [Smilei](ht
 
 One of the simple tutorials that can be run with the code is a laser incident on a column of plasma. This example is used to demonstrate the radiation pressure, or pondermotive force, that can allow for strong electric fields to induce a force on plasma. This effect depends on the number density (number of particles per volume) of the plasma, in relation to a defined critical number density. When the number density is much larger than the critical density, most of the laser energy is reflected by the plasma. When the number density is much less, the laser passes through the plasma as if it was transparent.
 
-In-between these extremes, you can get the effect of moving plasma with electromagetic energy via the laser, like below.
+In-between these extremes, you can get the effect of moving plasma with electromagnetic energy via the laser, like below.
 
 ![laser incident on plasma column]({{site.url}}/assets/img/2024/01/BL/electrons_and_Ex_Bx.gif)
 
@@ -175,7 +175,7 @@ What fascinates me about ball lightning, and what may be the key to understandin
 
 Elegant models and equations provide us with the predictive power to explain a variety of phenomena. The practice of physics requires a balance of approximating reality without oversimplifying it.
 
-This is the challenge of developing theories. What physical effects do you include or exclude? The gravitational effect of Pluto certainly exists, but this is of course negligible. Determining what effects are important can only be accomplished through rigorous observation and experimentation, without which, theories can digress from reality. This is the challenge of ball lightning. It is so rare that it is difficult to obtain data directly from ball lightning objects. Until we understand the conditions under which it is created, we cannot predict where it will be created, or artifically create it. Lightning researchers in China were at the right place at the right time, and able to record the [spectrum of a ball lightning object in 2014](https://physics.aps.org/articles/v7/5). Other than this, information about these objects are limited to statistical analysis of eyewitness reports, which can be unreliable.
+This is the challenge of developing theories. What physical effects do you include or exclude? The gravitational effect of Pluto certainly exists, but this is of course negligible. Determining what effects are important can only be accomplished through rigorous observation and experimentation, without which, theories can digress from reality. This is the challenge of ball lightning. It is so rare that it is difficult to obtain data directly from ball lightning objects. Until we understand the conditions under which it is created, we cannot predict where it will be created, or artificially create it. Lightning researchers in China were at the right place at the right time, and able to record the [spectrum of a ball lightning object in 2014](https://physics.aps.org/articles/v7/5). Other than this, information about these objects are limited to statistical analysis of eyewitness reports, which can be unreliable.
 
 Describing the creation, stability, and termination of ball lightning is an outstanding physics problem. My project materials are available [here](http://www.bukshtynov.xyz/research_undergrad.html). I presented this research at Florida Tech's 2023 Northrop Grumman sponsored Senior Showcase and won Best in Mathematics. I also presented a poster for this research at the Florida Undergraduate Research Conference, St. Thomas University, Miami FL (February 17-18, 2023).
 

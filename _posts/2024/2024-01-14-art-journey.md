@@ -2,7 +2,7 @@
 layout: post
 title: "Artistic Journey"
 categories: personal-dev mastery
-tags: art creativity
+tags: art creativity painting drawing inspiration dreams illustration
 author: "Amanda Lynn Elliott"
 permalink: /blog/2024/01/art/
 excerpt_separator: <!--more-->

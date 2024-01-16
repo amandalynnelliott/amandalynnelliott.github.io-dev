@@ -164,7 +164,7 @@ Concepts related to education, work, conformity, and finanical anxiety.
 
 <div class="gridzy" data-gridzy-spaceBetween="9" data-gridzy-desiredHeight="200">
     <img src="../assets/img/art/people sketching/mall-foodcourt.jpg" caption="Described <a href='{{site.url}}/blog/2017/05/productive-partners/'>here</a> | ink">
-    <img src="../assets/img/art/people sketching/mall.jpg">
+    <img src="../assets/img/art/people sketching/mall.jpg" caption="Described <a href='{{site.url}}/blog/2017/01/mindset-shifts/'>here</a> | ink">
     <img src="../assets/img/art/people sketching/mall2.jpg">
     <img src="../assets/img/art/people sketching/mall3.jpg">
     <img src="../assets/img/art/people sketching/mall4.jpg">
